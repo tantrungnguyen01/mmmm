@@ -25,29 +25,205 @@
 </head>
 
 <style>
-    
-
     .swiper {
-      width: 100%;
-      height: 100%;
+        width: 100%;
+        height: 100%;
     }
 
     .swiper-slide {
-      text-align: center;
-      font-size: 18px;
-      background: #fff;
-      display: flex;
-      justify-content: center;
-      align-items: center;
+        text-align: center;
+        font-size: 18px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     .swiper-slide img {
-      display: block;
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
     }
-  </style>
+
+    .carousel_placeholder:hover .swiper-button-next{
+        display: inline-flex;
+    }
+    .carousel_placeholder:hover .swiper-button-prev{
+        display: inline-flex;
+    }
+
+    .carousel_placeholder {
+        height: 33.82vw;
+        max-height: 460px;
+        background-color: #222939;
+        position: relative;
+        align-self: stretch;
+        overflow: hidden;
+    }
+    
+
+    .carousel_item_content {
+        position: absolute;
+        padding-right: 32px;
+        padding-bottom: 48px;
+        left: 53%;
+        color: #FFFF;
+        top: 22%;
+    }
+
+    .carousel_item_content1 {
+        position: absolute;
+        padding-right: 32px;
+        padding-bottom: 48px;
+        left: 53%;
+        color: #FFFF;
+        top: 25%;
+        height: 130px;
+        width: auto;
+    }
+
+    .carousel_item_content2 {
+        position: absolute;
+        padding-right: 32px;
+        padding-bottom: 48px;
+        left: 53%;
+        color: #FFFF;
+        top: 20%;
+    }
+
+    .big {
+        position: absolute;
+        font-size: 40px;
+        white-space: nowrap;
+        left: 0%;
+        line-height: 70px;
+    }
+
+    .big1 {
+        position: absolute;
+        font-size: 40px;
+        white-space: nowrap;
+        left: 0%;
+        line-height: normal;
+        bottom: -44%
+    }
+
+    .big2 {
+        position: absolute;
+        font-size: 40px;
+        white-space: nowrap;
+        left: 0%;
+        line-height: normal;
+        bottom: -54px;
+    }
+
+
+    .table_up {
+        position: absolute;
+        left: 0%;
+        bottom: -40%;
+        font-size: 23px;
+        white-space: nowrap;
+    }
+
+    .table_up1 {
+        position: absolute;
+        left: 0%;
+        bottom: -80%;
+        font-size: 23px;
+        white-space: nowrap;
+    }
+
+    .button_sign_in {
+        position: absolute;
+        bottom: -110%;
+        left: 0%;
+        color: #222939;
+        background-color: #CAAB72;
+        border: 1px solid rgba(0, 0, 0, 0);
+        height: -1px;
+        padding: 20px 40px;
+        font-size: 16px;
+        font-weight: 800;
+        text-transform: uppercase;
+        border-radius: 60px;
+        transition: all .5s;
+        white-space: nowrap;
+    }
+
+    .button_sign_in1 {
+        position: absolute;
+        bottom: -153%;
+        left: 0%;
+        color: #222939;
+        background-color: #CAAB72;
+        border: 1px solid rgba(0, 0, 0, 0);
+        height: -1px;
+        padding: 20px 40px;
+        font-size: 16px;
+        font-weight: 800;
+        text-transform: uppercase;
+        border-radius: 60px;
+        transition: all .5s;
+        white-space: nowrap;
+    }
+
+    .swiper-button-next {
+        left: unset;
+        top: unset;
+        right: 310px;
+        bottom: 54px;
+        padding: 25px 25px;
+        border: 1px solid #4E5461;
+        background-color: #4E5461;
+        border-radius: 50%;
+        display: none;
+       
+    }
+    .swiper-button-next:hover{
+        background-color: #7A7F88; 
+    }
+
+    .swiper-button-next::after{
+        font-size: unset;
+        color: #FFFF;
+    }
+
+    .swiper-button-prev {
+        left: unset;
+        top: unset;
+        right: 370px;
+        bottom: 54px;
+        padding: 25px 25px;
+        border: 1px solid #4E5461 ;
+        background-color: #4E5461;
+        border-radius: 50%;
+        display: none;
+        
+    }
+    .swiper-button-prev::after{
+        font-size: unset;
+        color: #FFFF;
+    }
+    .swiper-button-prev:hover{
+        background-color: #7A7F88;
+    }
+
+    .swiper-pagination{
+        width: unset !important;
+        right: -47%;
+        padding: 20px 0px;
+    }
+    .swiper-pagination-bullet{
+        width: 72px;
+        height: 2px;
+        border-radius: unset;
+        background-color: #4E5461 ;
+    }
+    .swiper-pagination-bullet-active{
+        background-color: #CAAB72;
+    }
+</style>
 
 
 <body id="bady">
@@ -815,41 +991,104 @@
         <div class="carousel_placeholder">
             <div class="swiper mySwiper">
                 <div class="swiper-wrapper">
-                  <div class="swiper-slide">
-                    <picture>
-                        <img src="{{asset('image/sports-welcome-bonus_VN.jpg')}}" alt="">
-                    </picture>
-                  </div>
-                  <div class="swiper-slide">
-                    <picture>
-                        <img src="{{asset('image/uefa-champions-league-double-wins_VN.jpg')}}" alt="">
-                    </picture>
-                  </div>
-                  <div class="swiper-slide">
-                    <picture>
-                        <img src="{{asset('image/ag_live_dealer_baccarat_jackpot_feature_VN.jpg')}}" alt="">
-                    </picture>
-                  </div>
-                  <div class="swiper-slide">
-                    <picture>
-                        <img src="{{asset('image/mariashoutout.jpg')}}" alt="">
-                    </picture>
-                  </div>
-                  <div class="swiper-slide">
-                    <picture>
-                        <img src="{{asset('image/watch-el-clasico-live-in-spain_VN.jpg')}}" alt="">
-                    </picture>
-                  </div>
-                  
+                    <div class="swiper-slide">
+                        <picture>
+                            <img src="{{ asset('image/sports-welcome-bonus_VN.jpg') }}" alt="">
+                        </picture>
+                        <div class="carousel_item_content">
+                            <img src="{{ asset('image/ftd-sports_VN.svg') }}" alt="" />
+                            <span class="big">
+                                150% LÊN ĐẾN 3,388 VND
+                            </span>
+                            <span class="table_up">
+                                18X VÒNG CƯỢC
+                            </span>
+                            <button class="button_sign_in">
+                                ĐĂNG NHẬP
+                            </button>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <picture>
+                            <img src="{{ asset('image/uefa-champions-league-double-wins_VN.jpg') }}" alt="">
+                        </picture>
+                        <div class="carousel_item_content1">
+                            <img src="{{ asset('image/badge_uefa-champions-league.svg') }}" alt="" />
+                            <span class="big">
+                                CÚP C1 THƯỞNG NHÂN ĐÔI
+                            </span>
+                            <span class="table_up">
+                                THƯỞNG 100% LÊN ĐẾN 488 VND
+                            </span>
+                            <button class="button_sign_in">
+                                ĐĂNG NHẬP
+                            </button>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <picture>
+                            <img src="{{ asset('image/ag_live_dealer_baccarat_jackpot_feature_VN.jpg') }}"
+                                alt="">
+                        </picture>
+                        <div class="carousel_item_content">
+                            <img src="{{ asset('image/ag_ld.svg') }}" alt="" />
+                            <span class="big1">
+                                CƯỢC BACCARAT JACKPOT
+                                <br>
+                                CƠ HỘI THẮNG HÀNG TỶ VND
+                            </span>
+
+                            <button class="button_sign_in">
+                                ĐĂNG NHẬP
+                            </button>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <picture>
+                            <img src="{{ asset('image/mariashoutout.jpg') }}" alt="">
+                        </picture>
+                        <div class="carousel_item_content2">
+                            <img src="{{ asset('image/marias-room.svg') }}" alt="" />
+                            <span class="big2">
+                                KẾT NỐI CÙNG
+                                <br>
+                                MARIA OZAWA
+                            </span>
+                            <span class="table_up1">
+                                ĐỘC QUYỀN TẠI CASINO TRỰC TUYẾN
+                            </span>
+                            <button class="button_sign_in1">
+                                ĐĂNG NHẬP
+                            </button>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <picture>
+                            <img src="{{ asset('image/watch-el-clasico-live-in-spain_VN.jpg') }}" alt="">
+                        </picture>
+                        <div class="carousel_item_content">
+                            <img src="{{ asset('image/el-clasico-exclusive_VN.svg') }}" alt="" />
+                            <span class="big">
+                                THẮNG CHUYẾN TÂY BAN NHA
+                                <br>
+                                & XEM TRỰC TIẾP EL CLASICO
+                            </span>
+
+                            <button class="button_sign_in">
+                                ĐĂNG NHẬP
+                            </button>
+                        </div>
+                    </div>
+
                 </div>
                 <div class="swiper-button-next"></div>
                 <div class="swiper-button-prev"></div>
                 <div class="swiper-pagination"></div>
-              </div>
+            </div>
         </div>
     </div>
 
-    
+
 
 </body>
 
@@ -903,23 +1142,23 @@
 
 <script>
     var swiper = new Swiper(".mySwiper", {
-      spaceBetween: 30,
-      centeredSlides: true,
-      autoplay: {
-        delay: 2500,
-        disableOnInteraction: true,
-      },
-      loop:true,
-      pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
-      },
-      navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
-      },
+        spaceBetween: 30,
+        centeredSlides: true,
+        autoplay: {
+            delay: 2500,
+            disableOnInteraction: true,
+        },
+        loop: true,
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+        },
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+        },
     });
-  </script>
+</script>
 
 
 </html>
