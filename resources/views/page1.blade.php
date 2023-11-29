@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/three_step_guide.css">
     <link rel="stylesheet" href="css/dropdown.css">
     <link rel="stylesheet" href="css/menu.css">
     <link rel="stylesheet" href="css/header.css">
@@ -1088,7 +1089,66 @@
         </div>
     </div>
 
+    <div class=" three_step_guide d-flex justify-content-center w-100">
+        <div class="three_step_guide_content ">
+            <div class="step d-flex align-items-center">
+                <div class="icon">
 
+                </div>
+
+                <div class="text-white ml-3 ">
+                    <div class="color_text">
+                        ĐĂNG KÝ M88
+                    </div>
+
+                    <div class="text_md">
+                        Nhanh chóng và dễ dàng!
+                    </div>
+                </div>
+            </div>
+
+            <div class="arrow d-flex">
+
+            </div>
+           
+
+            <div class="step d-flex align-items-center">
+                <div class="icon1">
+
+                </div>
+
+                <div class="text-white ml-3 ">
+                    <div class="color_text">
+                        GỬI TIỀN
+                    </div>
+
+                    <div class="text_md">
+                        An toàn và thời gian gửi tiền nhanh nhất
+                    </div>
+                </div>
+            </div>
+
+            <div class="arrow d-flex">
+
+            </div>
+
+            <div class="step d-flex align-items-center">
+                <div class="icon2">
+
+                </div>
+
+                <div class="text-white ml-3 ">
+                    <div class="color_text">
+                        THAM GIA
+                    </div>
+
+                    <div class="text_md">
+                        Bắt đầu hành trình chiến thắng của bạn ngay!
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
 </body>
 

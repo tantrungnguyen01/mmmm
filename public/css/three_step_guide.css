@@ -1,0 +1,55 @@
+.three_step_guide{
+    background-color: #1A202C;
+}
+
+.icon{
+    width: 65px;
+    height: 65px;
+    background: url('/image/icon-three-step-guide-join.svg') no-repeat center;
+    background-size: contain;
+    -webkit-mask:url('/image/icon-three-step-guide-join.svg') no-repeat center;
+    -webkit-mask-size: contain;
+}
+.icon1{
+    width: 65px;
+    height: 65px;
+    background: url('/image/icon-three-step-guide-deposit.svg') no-repeat center;
+    background-size: contain;
+    -webkit-mask:url('/image/icon-three-step-guide-deposit.svg') no-repeat center;
+    -webkit-mask-size: contain;
+}
+.icon2{
+    width: 65px;
+    height: 65px;
+    background: url('/image/icon-three-step-guide-play.svg') no-repeat center;
+    background-size: contain;
+    -webkit-mask:url('/image/icon-three-step-guide-play.svg') no-repeat center;
+    -webkit-mask-size: contain;
+}
+
+.color_text{
+    color: #CAAB72;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: bold;
+    margin: 0;
+}
+.text_md{
+    font-size: 14px;
+    color: #A7A9B0;
+}
+.three_step_guide_content{
+    display: flex;
+    padding-top:28px;
+    padding-bottom: 28px;
+    justify-content: space-around;
+    min-width: 70%;
+}
+
+.arrow{
+    height: auto;
+    -webkit-mask: url('/image/icon-arrow-right.svg') no-repeat center;
+    -webkit-mask-size: contain;
+    width: 30px;
+    background-color: #90949C;
+}
