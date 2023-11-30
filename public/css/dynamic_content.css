@@ -1,0 +1,240 @@
+.dynamic_content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    box-sizing: border-box;
+    justify-content: center;
+    max-width: 1255px;
+    margin: auto;
+}
+
+.dynamic_content .area_sportbook {
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+    flex-direction: column;
+    position: relative;
+}
+
+.text_thethao {
+    color: #222939;
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.track_event {
+    font-size: 16px;
+    line-height: 24px;
+    right: 0;
+    font-weight: bold !important;
+    color: #4E5461;
+    padding: 11px 0;
+    display: flex;
+}
+.track_event:hover{
+    color: #4E5461;
+}
+.mack{
+    height: 18px;
+    -webkit-mask: url('/image/icon-arrow-right.svg') no-repeat center;
+    -webkit-mask-size: contain;
+    width: 20px;
+    background-color: #CAAB72;
+    margin: auto 0px auto 8px;
+}
+.title_compoment::after{
+    content: "";
+    display: flex;
+    width: 24px;
+    height: 2px;
+    background-color: #CAAB72;
+}
+.block_card_sets{
+    background-image: url('/image/msports_VN_card_sets.png') ;
+    width: 100%;
+    height: 440px;
+    position: relative;
+    overflow: hidden;
+}
+
+.odds_compoment::before{
+    content: '';
+    position: absolute;
+    height: 420px;
+    bottom: 0px;
+    background: #fff;
+    width: calc(200vw - 34px);
+    left: -116vw;    
+}
+
+
+.button_sign_in_content{
+    position: absolute;
+    right: 0%;
+    top: 18%;
+    color: #222939;
+    background-color: #CAAB72;
+    border: 1px solid rgba(0, 0, 0, 0);
+    height: -1px;
+    padding: 20px 40px;
+    font-size: 16px;
+    font-weight: 800;
+    text-transform: uppercase;
+    border-radius: 60px;
+    transition: all .5s;
+    white-space: nowrap;  
+}
+.button_sign_in_content:hover{
+    background-color: #D7C095;   
+}
+
+/* card_slider */
+.swipersilde1 {
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    top:220px;
+   
+  }
+  
+  .match_ched_card{
+    width: 316px;
+    padding: 16px;
+    border-radius: 16px;
+    background-color: #fff;
+    box-sizing: border-box;
+    box-shadow: 2px 4px 10px 0 rgba(0, 0, 0, 0.1);
+    font-weight: 600;
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: contain;
+    -webkit-transition: all ease .5s;
+    -o-transition: all ease .5s;
+    transition: all ease .5s;
+    height: 170px;
+    text-align: left;
+    transition: 350ms;
+    position: relative;
+  }
+  .match_ched_card:hover{
+    transform: scale(1.05);
+  }
+  
+
+  
+  .odds-league{
+    font-size: 11px;
+    vertical-align: middle;
+    white-space: nowrap;
+  }
+  .odds-date{
+    font-size: 11px;
+    padding-left: 16px;
+    white-space: nowrap;
+    vertical-align: middle;
+    text-transform: capitalize;
+  }
+  .odds-date:after{
+    content: '';
+    position: absolute;
+    border-left: 2px solid #d3d4d7;
+    left: 138px;
+    height: 20px;
+  }
+  .homeTeamIcon_first{
+    width: 48px;
+    height: 48px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    background: #fff;
+    border-radius: 50%;
+    -webkit-box-shadow: 2px 2px 5px rgba(0, 0, 0, .1);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, .1);
+    overflow: hidden;
+    position: absolute;
+    margin: 0 24px 24px 0;
+    z-index: 99999999;
+  }
+  .homeTeamIcon{
+    width: 48px;
+    height: 48px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    background: #fff;
+    border-radius: 50%;
+    -webkit-box-shadow: 2px 2px 5px rgba(0, 0, 0, .1);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, .1);
+    overflow: hidden;
+    position: absolute;
+    margin: 23px 0px 0px 0px;
+  }
+  .homeTeamIcon_img{
+    
+    position: absolute;
+    width: 32px !important;
+    height: 32px !important;
+    
+  }
+  .odd_homeicon{
+    position: relative;
+    width: 25%;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    position: relative;
+    padding: 0;
+  }
+  .crest_odd{
+    border: 1px solid #d3d4d7;
+    border-radius: 20px;
+    padding: 6px 14px;
+    width: 31%;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    cursor: pointer;
+    margin-right: 10px;
+    -ms-flex-preferred-size: 50%;
+    flex-basis: 50%;
+    font-size: 12px;
+    top: 33px;
+    white-space: nowrap;
+  }
+  .hdp1{
+    font-size: 12px;
+    font-weight: 700;
+    color: #a7a9b0;
+  }
+  .ho3{
+    color: #222939;
+    margin-left: 26px;
+    font-size: 12px;
+    font-weight: 700;
+  }
+  /* end card_slider */

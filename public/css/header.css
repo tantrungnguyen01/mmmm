@@ -2,19 +2,38 @@
   font-family: 'Roboto', sans-serif;
   height: 100vh;
   width: 100%;
+  background-color: #F4F4F5;
   /* transition: all 0.5s ease; */
 }
 #bady.dark_mode{
   background-color:#222939;
-  color: #FFFF;
   /* transition: all 0.5s ease; */
+}
+#bady.dark_mode .text_thethao{
+  color: #FFFF;
+}
+#bady.dark_mode .track_event{
+  color: #D3D4D7;
+}
+#bady.dark_mode .odds_compoment::before{
+  background-color: #222939;
+}
+#bady.dark_mode .match_ched_card{
+  background-color: #222939;
+  color: #FFFF;
+}
+#bady.dark_mode .ho3{
+  color:#FFFF;
 }
 .header_css{
     background: #1A202C;
-   
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
 }
 .header_css .style_nav{
     height: 72px; 
+    
 }
 .header_css .button_signin{
     color: #FFFF;

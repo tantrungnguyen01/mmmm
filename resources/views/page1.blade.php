@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/dynamic_content.css">
     <link rel="stylesheet" href="css/three_step_guide.css">
     <link rel="stylesheet" href="css/dropdown.css">
     <link rel="stylesheet" href="css/menu.css">
@@ -46,10 +47,11 @@
         object-fit: cover;
     }
 
-    .carousel_placeholder:hover .swiper-button-next{
+    .carousel_placeholder:hover .swiper-button-next {
         display: inline-flex;
     }
-    .carousel_placeholder:hover .swiper-button-prev{
+
+    .carousel_placeholder:hover .swiper-button-prev {
         display: inline-flex;
     }
 
@@ -61,7 +63,7 @@
         align-self: stretch;
         overflow: hidden;
     }
-    
+
 
     .carousel_item_content {
         position: absolute;
@@ -179,13 +181,33 @@
         background-color: #4E5461;
         border-radius: 50%;
         display: none;
-       
+
     }
-    .swiper-button-next:hover{
-        background-color: #7A7F88; 
+    .swiper-button-next1{
+        left: unset;
+        top: unset;
+        right: 0px;
+        bottom: 105px;
+        padding: 10px 17px;
+        border: 1px solid #4E5461;
+        background-color: #4E5461;
+        border-radius: 50%;
+        position: absolute;
+        z-index: 99999;
+        display:none;
+    }
+    .block_card_sets:hover .swiper-button-next1{
+        display: block ;
+    }
+    .block_card_sets:hover .swiper-button-prev1{
+        display: block ;
     }
 
-    .swiper-button-next::after{
+    .swiper-button-next:hover {
+        background-color: #7A7F88;
+    }
+
+    .swiper-button-next::after {
         font-size: unset;
         color: #FFFF;
     }
@@ -196,34 +218,52 @@
         right: 370px;
         bottom: 54px;
         padding: 25px 25px;
-        border: 1px solid #4E5461 ;
+        border: 1px solid #4E5461;
         background-color: #4E5461;
         border-radius: 50%;
         display: none;
-        
+
     }
-    .swiper-button-prev::after{
+    .swiper-button-prev1 {
+        left: unset;
+        top: unset;
+        bottom: 105px;
+        padding: 10px 17px;
+        border: 1px solid #4E5461;
+        background-color: #4E5461;
+        border-radius: 50%;
+        position: absolute;
+        z-index: 99999;
+        display:none;
+    }
+    
+
+    .swiper-button-prev::after {
         font-size: unset;
         color: #FFFF;
     }
-    .swiper-button-prev:hover{
+
+    .swiper-button-prev:hover {
         background-color: #7A7F88;
     }
 
-    .swiper-pagination{
+    .swiper-pagination {
         width: unset !important;
         right: -47%;
         padding: 20px 0px;
     }
-    .swiper-pagination-bullet{
+
+    .swiper-pagination-bullet {
         width: 72px;
         height: 2px;
         border-radius: unset;
-        background-color: #4E5461 ;
+        background-color: #4E5461;
     }
-    .swiper-pagination-bullet-active{
+
+    .swiper-pagination-bullet-active {
         background-color: #CAAB72;
     }
+    
 </style>
 
 
@@ -430,7 +470,7 @@
     </header>
 
     {{--  --}}
-    <nav class="navbar navbar-expand-lg  navbar-dark" style="background-color:#1A202C">
+    <nav class="navbar navbar-expand-lg  navbar-dark" style="background-color:#1A202C; padding-top:90px">
         <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
             <ul class="navbar-nav container " style="max-width: 1275px">
                 <li class="nav-item dropdown">
@@ -1110,7 +1150,7 @@
             <div class="arrow d-flex">
 
             </div>
-           
+
 
             <div class="step d-flex align-items-center">
                 <div class="icon1">
@@ -1146,6 +1186,413 @@
                         Bắt đầu hành trình chiến thắng của bạn ngay!
                     </div>
                 </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="dynamic_content">
+        <div class="area_sportbook">
+            <div class="title_compoment my-4">
+                <div class="d-flex justify-content-between align-items-center ">
+                    <span class="text_thethao">THỂ THAO</span>
+                    <a href="" class="track_event ">
+                        <span>XEM TẤT CẢ SẢN PHẨM</span>
+                        <div class="mack">
+
+                        </div>
+                    </a>
+                </div>
+
+            </div>
+
+            <div class="odds_compoment ">
+                <div class="block_card_sets">
+                    <button class="button_sign_in_content">CƯỢC NGAY</button>
+
+                    <div>
+                        <div class="swiper1 mySwiper1">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide swipersilde1">
+                                    <div class="match_ched_card">
+                                        <div class="row" style="padding: unset; margin-bottom:16px;">
+                                            <div class="col-12" style="line-height: 20px;">
+                                                <span class="odds-league">UEFA EUROPA LEAGUE</span>
+                                                <span class="odds-date">1 tháng 12</span>
+                                            </div>
+                                        </div>
+
+                                        <div class="row" style="padding: unset">
+                                            <div class="col-md-6" style="font-size: 14px;">
+                                                <span>Sparta Praha</span>
+                                                <br>
+                                                <span>Real Betis</span>
+                                            </div>
+                                            <div class=" odd_homeicon col-md-6">
+                                                <div class="homeTeamIcon_first">
+                                                    <img class="homeTeamIcon_img"
+                                                        src="{{ asset('/image/Sparta_Praha.png') }}" alt="">
+                                                </div>
+                                                <div class="homeTeamIcon">
+                                                    <img class="homeTeamIcon_img"
+                                                        src="{{ asset('/image/Real_Betis.png') }}" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="row d-flex justify-content-center" style="padding: unset">
+                                            <div class="crest_odd col-md-5">
+                                                <span class="hdp1">HDP 0</span>
+                                                <span class="ho3">1</span>
+                                            </div>
+
+                                            <div class="crest_odd col-md-5">
+                                                <span class="hdp1">HDP 0</span>
+                                                <span class="ho3">0.92</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="swiper-slide swipersilde1">
+                                    <div class="match_ched_card">
+                                        <div class="row" style="padding: unset; margin-bottom:16px;">
+                                            <div class="col-12" style="line-height: 20px;">
+                                                <span class="odds-league">UEFA EUROPA LEAGUE</span>
+                                                <span class="odds-date">1 tháng 12</span>
+                                            </div>
+                                        </div>
+
+                                        <div class="row" style="padding: unset">
+                                            <div class="col-md-6" style="font-size: 14px;">
+                                                <span>Rangers FC</span>
+                                                <br>
+                                                <span>Aris Limassol</span>
+                                            </div>
+                                            <div class=" odd_homeicon col-md-6">
+                                                <div class="homeTeamIcon_first">
+                                                    <img class="homeTeamIcon_img"
+                                                        src="{{ asset('/image/Liverpool.png') }}" alt="">
+                                                </div>
+                                                <div class="homeTeamIcon">
+                                                    <img class="homeTeamIcon_img"
+                                                        src="{{ asset('/image/LASK_Linz.png') }}" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="row d-flex justify-content-center" style="padding: unset">
+                                            <div class="crest_odd col-md-5">
+                                                <span class="hdp1">HDP -1.5</span>
+                                                <span class="ho3">0.96</span>
+                                            </div>
+
+                                            <div class="crest_odd col-md-5">
+                                                <span class="hdp1">HDP 1.5</span>
+                                                <span class="ho3">0.95</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="swiper-slide swipersilde1">
+                                    <div class="match_ched_card">
+                                        <div class="row" style="padding: unset; margin-bottom:16px;">
+                                            <div class="col-12" style="line-height: 20px;">
+                                                <span class="odds-league">UEFA EUROPA LEAGUE</span>
+                                                <span class="odds-date">1 tháng 12</span>
+                                            </div>
+                                        </div>
+
+                                        <div class="row" style="padding: unset">
+                                            <div class="col-md-6" style="font-size: 14px;">
+                                                <span>Servette</span>
+                                                <br>
+                                                <span>AS Roma</span>
+                                            </div>
+                                            <div class=" odd_homeicon col-md-6">
+                                                <div class="homeTeamIcon_first">
+                                                    <img class="homeTeamIcon_img"
+                                                        src="{{ asset('/image/Servette.png') }}" alt="">
+                                                </div>
+                                                <div class="homeTeamIcon">
+                                                    <img class="homeTeamIcon_img"
+                                                        src="{{ asset('/image/AS_Roma.png') }}" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="row d-flex justify-content-center" style="padding: unset">
+                                            <div class="crest_odd col-md-5">
+                                                <span class="hdp1">HDP 0.7</span>
+                                                <span class="ho3">-0.9</span>
+                                            </div>
+
+                                            <div class="crest_odd col-md-5">
+                                                <span class="hdp1">HDP -0.7</span>
+                                                <span class="ho3">0.1</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="swiper-slide swipersilde1">
+                                    <div class="match_ched_card">
+                                        <div class="row" style="padding: unset; margin-bottom:16px;">
+                                            <div class="col-12" style="line-height: 20px;">
+                                                <span class="odds-league">UEFA EUROPA LEAGUE</span>
+                                                <span class="odds-date">1 tháng 12</span>
+                                            </div>
+                                        </div>
+
+                                        <div class="row" style="padding: unset">
+                                            <div class="col-md-6" style="font-size: 14px;">
+                                                <span>Villarreal CF</span>
+                                                <br>
+                                                <span>Panathinaikos</span>
+                                            </div>
+                                            <div class=" odd_homeicon col-md-6">
+                                                <div class="homeTeamIcon_first">
+                                                    <img class="homeTeamIcon_img"
+                                                        src="{{ asset('/image/Villarreal_CF.png') }}" alt="">
+                                                </div>
+                                                <div class="homeTeamIcon">
+                                                    <img class="homeTeamIcon_img"
+                                                        src="{{ asset('/image/Panathinaikos.png') }}" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="row d-flex justify-content-center" style="padding: unset">
+                                            <div class="crest_odd col-md-5">
+                                                <span class="hdp1">HDP 0.5</span>
+                                                <span class="ho3">0.8</span>
+                                            </div>
+
+                                            <div class="crest_odd col-md-5">
+                                                <span class="hdp1">HDP -0.5</span>
+                                                <span class="ho3">-0.9</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="swiper-slide swipersilde1">
+                                    <div class="match_ched_card">
+                                        <div class="row" style="padding: unset; margin-bottom:16px;">
+                                            <div class="col-12" style="line-height: 20px;">
+                                                <span class="odds-league">UEFA EUROPA LEAGUE</span>
+                                                <span class="odds-date">1 tháng 12</span>
+                                            </div>
+                                        </div>
+
+                                        <div class="row" style="padding: unset">
+                                            <div class="col-md-6" style="font-size: 14px; white-space:nowrap;">
+                                                <span>Rangers FC</span>
+                                                <br>
+                                                <span>Aris Limassol</span>
+                                            </div>
+                                            <div class=" odd_homeicon col-md-6">
+                                                <div class="homeTeamIcon_first">
+                                                    <img class="homeTeamIcon_img"
+                                                        src="{{ asset('/image/Rangers_FC.png') }}" alt="">
+                                                </div>
+                                                <div class="homeTeamIcon">
+                                                    <img class="homeTeamIcon_img"
+                                                        src="{{ asset('/image/Aris_Limassol.png') }}" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="row d-flex justify-content-center" style="padding: unset">
+                                            <div class="crest_odd col-md-5">
+                                                <span class="hdp1">HDP -1.5</span>
+                                                <span class="ho3">0.7</span>
+                                            </div>
+
+                                            <div class="crest_odd col-md-5">
+                                                <span class="hdp1">HDP 1.5</span>
+                                                <span class="ho3">0.4</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="swiper-slide swipersilde1">
+                                    <div class="match_ched_card">
+                                        <div class="row" style="padding: unset; margin-bottom:16px;">
+                                            <div class="col-12" style="line-height: 20px;">
+                                                <span class="odds-league">UEFA EUROPA LEAGUE</span>
+                                                <span class="odds-date">1 tháng 12</span>
+                                            </div>
+                                        </div>
+
+                                        <div class="row" style="padding: unset">
+                                            <div class="col-md-6" style="font-size: 14px; white-space:nowrap;">
+                                                <span>Olympique de Marseille</span>
+                                                <br>
+                                                <span>Ajax</span>
+                                            </div>
+                                            <div class=" odd_homeicon col-md-6">
+                                                <div class="homeTeamIcon_first">
+                                                    <img class="homeTeamIcon_img"
+                                                        src="{{ asset('/image/Olympique_de_Marseille_(V).png') }}" alt="">
+                                                </div>
+                                                <div class="homeTeamIcon">
+                                                    <img class="homeTeamIcon_img"
+                                                        src="{{ asset('/image/Ajax.png') }}" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="row d-flex justify-content-center" style="padding: unset">
+                                            <div class="crest_odd col-md-5">
+                                                <span class="hdp1">HDP 0.5</span>
+                                                <span class="ho3">0.8</span>
+                                            </div>
+
+                                            <div class="crest_odd col-md-5">
+                                                <span class="hdp1">HDP -0.5</span>
+                                                <span class="ho3">-0.9</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="swiper-slide swipersilde1">
+                                    <div class="match_ched_card">
+                                        <div class="row" style="padding: unset; margin-bottom:16px;">
+                                            <div class="col-12" style="line-height: 20px;">
+                                                <span class="odds-league">UEFA EUROPA LEAGUE</span>
+                                                <span class="odds-date">1 tháng 12</span>
+                                            </div>
+                                        </div>
+
+                                        <div class="row" style="padding: unset">
+                                            <div class="col-md-6" style="font-size: 14px; white-space:nowrap;">
+                                                <span>Sheriff Tiraspol</span>
+                                                <br>
+                                                <span>Slavia Praha</span>
+                                            </div>
+                                            <div class=" odd_homeicon col-md-6">
+                                                <div class="homeTeamIcon_first">
+                                                    <img class="homeTeamIcon_img"
+                                                        src="{{ asset('/image/Sheriff_Tiraspol.png') }}" alt="">
+                                                </div>
+                                                <div class="homeTeamIcon">
+                                                    <img class="homeTeamIcon_img"
+                                                        src="{{ asset('/image/Slavia_Praha.png') }}" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="row d-flex justify-content-center" style="padding: unset">
+                                            <div class="crest_odd col-md-5">
+                                                <span class="hdp1">HDP 0.7</span>
+                                                <span class="ho3">-0.9</span>
+                                            </div>
+
+                                            <div class="crest_odd col-md-5">
+                                                <span class="hdp1">HDP -0.7</span>
+                                                <span class="ho3">0.1</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="swiper-slide swipersilde1">
+                                    <div class="match_ched_card">
+                                        <div class="row" style="padding: unset; margin-bottom:16px;">
+                                            <div class="col-12" style="line-height: 20px;">
+                                                <span class="odds-league">UEFA EUROPA LEAGUE</span>
+                                                <span class="odds-date">1 tháng 12</span>
+                                            </div>
+                                        </div>
+
+                                        <div class="row" style="padding: unset">
+                                            <div class="col-md-6" style="font-size: 14px; white-space:nowrap;">
+                                                <span>Monza</span>
+                                                <br>
+                                                <span>Juventus</span>
+                                            </div>
+                                            <div class=" odd_homeicon col-md-6">
+                                                <div class="homeTeamIcon_first">
+                                                    <img class="homeTeamIcon_img"
+                                                        src="{{ asset('/image/Monza.png') }}" alt="">
+                                                </div>
+                                                <div class="homeTeamIcon">
+                                                    <img class="homeTeamIcon_img"
+                                                        src="{{ asset('/image/Juventus.png') }}" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="row d-flex justify-content-center" style="padding: unset">
+                                            <div class="crest_odd col-md-5">
+                                                <span class="hdp1">HDP 0.5</span>
+                                                <span class="ho3">0.89</span>
+                                            </div>
+
+                                            <div class="crest_odd col-md-5">
+                                                <span class="hdp1">HDP -0.5</span>
+                                                <span class="ho3">1</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="swiper-slide swipersilde1">
+                                    <div class="match_ched_card">
+                                        <div class="row" style="padding: unset; margin-bottom:16px;">
+                                            <div class="col-12" style="line-height: 20px;">
+                                                <span class="odds-league">ITALY SERIE A</span>
+                                                <span class="odds-date">2 tháng 12</span>
+                                            </div>
+                                        </div>
+
+                                        <div class="row" style="padding: unset">
+                                            <div class="col-md-6" style="font-size: 14px; white-space:nowrap;">
+                                                <span>Genoa</span>
+                                                <br>
+                                                <span>Empoli</span>
+                                            </div>
+                                            <div class=" odd_homeicon col-md-6">
+                                                <div class="homeTeamIcon_first">
+                                                    <img class="homeTeamIcon_img"
+                                                        src="{{ asset('/image/Genoa.png') }}" alt="">
+                                                </div>
+                                                <div class="homeTeamIcon">
+                                                    <img class="homeTeamIcon_img"
+                                                        src="{{ asset('/image/Empoli.png') }}" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="row d-flex justify-content-center" style="padding: unset">
+                                            <div class="crest_odd col-md-5">
+                                                <span class="hdp1">HDP -0.5</span>
+                                                <span class="ho3">0.9</span>
+                                            </div>
+
+                                            <div class="crest_odd col-md-5">
+                                                <span class="hdp1">HDP 0.5</span>
+                                                <span class="ho3">0.9</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="swiper-button-next1">
+                                <img src="{{asset('/image/icon-arrow-right.svg')}}" alt="" style="width: 12px ; height:12px; ">
+                            </div>
+                            <div class="swiper-button-prev1">
+                                <img src="{{asset('/image/icon-arrow-left.svg')}}" alt="" style="width: 12px ; height:12px; ">
+                            </div>
+                            {{-- <div class="swiper-pagination1"></div> --}}
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
     </div>
@@ -1218,6 +1665,37 @@
             prevEl: ".swiper-button-prev",
         },
     });
+</script>
+
+<script>
+    var swiper = new Swiper(".mySwiper1", {
+        slidesPerView: 4,
+        spaceBetween: 16,
+        freeMode: true,
+        pagination: {
+            el: ".swiper-pagination1",
+            clickable: true,
+        },
+        navigation: {
+            nextEl: ".swiper-button-next1",
+            prevEl: ".swiper-button-prev1",
+        },
+    });
+
+    swiper.on('slideChange',function(){
+        if(swiper.isBeginning){
+            document.querySelector('.swiper-button-prev1').style.display='none';
+        }else{
+            document.querySelector('.swiper-button-prev1').style.display='block';
+        }
+
+        if(swiper.isEnd){
+            document.querySelector('.swiper-button-next1').style.display='none';
+            
+        }else{
+            document.querySelector('.swiper-button-next1').style.display='block';
+        }
+    })
 </script>
 
 
