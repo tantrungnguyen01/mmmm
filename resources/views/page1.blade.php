@@ -183,7 +183,8 @@
         display: none;
 
     }
-    .swiper-button-next1{
+
+    .swiper-button-next1 {
         left: unset;
         top: unset;
         right: 0px;
@@ -194,13 +195,17 @@
         border-radius: 50%;
         position: absolute;
         z-index: 99999;
-        display:none;
+        display: none;
     }
-    .block_card_sets:hover .swiper-button-next1{
-        display: block ;
+
+
+
+    .block_card_sets:hover .swiper-button-next1 {
+        display: block;
     }
-    .block_card_sets:hover .swiper-button-prev1{
-        display: block ;
+
+    .block_card_sets:hover .swiper-button-prev1 {
+        display: block;
     }
 
     .swiper-button-next:hover {
@@ -224,6 +229,7 @@
         display: none;
 
     }
+
     .swiper-button-prev1 {
         left: unset;
         top: unset;
@@ -234,9 +240,10 @@
         border-radius: 50%;
         position: absolute;
         z-index: 99999;
-        display:none;
+        display: none;
     }
-    
+
+
 
     .swiper-button-prev::after {
         font-size: unset;
@@ -263,7 +270,6 @@
     .swiper-pagination-bullet-active {
         background-color: #CAAB72;
     }
-    
 </style>
 
 
@@ -1435,7 +1441,8 @@
                                             <div class=" odd_homeicon col-md-6">
                                                 <div class="homeTeamIcon_first">
                                                     <img class="homeTeamIcon_img"
-                                                        src="{{ asset('/image/Olympique_de_Marseille_(V).png') }}" alt="">
+                                                        src="{{ asset('/image/Olympique_de_Marseille_(V).png') }}"
+                                                        alt="">
                                                 </div>
                                                 <div class="homeTeamIcon">
                                                     <img class="homeTeamIcon_img"
@@ -1476,11 +1483,13 @@
                                             <div class=" odd_homeicon col-md-6">
                                                 <div class="homeTeamIcon_first">
                                                     <img class="homeTeamIcon_img"
-                                                        src="{{ asset('/image/Sheriff_Tiraspol.png') }}" alt="">
+                                                        src="{{ asset('/image/Sheriff_Tiraspol.png') }}"
+                                                        alt="">
                                                 </div>
                                                 <div class="homeTeamIcon">
                                                     <img class="homeTeamIcon_img"
-                                                        src="{{ asset('/image/Slavia_Praha.png') }}" alt="">
+                                                        src="{{ asset('/image/Slavia_Praha.png') }}"
+                                                        alt="">
                                                 </div>
                                             </div>
                                         </div>
@@ -1583,10 +1592,12 @@
 
                             </div>
                             <div class="swiper-button-next1">
-                                <img src="{{asset('/image/icon-arrow-right.svg')}}" alt="" style="width: 12px ; height:12px; ">
+                                <img src="{{ asset('/image/icon-arrow-right.svg') }}" alt=""
+                                    style="width: 12px ; height:12px; ">
                             </div>
                             <div class="swiper-button-prev1">
-                                <img src="{{asset('/image/icon-arrow-left.svg')}}" alt="" style="width: 12px ; height:12px; ">
+                                <img src="{{ asset('/image/icon-arrow-left.svg') }}" alt=""
+                                    style="width: 12px ; height:12px; ">
                             </div>
                             {{-- <div class="swiper-pagination1"></div> --}}
                         </div>
@@ -1594,7 +1605,487 @@
                 </div>
 
             </div>
+
         </div>
+        <div class="swiper_title">
+            <div class="swiper2 mySwiper2">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide swipersilde2">
+                        <div class="match_ched_card2">
+                            <img src="{{ asset('image/messimsports_VN.png') }}" alt="">
+                            <div class="info_box">
+                                <div class=" text-left w-100 h-100">
+                                    <button class="button_desktop">CƯỢC NGAY</button>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide swipersilde2">
+                        <div class="match_ched_card2">
+                            <img src="{{ asset('image/saba_VN.png') }}" alt="">
+                            <div class="info_box">
+                                <div class=" text-left w-100 h-100">
+                                    <button class="button_desktop">CƯỢC NGAY</button>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide swipersilde2">
+                        <div class="match_ched_card2">
+                            <img src="{{ asset('image/pinnacle_VN.png') }}" alt="">
+                            <div class="info_box">
+                                <div class=" text-left w-100 h-100">
+                                    <button class="button_desktop">CƯỢC NGAY</button>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide swipersilde2">
+                        <div class="match_ched_card2">
+                            <img src="{{ asset('image/parlaccay_VN.png') }}" alt="">
+                            <div class="info_box">
+                                <div class=" text-left w-100 h-100">
+                                    <button class="button_desktop">CƯỢC NGAY</button>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="area_sportbook">
+            <div class="background_primary_color"></div>
+            <div class="title_compoment my-4">
+                <div class="d-flex justify-content-between align-items-center " style="padding-top: 20px">
+                    <span class="text_thethao" style="color: #ffff !important">LIVE CASINO</span>
+                    <img src="{{ asset('image/live-casino-title-image.png') }}" class="title_image"
+                        alt="">
+                    <a href="" class="track_event ">
+                        <span style="color: #D3D4D7">XEM TẤT CẢ SẢN PHẨM</span>
+                        <div class="mack">
+
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="title_president_card">
+                <div class="title_club">
+                    <img src="{{ asset('image/club_vi-VN.png') }}" alt=""
+                        style="width: 620px !important ;position:relative">
+                    <div class="infor_box">
+                        <div class="button_sign_in_president">
+                            Chơi ngay
+                        </div>
+
+                        <div class="content_wrapper_president">
+                            <div class="table_type d-flex">
+                                <div class="icon_president">
+
+                                </div>
+                                <span class="president_span">18</span>
+                            </div>
+                            <div class="table_type d-flex">
+                                <div class="icon_sico">
+
+                                </div>
+                                <span class="president_span">5</span>
+                            </div>
+                            <div class="table_type d-flex">
+                                <div class="icon_roulete">
+
+                                </div>
+                                <span class="president_span">4</span>
+                            </div>
+                            <div class="table_type d-flex">
+                                <div class="icon_dragontiger">
+
+                                </div>
+                                <span class="president_span">1</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="title_ori">
+                    <img src="{{ asset('image/oglivecasino_vi-VN.png') }}" alt=""
+                        style="width: 620px !important ;position:relative">
+                    <div class="infor_box">
+                        <div class="button_sign_in_president">
+                            Chơi ngay
+                        </div>
+
+                        <div class="content_wrapper_president">
+                            <div class="table_type d-flex">
+                                <div class="icon_president">
+
+                                </div>
+                                <span class="president_span">11</span>
+                            </div>
+                            <div class="table_type d-flex">
+                                <div class="icon_sico">
+
+                                </div>
+                                <span class="president_span">1</span>
+                            </div>
+                            <div class="table_type d-flex">
+                                <div class="icon_roulete">
+
+                                </div>
+                                <span class="president_span">2</span>
+                            </div>
+                            <div class="table_type d-flex">
+                                <div class="icon_dragontiger">
+
+                                </div>
+                                <span class="president_span">3</span>
+                            </div>
+                            <div class="table_type d-flex">
+                                <div class="icon_lucky">
+
+                                </div>
+                                <span class="president_span">1</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="swiper_title">
+            <div class="swiper2 mySwiper2">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide swipersilde2">
+                        <div class="match_ched_card2">
+                            <img src="{{ asset('image/LC-Card-Europe-min_vi-VN.png') }}" alt="">
+                            <div class="info_box">
+                                <div class=" text-left w-100 h-100">
+                                    <button class="button_desktop_president">CHƠI NGAY</button>
+                                </div>
+                                <div class="content_wrapper_president1">
+                                    <div class="table_type d-flex">
+                                        <div class="icon_president">
+
+                                        </div>
+                                        <span class="president_span">10</span>
+                                    </div>
+                                    <div class="table_type d-flex">
+                                        <div class="icon_sico">
+
+                                        </div>
+                                        <span class="president_span">2</span>
+                                    </div>
+                                    <div class="table_type d-flex">
+                                        <div class="icon_roulete">
+
+                                        </div>
+                                        <span class="president_span">4</span>
+                                    </div>
+                                    <div class="table_type d-flex">
+                                        <div class="icon_dragontiger">
+
+                                        </div>
+                                        <span class="president_span">9</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide swipersilde2">
+                        <div class="match_ched_card2">
+                            <img src="{{ asset('image/LC-Card-AG-min_vi-VN.png') }}" alt="">
+                            <div class="info_box">
+                                <div class=" text-left w-100 h-100">
+                                    <button class="button_desktop_president">CHƠI NGAY</button>
+                                </div>
+                                <div class="content_wrapper_president1">
+                                    <div class="table_type d-flex">
+                                        <div class="icon_president">
+
+                                        </div>
+                                        <span class="president_span">3</span>
+                                    </div>
+                                    <div class="table_type d-flex">
+                                        <div class="icon_sico">
+
+                                        </div>
+                                        <span class="president_span">1</span>
+                                    </div>
+                                    <div class="table_type d-flex">
+                                        <div class="icon_roulete">
+
+                                        </div>
+                                        <span class="president_span">6</span>
+                                    </div>
+                                    <div class="table_type d-flex">
+                                        <div class="icon_dragontiger">
+
+                                        </div>
+                                        <span class="president_span">2</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide swipersilde2">
+                        <div class="match_ched_card2">
+                            <img src="{{ asset('image/microgaminglivedealer_vi-VN.png') }}" alt="">
+                            <div class="info_box">
+                                <div class=" text-left w-100 h-100">
+                                    <button class="button_desktop_president">CHƠI NGAY</button>
+                                </div>
+                                <div class="content_wrapper_president1">
+                                    <div class="table_type d-flex">
+                                        <div class="icon_president">
+
+                                        </div>
+                                        <span class="president_span">3</span>
+                                    </div>
+                                    <div class="table_type d-flex">
+                                        <div class="icon_sico">
+
+                                        </div>
+                                        <span class="president_span">4</span>
+                                    </div>
+                                    <div class="table_type d-flex">
+                                        <div class="icon_roulete">
+
+                                        </div>
+                                        <span class="president_span">5</span>
+                                    </div>
+                                    <div class="table_type d-flex">
+                                        <div class="icon_dragontiger">
+
+                                        </div>
+                                        <span class="president_span">6</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide swipersilde2">
+                        <div class="match_ched_card2">
+                            <img src="{{ asset('image/sexygaminglivedealer_vi-VN.png') }}" alt="">
+                            <div class="info_box">
+                                <div class=" text-left w-100 h-100">
+                                    <button class="button_desktop_president">CHƠI NGAY</button>
+                                </div>
+                                <div class="content_wrapper_president1">
+                                    <div class="table_type d-flex">
+                                        <div class="icon_president">
+
+                                        </div>
+                                        <span class="president_span">7</span>
+                                    </div>
+                                    <div class="table_type d-flex">
+                                        <div class="icon_sico">
+
+                                        </div>
+                                        <span class="president_span">2</span>
+                                    </div>
+                                    <div class="table_type d-flex">
+                                        <div class="icon_roulete">
+
+                                        </div>
+                                        <span class="president_span">4</span>
+                                    </div>
+                                    <div class="table_type d-flex">
+                                        <div class="icon_dragontiger">
+
+                                        </div>
+                                        <span class="president_span">0</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="area_sportbook " style="overflow: hidden">
+            <div class="title_compoment my-4">
+                <div class="d-flex justify-content-between align-items-center ">
+                    <span class="text_thethao">CASINO</span>
+                    <a href="" class="track_event ">
+                        <span>XEM TẤT CẢ TRÒ CHƠI</span>
+                        <div class="mack">
+
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div>
+                <div class="swiper1 mySwiper3">
+                    <div class="swiper-wrapper ">
+                        <div class="swiper-slide swipersilde3" style="display: block">
+                            <div class="match_ched_card3 ">
+                                <img class="img_card3" src="{{ asset('/image/HB-AmericanBaccarat.jpg') }}"
+                                    alt="">
+                                <div class="hover_card">
+                                    <div class="items_hover">
+                                        <button class="button_desktop_president1">CHƠI NGAY</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="d-flex mt-2">
+                                <img src="{{ asset('/image/icon-provider-HABANERO.svg') }}" alt=""
+                                    style="width: 24px ; height: 24px">
+                                <span class="ml-2 dark_mode_span" style="font-size: 14px">American Baccarat</span>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide swipersilde3" style="display: block">
+                            <div class="match_ched_card3 ">
+                                <img class="img_card3" src="{{ asset('/image/SEXY_JILI-FISH-003.jpg') }}"
+                                    alt="">
+                                <div class="hover_card">
+                                    <div class="items_hover">
+                                        <button class="button_desktop_president1">CHƠI NGAY</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="d-flex mt-2">
+                                <img src="{{ asset('/image/icon-provider-JILI.svg') }}" alt=""
+                                    style="width: 24px ; height: 24px">
+                                <span class="ml-2 dark_mode_span" style="font-size: 14px">Jackpot Fishing</span>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide swipersilde3" style="display: block">
+                            <div class="match_ched_card3 ">
+                                <img class="img_card3" src="{{ asset('/image/QT_RLX-moneytrain4.jpg') }}"
+                                    alt="">
+                                <div class="hover_card">
+                                    <div class="items_hover">
+                                        <button class="button_desktop_president1">CHƠI NGAY</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="d-flex mt-2">
+                                <img src="{{ asset('/image/icon-provider-RELAX-GAMING.svg') }}" alt=""
+                                    style="width: 24px ; height: 24px">
+                                <span class="ml-2 dark_mode_span" style="font-size: 14px">Money Train 4</span>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide swipersilde3" style="display: block">
+                            <div class="match_ched_card3 ">
+                                <img class="img_card3" src="{{ asset('/image/sw_bjc.jpg') }}"
+                                    alt="">
+                                <div class="hover_card">
+                                    <div class="items_hover">
+                                        <button class="button_desktop_president1">CHƠI NGAY</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="d-flex mt-2">
+                                <img src="{{ asset('/image/icon-provider-SKYWIND.svg') }}" alt=""
+                                    style="width: 24px ; height: 24px">
+                                <span class="ml-2 dark_mode_span" style="font-size: 14px">Blackjack</span>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide swipersilde3" style="display: block">
+                            <div class="match_ched_card3 ">
+                                <img class="img_card3" src="{{ asset('/image/QT_NE-beehivebonanza.jpg') }}"
+                                    alt="">
+                                <div class="hover_card">
+                                    <div class="items_hover">
+                                        <button class="button_desktop_president1">CHƠI NGAY</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="d-flex mt-2">
+                                <img src="{{ asset('/image/icon-provider-NETENT-CASINO.svg') }}" alt=""
+                                    style="width: 24px ; height: 24px">
+                                <span class="ml-2 dark_mode_span" style="font-size: 14px">Bee Hive Bonanza</span>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide swipersilde3" style="display: block">
+                            <div class="match_ched_card3 ">
+                                <img class="img_card3" src="{{ asset('/image/QT_BPG-vikingsunleashedreloaded.jpg') }}"
+                                    alt="">
+                                <div class="hover_card">
+                                    <div class="items_hover">
+                                        <button class="button_desktop_president1">CHƠI NGAY</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="d-flex mt-2">
+                                <img src="{{ asset('/image/icon-provider-BLUEPRINT.svg') }}" alt=""
+                                    style="width: 24px ; height: 24px">
+                                <span class="ml-2 dark_mode_span" style="font-size: 14px; white-space:nowrap;">Vikings Unleashed Reloaded</span>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide swipersilde3" style="display: block">
+                            <div class="match_ched_card3 ">
+                                <img class="img_card3" src="{{ asset('/image/SX_63510afc2e8d603eec493192.jpg') }}"
+                                    alt="">
+                                <div class="hover_card">
+                                    <div class="items_hover">
+                                        <button class="button_desktop_president1">CHƠI NGAY</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="d-flex mt-2">
+                                <img src="{{ asset('/image/icon-provider-SPINIX.svg') }}" alt=""
+                                    style="width: 24px ; height: 24px">
+                                <span class="ml-2 dark_mode_span" style="font-size: 14px">Ocean King</span>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide swipersilde3" style="display: block">
+                            <div class="match_ched_card3 ">
+                                <img class="img_card3" src="{{ asset('/image/ADV_10039.jpg') }}"
+                                    alt="">
+                                <div class="hover_card">
+                                    <div class="items_hover">
+                                        <button class="button_desktop_president1">CHƠI NGAY</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="d-flex mt-2">
+                                <img src="{{ asset('/image/icon-provider-ADVANT-PLAY.svg') }}" alt=""
+                                    style="width: 24px ; height: 24px">
+                                <span class="ml-2 dark_mode_span" style="font-size: 14px">Jewel Mastermind</span>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide swipersilde3" style="display: block">
+                            <div class="match_ched_card3 ">
+                                <img class="img_card3" src="{{ asset('/image/PRAG-vs20m88gates.jpg') }}"
+                                    alt="">
+                                <div class="hover_card">
+                                    <div class="items_hover">
+                                        <button class="button_desktop_president1">CHƠI NGAY</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="d-flex mt-2">
+                                <img src="{{ asset('/image/icon-provider-PRAGMATIC.svg') }}" alt=""
+                                    style="width: 24px ; height: 24px">
+                                <span class="ml-2 dark_mode_span" style="font-size: 14px">M88 Olympus</span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+
+
     </div>
 
 </body>
@@ -1682,20 +2173,37 @@
         },
     });
 
-    swiper.on('slideChange',function(){
-        if(swiper.isBeginning){
-            document.querySelector('.swiper-button-prev1').style.display='none';
-        }else{
-            document.querySelector('.swiper-button-prev1').style.display='block';
+    swiper.on('slideChange', function() {
+        if (swiper.isBeginning) {
+            document.querySelector('.swiper-button-prev1').style.display = 'none';
+        } else {
+            document.querySelector('.swiper-button-prev1').style.display = 'block';
         }
 
-        if(swiper.isEnd){
-            document.querySelector('.swiper-button-next1').style.display='none';
-            
-        }else{
-            document.querySelector('.swiper-button-next1').style.display='block';
+        if (swiper.isEnd) {
+            document.querySelector('.swiper-button-next1').style.display = 'none';
+
+        } else {
+            document.querySelector('.swiper-button-next1').style.display = 'block';
         }
     })
+</script>
+
+<script>
+    var swiper_slide = new Swiper(".mySwiper2", {
+        slidesPerView: 3,
+        spaceBetween: 16,
+        freeMode: true,
+    });
+</script>
+
+<script>
+    var swipsilip = new Swiper(".mySwiper3", {
+        slidesPerView: 6,
+        spaceBetween: 16,
+        freeMode: true,
+
+    });
 </script>
 
 

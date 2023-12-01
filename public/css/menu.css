@@ -2,3 +2,145 @@
     background-color:#1A202C;
     color: #ffff;
 }   
+
+
+.title_president_card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 16px;
+    
+}
+.title_club{
+    z-index: 9999;
+    width: calc((100% - (2 - 1) * 16px ) / 2);
+    max-width: calc((100% - (2 - 1) * 16px ) / 2);
+    transition: 350ms;
+}
+.title_club:hover{
+    transform: scale(1.02);
+}
+.title_ori{
+    z-index: 9999;
+    width: calc((100% - (2 - 1) * 16px ) / 2);
+    max-width: calc((100% - (2 - 1) * 16px ) / 2);
+    transition: 350ms;
+}
+.title_ori:hover{
+    transform: scale(1.02);
+}
+
+.infor_box{
+    position: absolute;
+    display: flex;
+    bottom: 0;
+    align-items: center;
+    box-sizing: border-box;
+    color: #FFFF;
+    padding: 0 16px 16px 16px;
+}
+
+.button_sign_in_president{
+        color: #222939;
+        background-color: #CAAB72;
+        border: 1px solid rgba(0, 0, 0, 0);
+        padding: 20px 40px;
+        font-size: 16px;
+        font-weight: 800;
+        text-transform: uppercase;
+        border-radius: 60px;
+        transition: all .5s;
+        white-space: nowrap;
+}
+.content_wrapper_president{
+    margin-left: 228px;
+    display: flex;
+}
+.content_wrapper_president1{
+    margin-left: 89px;
+    display: flex;
+}
+.table_type{
+    margin-right: 4px;
+    align-items: center;
+}
+
+.icon_president{
+    -webkit-mask: url('/image/icon-baccarat.svg') no-repeat center;
+    -webkit-mask-size: contain;
+    height: 24px;
+    width: 24px;
+    background-color: #FFFFFF99;
+    margin-right: 2px;
+}
+.icon_sico{
+    -webkit-mask: url('/image/icon-sicbo.svg') no-repeat center;
+    -webkit-mask-size: contain;
+    height: 24px;
+    width: 24px;
+    background-color: #FFFFFF99;
+    margin-right: 2px;
+}
+.icon_roulete{
+    -webkit-mask: url('/image/icon-roulette.svg') no-repeat center;
+    -webkit-mask-size: contain;
+    height: 24px;
+    width: 24px;
+    background-color: #FFFFFF99;
+    margin-right: 2px;
+}
+.icon_dragontiger{
+    -webkit-mask: url('/image/icon-dragontiger.svg') no-repeat center;
+    -webkit-mask-size: contain;
+    height: 24px;
+    width: 24px;
+    background-color: #FFFFFF99;
+    margin-right: 2px;
+}
+.icon_lucky{
+    -webkit-mask: url('/image/icon-wheelspin.svg') no-repeat center;
+    -webkit-mask-size: contain;
+    height: 24px;
+    width: 24px;
+    background-color: #FFFFFF99;
+    margin-right: 2px;
+}
+.president_span{
+    font-size: 14px;
+    color: #FFFF;
+}
+
+.img_card3{
+    width: 100%;
+    height: 100%;
+    transition: 350ms;
+}
+
+.swipersilde3:hover .img_card3{
+    transform: scale(1.05);
+}
+
+.hover_card{
+    display: flex;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0,0,0,0);
+    transition: all .3s;
+}
+.items_hover{
+    
+    position: absolute;
+    transition: all .3s;
+    bottom: 0px;
+    transform: translateY(100%);
+}
+.swipersilde3:hover .hover_card{
+    transform: translateY(-50%);
+    
+}

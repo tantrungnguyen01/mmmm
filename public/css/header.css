@@ -25,11 +25,14 @@
 #bady.dark_mode .ho3{
   color:#FFFF;
 }
+#bady.dark_mode .dark_mode_span{
+  color: #FFFF;
+}
 .header_css{
     background: #1A202C;
     position: fixed;
     width: 100%;
-    z-index: 9999;
+    z-index: 999999;
 }
 .header_css .style_nav{
     height: 72px; 

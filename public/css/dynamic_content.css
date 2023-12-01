@@ -23,7 +23,9 @@
     font-weight: bold;
     margin: 0;
 }
-
+.title_compoment {
+  z-index: 9999;
+}
 .track_event {
     font-size: 16px;
     line-height: 24px;
@@ -101,6 +103,17 @@
     top:220px;
    
   }
+  .swipersilde3{
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+  }
+  
   
   .match_ched_card{
     width: 316px;
@@ -123,6 +136,87 @@
   }
   .match_ched_card:hover{
     transform: scale(1.05);
+  }
+  .match_ched_card2{
+    width: 407px;
+    height: 240px;
+    position: relative;
+  }
+  .match_ched_card3{
+    width: 100%;
+    border-radius: 16px;
+    background-color: #fff;
+    box-sizing: border-box;
+    box-shadow: 2px 4px 10px 0 rgba(0, 0, 0, 0.1);
+    font-weight: 600;
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: contain;
+    -webkit-transition: all ease .5s;
+    -o-transition: all ease .5s;
+    transition: all ease .5s;
+    height: 150px;
+    text-align: left;
+    transition: 350ms;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+  }
+  
+  .info_box{
+    position: absolute;
+    padding: 16px 16px 16px;
+    width: 100%;
+    display: flex;
+    bottom: 0;
+    box-sizing: border-box;
+  }
+
+  .button_desktop{
+    height: 48px;
+    padding: 14px 24px;
+    font-size: 15px;
+    background-color:  rgba(0, 0, 0, 0);
+    border: 1px solid #FFFF;
+    border-radius: 60px;
+    color: #FFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 900;
+  }
+  .button_desktop_president{
+    height: 48px;
+    padding: 14px 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #222939;
+    background-color: #CAAB72;
+    border: 1px solid rgba(0, 0, 0, 0);
+    font-size: 15px;
+    font-weight: 800;
+    text-transform: uppercase;
+    border-radius: 60px;
+    transition: all .5s;
+    white-space: nowrap;
+  }
+  .button_desktop_president1{
+    height: 48px;
+    padding: 14px 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #222939;
+    background-color: #CAAB72;
+    border: 1px solid rgba(0, 0, 0, 0);
+    font-size: 15px;
+    font-weight: 800;
+    text-transform: uppercase;
+    border-radius: 60px;
+    transition: all .5s;
+    white-space: nowrap;
+    /* display: none; */
   }
   
 
@@ -238,3 +332,27 @@
     font-weight: 700;
   }
   /* end card_slider */
+
+  .swiper_title{
+    overflow: hidden;
+    margin-top: 32px;
+    padding-bottom: 100px;
+  }
+
+  .background_primary_color{
+    position: absolute;
+    width: 200vw;
+    height: 166%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: -118vw;
+    background-color: #222939;
+  }
+  .title_image{
+    position: absolute;
+    width:  210px;
+    height:  166px;
+    left: 153px;
+    top: -40px;
+  }
