@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/nhacungcap.css">
     <link rel="stylesheet" href="css/dynamic_content.css">
     <link rel="stylesheet" href="css/three_step_guide.css">
     <link rel="stylesheet" href="css/dropdown.css">
@@ -1909,7 +1910,7 @@
         </div>
 
 
-        <div class="area_sportbook " style="overflow: hidden">
+        <div class="area_sportbook" style="overflow: hidden ; padding-bottom:65px">
             <div class="title_compoment my-4">
                 <div class="d-flex justify-content-between align-items-center ">
                     <span class="text_thethao">CASINO</span>
@@ -2085,6 +2086,109 @@
         </div>
 
 
+        <div class="area_sportbook">
+            <div class="background_primary_color1"></div>
+            <div class="title_compoment my-4">
+                <div class="d-flex justify-content-between align-items-center ">
+                    <span class="text_thethao" style="padding-bottom: 9px;">LỌC THEO NHÀ CUNG CẤP</span>
+                </div>
+            </div>
+
+            <div class="small_provider_titles">
+                <div class="icon_small_provider_titles">
+                    <img src="{{asset('/image/pragmatic.svg')}}" alt="">
+                </div>
+
+                <div class="icon_small_provider_titles">
+                    <img src="{{asset('/image/habanero.svg')}}" alt="">
+                </div>
+                <div class="icon_small_provider_titles">
+                    <img style="padding: 3px" src="{{asset('/image/relaxgaming.svg')}}" alt="">
+                </div>
+                <div class="icon_small_provider_titles">
+                    <img style="padding: 10px;" src="{{asset('/image/microgaming.svg')}}" alt="">
+                </div>
+                <div class="icon_small_provider_titles">
+                    <img style="padding: 10px;" src="{{asset('/image/spinix.svg')}}" alt="">
+                </div>
+                <div class="icon_small_provider_titles">
+                    <img style="padding: 11px" src="{{asset('/image/netent.svg')}}" alt="">
+                </div>
+                <div class="icon_small_provider_titles">
+                    <img style="padding: 10px" src="{{asset('/image/blueprint.svg')}}" alt="">
+                </div>
+                <div class="icon_small_provider_titles">
+                    <img  src="{{asset('/image/pgsoft.svg')}}" alt="">
+                </div>
+                <div class="icon_small_provider_titles">
+                    <img style="padding: 20px" src="{{asset('/image/advantplay.svg')}}" alt="">
+                </div>
+                <div class="icon_small_provider_titles">
+                    <img style="padding: 14px;" src="{{asset('/image/facaisen.svg')}}" alt="">
+                </div>
+                <div class="icon_small_provider_titles">
+                    <img style="width: 136px" src="{{asset('/image/jili.svg')}}" alt="">
+                </div>
+
+                <div class="icon_small_provider_titles">
+                    <img style="width: 136px" src="{{asset('/image/playtech.svg')}}" alt="">
+                </div>
+                <div class="icon_small_provider_titles">
+                    <img style="width: 148px" src="{{asset('/image/skywind.svg')}}" alt="">
+                </div>
+                <div class="icon_small_provider_titles">
+                    <img style="width: 128px" src="{{asset('/image/play-n-go.svg')}}" alt="">
+                </div>
+                <div class="icon_small_provider_titles">
+                    <img style="width: 156px" src="{{asset('/image/hacksaw.svg')}}" alt="">
+                </div>
+                <div class="icon_small_provider_titles">
+                    <img style="padding:14px" src="{{asset('/image/no-limit.svg')}}" alt="">
+                </div>
+                <div class="icon_small_provider_titles">
+                    <img style="width: 118px" src="{{asset('/image/spribe.svg')}}" alt="">
+                </div>
+                <div class="icon_small_provider_titles">
+                    <img style="width: 91px" src="{{asset('/image/cq9.svg')}}" alt="">
+                </div>
+                <div class="icon_small_provider_titles">
+                    <img style="width: 136px ; padding: 14px" src="{{asset('/image/redtiger.svg')}}" alt="">
+                </div>
+                <div class="icon_small_provider_titles">
+                    <img style="width: 136px; padding:15px" src="{{asset('/image/pushgaming.svg')}}" alt="">
+                </div>
+                <div class="icon_small_provider_titles">
+                    <img style="width: 136px; padding:8px" src="{{asset('/image/btg.svg')}}" alt="">
+                </div>
+                <div class="icon_small_provider_titles">
+                    <img style="width: 136px; padding:18px" src="{{asset('/image/livespins.svg')}}" alt="">
+                </div>
+                <div class="icon_small_provider_titles">
+                    <img style="width: 75px" src="{{asset('/image/winfast.svg')}}" alt="">
+                </div>
+                <div class="icon_small_provider_titles">
+                    <img style="width: 136px; padding:11px" src="{{asset('/image/onetouch-casino.svg')}}" alt="">
+                </div>
+            </div>
+           
+
+        </div>
+
+        <div class="esports_athome_background">
+            <div class="esports_athome_area">
+                <div class="esports_athome">
+                    <div class="background_primary_color2"></div>
+                    
+                    <div class="inner">
+                        <div class="esports_athome_parallax">
+                            <div class="esports_athome_parallax_player layer-1"></div>
+                            <div class="esports_athome_parallax_player layer-2"></div>
+                            <div class="esports_athome_parallax_player layer-3"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
     </div>
 

@@ -28,6 +28,15 @@
 #bady.dark_mode .dark_mode_span{
   color: #FFFF;
 }
+#bady.dark_mode .background_primary_color1{
+  background-color: #222939;
+}
+#bady.dark_mode .icon_small_provider_titles{
+  background-color: #2d3443;
+}
+#bady.dark_mode .icon_small_provider_titles:hover{
+  background-color: #4E5461;
+}
 .header_css{
     background: #1A202C;
     position: fixed;

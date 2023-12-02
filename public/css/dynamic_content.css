@@ -341,7 +341,7 @@
 
   .background_primary_color{
     position: absolute;
-    width: 200vw;
+    width: calc(200vw - -5px);
     height: 166%;
     top: 0;
     right: 0;
@@ -349,6 +349,26 @@
     left: -118vw;
     background-color: #222939;
   }
+  .background_primary_color1{
+    position: absolute;
+    height: auto;
+    top: -423px;
+    right: 0;
+    bottom: 0;
+    left: -118vw;
+    background-color: #FFFF;
+    width: calc(200vw - -5px);
+  }
+  .background_primary_color2{
+    position: absolute;
+    width: calc(200vw - -5px);
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: -118vw;
+    background-color: #222939;
+  }
+  
   .title_image{
     position: absolute;
     width:  210px;
