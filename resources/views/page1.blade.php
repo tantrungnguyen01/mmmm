@@ -2086,7 +2086,7 @@
         </div>
 
 
-        <div class="area_sportbook">
+        <div class="area_sportbook" style=" padding-bottom:25px">
             <div class="background_primary_color1"></div>
             <div class="title_compoment my-4">
                 <div class="d-flex justify-content-between align-items-center ">
@@ -2184,10 +2184,124 @@
                             <div class="esports_athome_parallax_player layer-1"></div>
                             <div class="esports_athome_parallax_player layer-2"></div>
                             <div class="esports_athome_parallax_player layer-3"></div>
+                            <div class="esports_athome_parallax_player layer-4"></div>
+                            <div class="esports_athome_parallax_player layer-5"></div>
+
+                            <div id="particles-js" style="width: 100%; height:139%">
+                            </div>
+
+                            <div class=" esports_athome_parallax_content ">
+                                <h3>ĐẶT CƯỢC TẠI CÁC GIẢI ĐẤU THỂ
+                                    <br>
+                                    THAO ĐIỆN TỬ TỐT NHẤT
+                                </h3>
+                                
+                                <h4>CHỈ CÓ TẠI CÁC NHÀ CUNG
+                                    <br>
+                                    CẤP CỦA CHÚNG TÔI
+                                </h4>
+
+                                <div class="d-flex">
+                                    <div class="esport_athome_parallax_content_partners">
+                                        <div class="esport_athome_parallax_content_partners_saba">
+                                            <img src="{{asset('/image/logo-saba-esports.svg')}}" alt="">
+                                        </div>
+
+                                    </div>
+
+                                    <div class="esport_athome_parallax_content_partners">
+                                        <div class="esport_athome_parallax_content_partners_tfgaming">
+                                            <img src="{{asset('/image/logo-tf-gaming.svg')}}" alt="">
+                                        </div>
+
+                                    </div>
+
+                                    <div class="esport_athome_parallax_content_partners">
+                                        <div class="esport_athome_parallax_content_partners_pinnacle">
+                                            <img src="{{asset('/image/logo-pinnacle-esports.svg')}}" alt="">
+                                        </div>
+
+                                    </div>
+                                    
+                                    <div class="esport_athome_parallax_content_partners">
+                                        <div class="esport_athome_parallax_content_partners_esoccer">
+                                            <img src="{{asset('/image/logo-esoccer-vn.svg')}}" alt="">
+                                        </div>
+
+                                    </div>
+                                </div>
+                                
+    
+                            </div>
+                        </div>
+                        
+                    </div>
+
+                    
+
+                </div>
+            </div>
+        </div>
+
+        <div class="area_sportbook" style="padding-top: 40px">
+            <div class="title_compoment my-4">
+                <div class="d-flex justify-content-between align-items-center ">
+                    <span class="text_thethao" style="padding-bottom: 9px;">SẢN PHẨM KHÁC</span>
+                    
+                </div>
+            </div>
+
+            <div class="swiper_title">
+                <div class="swiper2 mySwiper4">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide swipersilde2">
+                            <div class="match_ched_card2">
+                                <img src="{{ asset('image/messimsports_VN.png') }}" alt="">
+                                <div class="info_box">
+                                    <div class=" text-left w-100 h-100">
+                                        <button class="button_desktop">CƯỢC NGAY</button>
+                                    </div>
+    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide swipersilde2">
+                            <div class="match_ched_card2">
+                                <img src="{{ asset('image/saba_VN.png') }}" alt="">
+                                <div class="info_box">
+                                    <div class=" text-left w-100 h-100">
+                                        <button class="button_desktop">CƯỢC NGAY</button>
+                                    </div>
+    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide swipersilde2">
+                            <div class="match_ched_card2">
+                                <img src="{{ asset('image/pinnacle_VN.png') }}" alt="">
+                                <div class="info_box">
+                                    <div class=" text-left w-100 h-100">
+                                        <button class="button_desktop">CƯỢC NGAY</button>
+                                    </div>
+    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide swipersilde2">
+                            <div class="match_ched_card2">
+                                <img src="{{ asset('image/parlaccay_VN.png') }}" alt="">
+                                <div class="info_box">
+                                    <div class=" text-left w-100 h-100">
+                                        <button class="button_desktop">CƯỢC NGAY</button>
+                                    </div>
+    
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
+
         </div>
 
     </div>
@@ -2209,6 +2323,8 @@
     integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
 </script>
 <script src="https://kit.fontawesome.com/5c425286d2.js" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js" crossorigin="anonymous"></script>
+
 <script>
     function toggleDarkMode() {
         var switchElement = document.getElementById('bady');
@@ -2310,5 +2426,138 @@
     });
 </script>
 
+<script>
+    var swipsilip1 = new Swiper(".mySwiper4", {
+        slidesPerView: 2,
+        spaceBetween: 16,
+        freeMode: true,
+        })
+</script>
+
+<script>
+    $(document).ready(function(){
+       
+        $(window).scroll(function(){
+            var scrolled = $(this).scrollTop();
+
+    
+            var vitrichinhxac = $('.esports_athome_parallax_player').offset().top;
+            
+            
+            $('.esports_athome_parallax_player.layer-1').css('transform','translateY('+ -(scrolled - vitrichinhxac) * 0.05 +'px)');
+            $('.esports_athome_parallax_player.layer-2').css('transform','translateY('+ -(scrolled - vitrichinhxac) * 0.09 +'px)');
+            $('.esports_athome_parallax_player.layer-3').css('transform','translateY('+ -(scrolled - vitrichinhxac) * 0.2 +'px)');
+            $('.esports_athome_parallax_player.layer-5').css('transform','translateY('+ -(scrolled - vitrichinhxac) * 0.6 +'px)');
+        })  
+    })
+</script>
+
+<script>
+    particlesJS("particles-js", {
+          "particles": {
+            "number": {
+              "value": 1000,
+              "density": {
+                "enable": true,
+                "value_area": 3000
+              }
+            },
+            "color": {
+              "value": "#FC4827"
+            },
+            "shape": {
+              "type": "circle",
+              "stroke": {
+                "width": 0,
+                "color": "#000000"
+              },
+              "polygon": {
+                "nb_sides": 3
+              }
+            },
+            "opacity": {
+              "value": .8,
+              "random": true,
+              "anim": {
+                "enable": false,
+                "speed": 1,
+                "opacity_min": 1,
+                "sync": false
+              }
+            },
+            "size": {
+              "value": 3,
+              "random": true,
+              "anim": {
+                "enable": true,
+                "speed": 5,
+                "size_min": 0,
+                "sync": false
+              }
+            },
+            "line_linked": {
+              "enable": false,
+              "distance": 500,
+              "color": "#ffffff",
+              "opacity": 0.4,
+              "width": 2
+            },
+            "move": {
+              "enable": true,
+              "speed": 7.8914764163227265,
+              "direction": "top",
+              "random": true,
+              "straight": false,
+              "out_mode": "out",
+              "bounce": false,
+              "attract": {
+                "enable": false,
+                "rotateX": 600,
+                "rotateY": 1200
+              }
+            }
+          },
+          "interactivity": {
+            "detect_on": "canvas",
+            "events": {
+              "onhover": {
+                "enable": false,
+                "mode": "bubble"
+              },
+              "onclick": {
+                "enable": false,
+                "mode": "repulse"
+              },
+              "resize": true
+            },
+            "modes": {
+              "grab": {
+                "distance": 400,
+                "line_linked": {
+                  "opacity": 0.5
+                }
+              },
+              "bubble": {
+                "distance": 400,
+                "size": 4,
+                "duration": 0.3,
+                "opacity": 1,
+                "speed": 3
+              },
+              "repulse": {
+                "distance": 200,
+                "duration": 0.4
+              },
+              "push": {
+                "particles_nb": 4
+              },
+              "remove": {
+                "particles_nb": 2
+              }
+            }
+          },
+          "retina_detect": true
+        });
+</script>
 
 </html>

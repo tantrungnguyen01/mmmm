@@ -115,6 +115,7 @@
   }
   
   
+  
   .match_ched_card{
     width: 316px;
     padding: 16px;
@@ -337,6 +338,9 @@
     overflow: hidden;
     margin-top: 32px;
     padding-bottom: 100px;
+  }
+  .swiper_title1{
+    overflow: hidden;
   }
 
   .background_primary_color{
