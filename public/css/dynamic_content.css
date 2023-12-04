@@ -116,6 +116,7 @@
   
   
   
+  
   .match_ched_card{
     width: 316px;
     padding: 16px;
@@ -163,6 +164,56 @@
     overflow: hidden;
     display: flex;
   }
+  .match_ched_card4{
+    width: 620px;
+    height: 362px;
+    position: relative;
+  }
+  .match_ched_card4 img{
+    border-radius: 8px;
+    transition: .3s;
+  }
+  .match_ched_card4 img:hover{
+    transform: scale(1.025);
+  }
+  .match_ched_card5{
+    width: 620px;
+    height: 362px;
+    position: relative;
+    gap: 16px;
+    display: flex;
+    flex-direction: column;
+  }
+  .match_ched_card5 img{
+    border-radius: 8px;
+  }
+  .match_ched_card5 .direction_column{
+   transition: .3s;
+  }
+  .match_ched_card5 .direction_column:hover{
+    transform: scale(1.025);
+  }
+
+  .match_ched_card5 .km_title_item{
+    display: flex;
+    width: 100%;
+    gap: 16px;
+  }
+  .km_promo_item span{
+    color: #222939;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    line-height: 20px;
+    font-size: 14px;
+  }
+  .km_promo_item img{
+    height: unset !important;
+    transition: .3s;
+  }
+  .km_promo_item img:hover{
+   transform: scale(1.025);
+  }
+
   
   .info_box{
     position: absolute;
@@ -219,6 +270,26 @@
     white-space: nowrap;
     /* display: none; */
   }
+  .button_desktop_president2{
+    height: 30px;
+    padding: 0px 53px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #222939;
+    background-color: #CAAB72;
+    border: 1px solid rgba(0, 0, 0, 0);
+    font-size: 11px;
+    font-weight: 800;
+    text-transform: uppercase;
+    border-radius: 60px;
+    transition: all .5s;
+    white-space: nowrap;
+    position: absolute;
+    bottom:  15px;
+    right: 15px;
+  }
+  
   
 
   
@@ -341,6 +412,11 @@
   }
   .swiper_title1{
     overflow: hidden;
+  }
+  .swiper_title2{
+    overflow: hidden;
+    margin-top: 32px;
+    padding-bottom: 30px;
   }
 
   .background_primary_color{

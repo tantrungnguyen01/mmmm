@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/jackpost.css">
     <link rel="stylesheet" href="css/nhacungcap.css">
     <link rel="stylesheet" href="css/dynamic_content.css">
     <link rel="stylesheet" href="css/three_step_guide.css">
@@ -2251,59 +2252,313 @@
                 </div>
             </div>
 
-            <div class="swiper_title">
+            <div class="swiper_title2">
                 <div class="swiper2 mySwiper4">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide swipersilde2">
-                            <div class="match_ched_card2">
-                                <img src="{{ asset('image/messimsports_VN.png') }}" alt="">
+                            <div class="match_ched_card4">
+                                <img src="{{ asset('image/UFC_VN.jpg') }}" alt="">
                                 <div class="info_box">
-                                    <div class=" text-left w-100 h-100">
-                                        <button class="button_desktop">CƯỢC NGAY</button>
+                                    <div class=" text-left w-100 h-100 d-flex justify-content-center align-items-center">
+                                        <button class="button_desktop_president1">CHƠI NGAY</button>
                                     </div>
     
                                 </div>
                             </div>
                         </div>
+
                         <div class="swiper-slide swipersilde2">
-                            <div class="match_ched_card2">
-                                <img src="{{ asset('image/saba_VN.png') }}" alt="">
-                                <div class="info_box">
-                                    <div class=" text-left w-100 h-100">
-                                        <button class="button_desktop">CƯỢC NGAY</button>
-                                    </div>
-    
+                            <div class="match_ched_card5 ">
+                                <div class="direction_column">
+                                    <img src="{{ asset('image/wide-big-1.jpg') }}" alt="">
                                 </div>
+
+                                <div class="km_title_item">
+                                    <div class="km_promo_item">
+                                        <img src="{{asset('/image/sicbo-km-en.jpg')}}" alt="">
+                                        <div class="d-flex align-items-center justify-content-center" style="margin-top: 9px">
+                                            <span>Sic Bo</span>
+                                        </div>
+                                    </div>
+                                    <div class="km_promo_item">
+                                        <img src="{{asset('/image/taixiu-km-en.jpg')}}" alt="">
+                                        <div class="d-flex align-items-center justify-content-center" style="margin-top: 9px">
+                                            <span>Tài Xỉu</span>
+                                        </div>
+                                    </div>
+                                    <div class="km_promo_item">
+                                        <img src="{{asset('/image/Xocdia-km-en.jpg')}}" alt="">
+                                        <div class="d-flex align-items-center justify-content-center" style="margin-top: 9px">
+                                            <span>Xóc Dĩa 2</span>
+                                        </div>
+                                    </div>
+                                    <div class="km_promo_item">
+                                        <img src="{{asset('/image/baccarat-km-en.jpg')}}" alt="">
+                                        <div class="d-flex align-items-center justify-content-center" style="margin-top: 9px">
+                                            <span>Baccarat</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                    
+                                
+                                
                             </div>
                         </div>
+
                         <div class="swiper-slide swipersilde2">
-                            <div class="match_ched_card2">
-                                <img src="{{ asset('image/pinnacle_VN.png') }}" alt="">
-                                <div class="info_box">
-                                    <div class=" text-left w-100 h-100">
-                                        <button class="button_desktop">CƯỢC NGAY</button>
-                                    </div>
-    
-                                </div>
+                            <div class="match_ched_card4">
+                                <img src="{{ asset('image/V8_vi-VN.jpg') }}" alt="">
                             </div>
                         </div>
-                        <div class="swiper-slide swipersilde2">
-                            <div class="match_ched_card2">
-                                <img src="{{ asset('image/parlaccay_VN.png') }}" alt="">
-                                <div class="info_box">
-                                    <div class=" text-left w-100 h-100">
-                                        <button class="button_desktop">CƯỢC NGAY</button>
-                                    </div>
-    
-                                </div>
-                            </div>
-                        </div>
+ 
                     </div>
                 </div>
             </div>
 
         </div>
 
+
+        <div class="area_sportbook" style="overflow: hidden">
+            <div class="title_compoment my-4">
+                <div class="d-flex justify-content-between align-items-center ">
+                    <span class="text_thethao" style="padding-bottom: 9px;">JACKPOTS</span>
+                    
+                </div>
+            </div>
+
+            <div>
+                <div class="swiper1 mySwiper3">
+                    <div class="swiper-wrapper ">
+                        <div class="swiper-slide swipersilde3">
+                            <div class="match_ched_card3">
+                                <img class="img_card3" src="{{ asset('/image/vnnorth-bg.jpg') }}" alt="">
+                                <div class="title_img_jacpots">
+                                    <div>
+                                        <span> XỔ SỐ MIỀN BẮC</span>
+                                    </div>
+
+                                    <div>   
+                                        <img src="{{asset('image/vnnorth-logo.svg')}}" alt="">
+                                    </div>
+                                </div>
+                                <button class="button_desktop_president2">CHƠI NGAY</button>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide swipersilde3">
+                            <div class="match_ched_card3">
+                                <img class="img_card3" src="{{ asset('/image/vnsouth-bg.jpg') }}" alt="">
+                                <div class="title_img_jacpots">
+                                    <div>
+                                        <span> XỔ SỐ MIỀN NAM</span>
+                                    </div>
+
+                                    <div>   
+                                        <img src="{{asset('image/vnnorth-logo.svg')}}" alt="">
+                                    </div>
+                                </div>
+                                <button class="button_desktop_president2">CHƠI NGAY</button>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide swipersilde3">
+                            <div class="match_ched_card3">
+                                <img class="img_card3" src="{{ asset('/image/vncentral-bg.jpg') }}" alt="">
+                                <div class="title_img_jacpots">
+                                    <div>
+                                        <span> XỔ SỐ MIỀN TRUNG</span>
+                                    </div>
+
+                                    <div>   
+                                        <img src="{{asset('image/vnnorth-logo.svg')}}" alt="">
+                                    </div>
+                                </div>
+                                <button class="button_desktop_president2">CHƠI NGAY</button>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide swipersilde3">
+                            <div class="match_ched_card3">
+                                <img class="img_card3" src="{{ asset('/image/superspeed-bg.jpg') }}" alt="">
+                                <div class="title_img_jacpots">
+                                    <div>
+                                        <span> XỔ SỐ SIÊU TỐC</span>
+                                    </div>
+
+                                    <div>   
+                                        <img src="{{asset('image/vnnorth-logo.svg')}}" alt="">
+                                    </div>
+                                </div>
+                                <button class="button_desktop_president2">CHƠI NGAY</button>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide swipersilde3">
+                            <div class="match_ched_card3">
+                                <img class="img_card3" src="{{ asset('/image/internationallottery-bg.jpg') }}" alt="">
+                                <div class="title_img_jacpots">
+                                    <div>
+                                        <span> XỔ SỐ NƯỚC NGOÀI</span>
+                                    </div>
+
+                                    <div>   
+                                        <img src="{{asset('image/internationallottery-logo.svg')}}" alt="">
+                                    </div>
+                                </div>
+                                <button class="button_desktop_president2">CHƠI NGAY</button>
+                            </div>
+                        </div>
+
+
+                        <div class="swiper-slide swipersilde3">
+                            <div class="match_ched_card3">
+                                <img class="img_card3" src="{{ asset('/image/speedpk10-bg.jpg') }}" alt="">
+                                <div class="title_img_jacpots">
+                                    <div>
+                                        <span>ĐUA XE PK10</span>
+                                    </div>
+
+                                    <div>   
+                                        <img src="{{asset('image/speedpk10-logo.svg')}}" alt="">
+                                    </div>
+                                </div>
+                                <button class="button_desktop_president2">CHƠI NGAY</button>
+                            </div>
+                        </div>
+
+
+                        <div class="swiper-slide swipersilde3">
+                            <div class="match_ched_card3">
+                                <img class="img_card3" src="{{ asset('/image/jackpot-home-bg.jpg') }}" alt="">
+                                <div class="title_img_jacpots">
+                                    <div>
+                                        <span>POWERBALL</span>
+                                    </div>
+
+                                    <div>   
+                                        <img src="{{asset('image/us_powerball.svg')}}" alt="">
+                                    </div>
+                                </div>
+                                <button class="button_desktop_president2">CHƠI NGAY</button>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide swipersilde3">
+                            <div class="match_ched_card3">
+                                <img class="img_card3" src="{{ asset('/image/jackpot-home-bg.jpg') }}" alt="">
+                                <div class="title_img_jacpots">
+                                    <div>
+                                        <span>MEGAMILLIONS</span>
+                                    </div>
+
+                                    <div>   
+                                        <img src="{{asset('image/us_megamillions.svg')}}" alt="">
+                                    </div>
+                                </div>
+                                <button class="button_desktop_president2">CHƠI NGAY</button>
+                            </div>
+                        </div>
+                        <div class="swiper-slide swipersilde3">
+                            <div class="match_ched_card3">
+                                <img class="img_card3" src="{{ asset('/image/jackpot-home-bg.jpg') }}" alt="">
+                                <div class="title_img_jacpots">
+                                    <div>
+                                        <span>EUROMILLION</span>
+                                    </div>
+
+                                    <div>   
+                                        <img src="{{asset('image/euromillions.svg')}}" alt="">
+                                    </div>
+                                </div>
+                                <button class="button_desktop_president2">CHƠI NGAY</button>
+                            </div>
+                        </div>
+                        <div class="swiper-slide swipersilde3">
+                            <div class="match_ched_card3">
+                                <img class="img_card3" src="{{ asset('/image/jackpot-home-bg.jpg') }}" alt="">
+                                <div class="title_img_jacpots">
+                                    <div>
+                                        <span>EUROJACPOT</span>
+                                    </div>
+
+                                    <div>   
+                                        <img src="{{asset('image/eurojackpot.svg')}}" alt="">
+                                    </div>
+                                </div>
+                                <button class="button_desktop_president2">CHƠI NGAY</button>
+                            </div>
+                        </div>
+                        <div class="swiper-slide swipersilde3">
+                            <div class="match_ched_card3">
+                                <img class="img_card3" src="{{ asset('/image/jackpot-home-bg.jpg') }}" alt="">
+                                <div class="title_img_jacpots">
+                                    <div>
+                                        <span>EUROMILLIONS GO</span>
+                                    </div>
+
+                                    <div>   
+                                        <img src="{{asset('image/euromillionsgo.svg')}}" alt="">
+                                    </div>
+                                </div>
+                                <button class="button_desktop_president2">CHƠI NGAY</button>
+                            </div>
+                        </div>
+                        <div class="swiper-slide swipersilde3">
+                            <div class="match_ched_card3">
+                                <img class="img_card3" src="{{ asset('/image/jackpot-home-bg.jpg') }}" alt="">
+                                <div class="title_img_jacpots">
+                                    <div>
+                                        <span>EUROJACKPOT GO</span>
+                                    </div>
+
+                                    <div>   
+                                        <img src="{{asset('image/eurokjpckpotsgo.svg')}}" alt="">
+                                    </div>
+                                </div>
+                                <button class="button_desktop_president2">CHƠI NGAY</button>
+                            </div>
+                        </div>
+
+                        
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="content_title_messi">
+            <div class="content_title_messi_area">
+                <img src="{{asset('/image/mobile-download_EN.png')}}" alt="">
+                <div class="content_title_messi_area_multiple">
+
+                    <div class="content_title_messi_area_multiple_write">
+                        <div class="font-weight-bold text-uppercase">
+                            <span class="span_title_messi1">M88 App! Cược mọi lúc, mọi nơi</span>
+                            <br>
+                            <span class="span_title_messi2">Tải ứng dụng miễn phí ngay</span>
+                        </div>
+                    </div>
+                    <div class="content_title_messi_area_multiple_img">
+                        <img style="position: relative ; margin-right:20px"  src="{{asset('/image/mobile-android.svg')}}" alt="">
+                        <img style="position: relative ; margin-right:50px" src="{{asset('/image/mobile-apple.svg')}}" alt="">
+                        <button class="button_desktop_president1" style="margin-right: 5px">TẢI NGAY</button>
+                    </div>
+
+
+                    
+                    
+                    
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="seo_text">
+        <div class="seo_text_title">
+
+        </div>
     </div>
 
 </body>

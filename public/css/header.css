@@ -37,6 +37,10 @@
 #bady.dark_mode .icon_small_provider_titles:hover{
   background-color: #4E5461;
 }
+
+#bady.dark_mode .km_promo_item span{
+  color: #FFFF;
+}
 .header_css{
     background: #1A202C;
     position: fixed;
