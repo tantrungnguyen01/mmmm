@@ -41,6 +41,16 @@
 #bady.dark_mode .km_promo_item span{
   color: #FFFF;
 }
+#bady.dark_mode .seo_text_main{
+  color: #FFFF;
+}
+
+#bady.dark_mode .seo_text_main a{
+  color: #FFFF;
+}
+#bady.dark_mode .seo_text_main span{
+  color: #FFFF;
+}
 .header_css{
     background: #1A202C;
     position: fixed;

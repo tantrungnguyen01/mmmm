@@ -70,3 +70,36 @@
 }
 
 /*  */
+.seo_text_main{
+    padding-top: 80px;
+    word-wrap: break-word;
+    margin-bottom: 150px;
+}
+.seo_text_title h1{
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+.seo_text_main .container{
+    max-width: 1330px !important;  
+}
+.seo_text_main a{
+    color: #222939;
+}
+.seo_text_main a:hover{
+    color: unset;
+    text-decoration: none;
+}
+.seo_text_main .seo_text_infor_content_text_out_a{
+    font-size: 12px;
+    font-family: sans-serif;
+}
+
+.seo_text_main a{
+    font-size: 13px;
+    line-height: 1.5;
+}
+.seo_text_main strong{
+    font-size: 13px;
+    line-height: 1.5;
+}
