@@ -2596,13 +2596,74 @@
 
             <div class="footer_sponsor container">
                 <div class="partner_ship">
-                    <div class="text-center">
+                    <div class="text-center partner_ship_head">
                         <span>TỰ HÀO LÀ ĐỐI TÁC CỦA</span>
                     </div>
 
                     <div class="partner_shiper">
+                        <div class="partner_shiper_single">
+                            <img src="{{asset('/image/partnership-laliga-dark.svg')}}" alt="">
+                            <span class="span1">
+                                Đối Tác Khu Vực
+                                <br>
+                                Chính Thức
+                            </span>
+                            <span class="span2">2020 - 2024</span>
+                        </div>
 
+                        <div class="partner_shiper_single">
+                            <img  src="{{asset('/image/partnership-bwf.svg')}}" alt="">
+                            <span class="span1">
+                                Đối Tác Cá Cược
+                                <br>
+                                Chính Thức
+                            </span>
+                            <span class="span2">2022 - 2024</span>
+                        </div>
+
+                        <div class="partner_shiper_single">
+                            <img src="{{asset('/image/partnership-acmilan.svg')}}" alt="">
+                            <span class="span1">
+                                Đối Tác Casino
+                                <br>
+                                Chính Thức
+                            </span>
+                            <span class="span2">2022 - 2024</span>
+                        </div>
+
+                        <div class="partner_shiper_single">
+                            <img src="{{asset('/image/partnership-mariaozawa.svg')}}" alt="">
+                            <span class="span1">
+                                Đối Tác Nổi 
+                                <br>
+                                Tiếng M88
+                            </span>
+                            <span class="span2">2022 - 2024</span>
+                        </div>
+
+                        <div class="partner_shiper_single">
+                            <img src="{{asset('/image/partnership-mp.svg')}}" alt="">
+                            <span class="span1">
+                                Đại Sứ M88
+                            </span>
+                            <span class="span2">2022</span>
+                        </div>
+
+                        <div class="partner_shiper_single">
+                            <img src="{{asset('/image/partnership-mansion-ag-colored.svg')}}" alt="">
+                            <span class="span1">
+                                Tài Trợ Chính
+                            </span>
+                            <span class="span2">2023</span>
+                        </div>
                     </div>
+
+                </div>
+            </div>
+
+            <div class="footer_minibar">
+                <div>
+
                 </div>
             </div>
 
