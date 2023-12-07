@@ -51,8 +51,23 @@
 #bady.dark_mode .seo_text_main span{
   color: #FFFF;
 }
+
+#bady.dark_mode .footer_sponsor::before{
+  background-color: #222939 ;
+}
+#bady.dark_mode .partner_ship_head{
+  color: #FFFF;
+}
+#bady.dark_mode .span1{
+  color: #FFFF;
+}
+#bady.dark_mode .span2{
+  color: #FFFF;
+}
+
+
 .header_css{
-    background: #1A202C;
+    background: #1A202C;  
     position: fixed;
     width: 100%;
     z-index: 999999;

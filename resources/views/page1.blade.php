@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/footerminibar.css">
     <link rel="stylesheet" href="css/jackpost.css">
     <link rel="stylesheet" href="css/nhacungcap.css">
     <link rel="stylesheet" href="css/dynamic_content.css">
@@ -2594,7 +2595,7 @@
     <footer>
         <div class="footer_content">
 
-            <div class="footer_sponsor container">
+            <div class="footer_sponsor container" style="padding-bottom: 40px">
                 <div class="partner_ship">
                     <div class="text-center partner_ship_head">
                         <span>TỰ HÀO LÀ ĐỐI TÁC CỦA</span>
@@ -2661,12 +2662,203 @@
                 </div>
             </div>
 
-            <div class="footer_minibar">
-                <div>
+            <div class="footer_minibar container">
+                <div class="minibar_background_color">
 
+                    <div class="mini_baner_background">
+
+                    </div>
+
+                    <div class="mini_baner_container">
+                        <div class="mini_baner_logo">
+                            <img src="{{asset('/image/m88-io.svg')}}" alt="">
+                        </div>
+
+                        <div class="mini_baner_content">
+                            <div class="mini_baner_content_title">
+                                <span>NỀN TẢNG CRYPTO MỚI NHẤT CỦA M88</span>
+                                
+                            </div>
+
+                            <div class="mini_baner_content_subtitle">
+                                <span>CÓ THỂ CƯỢC NGAY BÂY GIỜ!</span>
+                            </div>
+                        </div>
+
+                        <div class="mini_baner_cta">
+                            <div class="mini_baner_cta_link">
+                                <span>THỬ NGAY HÔM NAY</span>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
 
+
+            <div class="footer_top container">
+                <div class="payment_media_container">
+                        <div class="payment_container">
+                            <div class="payment_method">
+                                <div class="text_payment_tablet_sm">
+                                    <span>Phương Thức Thanh Toán</span>
+                                </div>
+
+                                <div class="method_container">
+                                    <img src="{{asset('/image/quick-transfer-vn-color.svg')}}" alt="">
+                                </div>
+                                <div class="method_container">
+                                    <img src="{{asset('/image/nine-pay-color.svg')}}" alt="">
+                                </div>
+                                <div class="method_container">
+                                    <img src="{{asset('/image/tether-color.svg')}}" alt="">
+                                </div>
+                                <div class="method_container">
+                                    <img src="{{asset('/image/momo-color.svg')}}" alt="">
+                                </div>
+                                <div class="method_container">
+                                    <img src="{{asset('/image/viettelpay-color.svg')}}" alt="">
+                                </div>
+                                <div class="method_container">
+                                    <div class="m88_io_link d-flex align-items-center">
+                                        <div class="m88_io_diriver">
+
+                                        </div>
+
+                                        <div class="m88_io_content d-flex align-items-center">
+                                            <div class="content_text_line">
+                                                <span>HƠN 10 LOẠI TIỀN ĐIỆN TỬ CRYPTO</span>
+                                                <br>
+                                                <span>CÓ SẴN TRÊN:</span>
+                                            </div>
+                                            <img class="m88_io_content_img" src="{{asset('/image/m88-io_contet.svg')}}" alt="">
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="ml_auto_tablet">
+                            <div class="social_media">
+                                <div class="facebook"><i class="fa-brands fa-square-facebook fa-2xl" style="color: #065bef;"></i></div>
+                                <div class="instagram"><i class="fa-brands fa-instagram" style="font-size: 2em;line-height: 1em;vertical-align: -0.1875em"></i></div>
+                                <div class="elonmusk"><i class="fa-brands fa-square-x-twitter fa-2xl" style="color: black"></i></div>
+                                <div class="youtube"><i class="fa-brands fa-youtube fa-2xl" style="color: #e10000;"></i></div>
+                                <div class="tiktok"><i class="fa-brands fa-tiktok fa-2xl"></i></div>
+                            </div>
+                        </div>
+                </div>
+
+                <div class="navigate_container d-block">
+                    <div class="navigate_container_menu">
+                        <div class="navigate_container_menu_text">
+                            <a href="/">Giới Thiệu Về M88</a>
+                        </div>
+
+                        <div class="navigate_container_menu_text">
+                            <a href="/">Giới Thiệu Bạn Bè</a>
+                        </div>
+
+                        <div class="navigate_container_menu_text">
+                            <a href="/">VIP</a>
+                        </div>
+
+                        <div class="navigate_container_menu_text">
+                            <a href="/">Đại Lý</a>
+                        </div>
+
+                        <div class="navigate_container_menu_text">
+                            <a href="/">Lựa Chọn Ngân Hàng</a>
+                        </div>
+
+                        <div class="navigate_container_menu_text">
+                            <a href="/">Chơi Game Có Trách Nhiệm</a>
+                        </div>
+
+                        <div class="navigate_container_menu_text">
+                            <a href="/">Liên Hệ Với Chúng Tôi</a>
+                        </div>
+
+                        <div class="navigate_container_menu_text">
+                            <a href="/">Trung Tâm Hỗ Trợ</a>
+                        </div>
+
+                        <div class="navigate_container_menu_text">
+                            <a href="/">Đơn Vị Tài Trợ</a>
+                        </div>
+                    </div>
+
+                    <div class="navigate_container_localized">
+                        <div class="navigate_container_menu_text">
+                            <a href="/">M88 Japan</a>
+                        </div>
+                        <div class="navigate_container_menu_text">
+                            <a href="/">M88 China</a>
+                        </div>
+                        <div class="navigate_container_menu_text">
+                            <a href="/">M88 Korea</a>
+                        </div>
+                        <div class="navigate_container_menu_text">
+                            <a href="/">M88 India</a>
+                        </div>
+                        <div class="navigate_container_menu_text">
+                            <a href="/">M88 Thailand</a>
+                        </div>
+                        <div class="navigate_container_menu_text">
+                            <a href="/">M88 Việtnam</a>
+                        </div>
+                        <div class="navigate_container_menu_text">
+                            <a href="/">M88</a>
+                        </div>
+                        <div class="navigate_container_menu_text">
+                            <a href="/">Bhs Indonesia</a>
+                        </div>
+                    </div>
+                </div>
+
+                
+            </div>
+
+            <div class="footer_center container">
+                <div class="game_provider">
+                    <div class="provider_wrapper">
+                        <div class="provider_wrapper_container">
+                            <div class="provider_image"></div>
+                            <div class="provider_image_hover"></div>
+                        </div>
+
+                        <div class="provider_wrapper_container">
+                            <div class="provider_image1"></div>
+                            <div class="provider_image_hover1"></div>
+                        </div>
+
+                        <div class="provider_wrapper_container">
+                            <div class="provider_image2"></div>
+                            <div class="provider_image_hover2"></div>
+                        </div>
+
+                        <div class="provider_wrapper_container">
+                            <div class="provider_image3"></div>
+                            <div class="provider_image_hover3"></div>
+                        </div>
+
+                        <div class="provider_wrapper_container">
+                            <div class="provider_image4"></div>
+                            <div class="provider_image_hover4"></div>
+                        </div>
+
+                        <div class="provider_wrapper_container">
+                            <div class="provider_image5"></div>
+                            <div class="provider_image_hover5"></div>
+                        </div>
+
+                        <div class="provider_wrapper_container">
+                            <div class="provider_image6"></div>
+                            <div class="provider_image_hover6"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
 
         </div>

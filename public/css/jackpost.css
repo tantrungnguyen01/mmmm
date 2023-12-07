@@ -112,6 +112,7 @@
     width: 100%;
     height: 100%;
     position: relative;
+    background-color: #1A202C;
 }
 
 .footer_sponsor .partner_shiper{
@@ -174,8 +175,8 @@
     content: "";
     position: absolute;
     background-color: #FFFF;
-    width: 200vw;
-    height: 100%;
+    width: 200.1vw;
+    height: 60%;
     top: 0;
     right: 0;
     bottom: 0;
