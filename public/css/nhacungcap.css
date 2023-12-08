@@ -46,7 +46,7 @@
 .esports_athome_parallax {
     background-image: url('/image/bg-esports.jpg');
     display: none;
-    padding: 60px 40px;
+    padding: 60px 0px;
     background-repeat: no-repeat;
     background-position: center;
     overflow: hidden;

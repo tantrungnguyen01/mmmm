@@ -2990,6 +2990,70 @@
                             <div class="provider_image_hover36"></div>
                         </div>
                     </div>
+
+
+
+                </div>
+
+                <div class="separation_line_wrapper">
+                    <div class="separation_line"></div>
+                </div>
+                <div class="sponsor_container_ship">
+                    <div class="previous_sponsor">
+                        <span>TÀI TRỢ TRƯỚC ĐÂY</span>
+                    </div>
+
+                    <div class="previous_sponsor_icon">
+                        <div class="sponsor_item">
+                            <img src="{{asset('/image/bournemouth.svg')}}" alt="">
+                            <div class="sponsor_info">
+                                <div class="sponsor_name"><span>AFC Bournemouth</span></div>
+                                <div class="sponsor_year"><span>2015 - 2020</span></div>
+                            </div>
+                        </div>
+
+                        <div class="sponsor_item">
+                            <img src="{{asset('/image/crystal-palace.svg')}}" alt="">
+                            <div class="sponsor_info">
+                                <div class="sponsor_name"><span>Crystal Palace</span></div>
+                                <div class="sponsor_year"><span>2015 - 2017</span></div>
+                            </div>
+                        </div>
+
+                        <div class="sponsor_item">
+                            <img src="{{asset('/image/manchester-city.svg')}}" alt="">
+                            <div class="sponsor_info">
+                                <div class="sponsor_name"><span>Manchester City</span></div>
+                                <div class="sponsor_year"><span>2011 - 2012</span></div>
+                            </div>
+                        </div>
+
+                        <div class="sponsor_item">
+                            <img src="{{asset('/image/tottenham-hotspur.svg')}}" alt="">
+                            <div class="sponsor_info">
+                                <div class="sponsor_name"><span>Tottenham Hotspur</span></div>
+                                <div class="sponsor_year"><span>2006 - 2010</span></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="footer_bottom container">
+                <div class="response_gamebling">
+                    <div class="text_gamebling">
+                        <div class="text_gamebling_single">
+                            M88 cam kết hỗ trợ  
+                        </div>
+                        
+                        <a  class="text_gamebling_single_a" href="/"> Chơi Game Có Trách Nhiệm </a>
+                    </div>
+                    
+                    <div class="partner_gamebling">
+
+
+                    </div>
                 </div>
             </div>
 

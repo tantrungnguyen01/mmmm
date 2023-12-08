@@ -285,7 +285,7 @@
 }
 
 .game_provider{
-    
+    padding-bottom: 30px;
 }
 .provider_wrapper{
     grid-template-columns: repeat(7, minmax(0, 1fr));
@@ -1142,3 +1142,119 @@
     background-position: -108px -1038px;
 }
 /* end */
+
+.separation_line_wrapper{
+    width: 100%;
+    padding-left: 16px;
+    padding-right: 16px;
+    
+}
+
+.separation_line{
+    height: 1px;
+    background-color: #4E5461;
+    margin-top: 8px;
+    position: relative;
+}
+
+.sponsor_container_ship{
+    margin-top: 32px;
+    display: flex;
+    align-items: baseline;
+    flex-direction: column;
+
+}
+
+.previous_sponsor{
+    position: relative;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 40px;
+    display: flex;
+    color: #A7A9B0;
+    align-self: center;
+}
+
+.previous_sponsor_icon{
+    display: flex;
+    flex-direction:row;
+    position: relative;
+    align-self: center;   
+}
+.sponsor_item{
+    display: flex;
+    flex-direction: row;
+    margin-right: 40px;
+    align-items: center;
+}
+.sponsor_item img{
+    margin-right: 8px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+}
+
+.sponsor_info{
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    gap: 2px;
+
+}
+
+.sponsor_name{
+    font-size: 12px;
+    line-height: 18px;
+    color: #90949C;
+    font-weight: bold;
+}
+.sponsor_year{
+    font-size: 12px;
+    line-height: 18px;
+    color: #90949C;
+    text-align: center;
+}
+
+/*  */
+.footer_bottom{
+    position: relative;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.response_gamebling{
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    display: flex;
+    color: #90949C;
+}
+.text_gamebling{
+    display: flex;
+    align-items: center;
+    margin-bottom: 24px;
+    color: #90949C;
+}
+.text_gamebling_single{
+    font-size: 11px;
+    line-height: 18px;
+    font-family: sans-serif;
+    margin-right: 3px;
+}
+.text_gamebling a{
+    font-size: 12px;
+    line-height: 18px;
+    text-decoration: underline;
+    color: #90949C;
+
+}
+.text_gamebling a:hover{
+    color: #90949c;
+}
+
+.partner_gamebling{
+    margin-left: auto;
+}
+/*  */
