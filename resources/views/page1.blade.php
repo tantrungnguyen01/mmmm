@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="css/animated_wrapper.css">
     <link rel="stylesheet" href="css/footerminibar.css">
     <link rel="stylesheet" href="css/jackpost.css">
     <link rel="stylesheet" href="css/nhacungcap.css">
@@ -477,6 +479,8 @@
             </div>
         </nav>
     </header>
+
+
 
     {{--  --}}
     <nav class="navbar navbar-expand-lg  navbar-dark" style="background-color:#1A202C; padding-top:90px">
@@ -3047,12 +3051,50 @@
                             M88 cam kết hỗ trợ  
                         </div>
                         
-                        <a  class="text_gamebling_single_a" href="/"> Chơi Game Có Trách Nhiệm </a>
+                        <a  class="" href="/"> Chơi Game Có Trách Nhiệm </a>
                     </div>
                     
                     <div class="partner_gamebling">
+                        <div class="partner_element">
+                            <a href="/">
+                                <img src="{{asset('/image/vanuatu.svg')}}" alt="">
+                            </a>
+                        </div>
 
+                        <div class="partner_element">
+                            <a href="/">
+                                <img src="{{asset('/image/ga.svg')}}" alt="">
+                            </a>
+                        </div>
 
+                        <div class="partner_element">
+                            <a href="/">
+                                <img src="{{asset('/image/itech-labs.svg')}}" alt="">
+                            </a>
+                        </div>
+
+                        <div class="partner_element">
+                            <a href="/">
+                                <img src="{{asset('/image/eighteen.svg')}}" alt="">
+                            </a>
+                        </div>
+                        <div class="partner_element">
+                            <span class="text_gamebling_single_span2">M88.com 2023</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="terms_infor text_gamebling">
+                    <div class="terms_p1">
+                        *Điều Khoản và Điều Kiện được áp dụng. Vui lòng tham khảo mục khuyến mãi để biết thêm chi tiết.
+                        <br>
+                        <br>
+                        Trang web này được vận hành bởi Mountain Breeze Limited, một công ty đã đăng ký tại Cộng hòa Vanuatu (Số đăng ký: 12405 với văn phòng đăng ký tại Law Partners House, Kumul Highway, Port Vila, Vanuatu, theo Giấy phép Cung Cấp Dịch Vụ Trò chơi Tương tác - IGL25 / 2013 do Bộ Tài chính và Phát triển Kinh tế cấp ngày 8 tháng 7 năm 2013, thời hạn 15 năm.
+                        <br>
+                        <br>
+                        Bằng việc truy cập và tiếp tục sử dụng trang web này Thành viên chấp nhận điều khoản sử dụng cookie. Để biết thông tin về việc sử dụng cookie của chúng tôi và làm thế nào để tránh vi phạm các quy định, vui lòng tham khảo
+                        <br>
+                        <a class="text_gamebling_single_a"  href="/"> Điều Khoản Sử Dụng tại M88 </a>
                     </div>
                 </div>
             </div>
@@ -3061,6 +3103,40 @@
         </div>
     </footer>
 
+    {{-- cái hình nhỏ nhỏ nằm bên góc phải website --}}
+        <div class="animated_widget_wrapper">
+            
+            <div class="animated_widget">
+                <div class="animated_widget_close"></div>
+                <img src="{{asset('/image/candy-rush-m88.gif')}}" alt="">
+            </div>
+        </div>
+    {{-- end hình nhỏ nhỏ  --}}
+
+    {{-- thanh chat fake --}}
+    <div class="live_engage_floating_vn">
+        <div class="live_engage_floating_vn_fake_support">
+            <div class="live_engage_floating_button">
+                
+                <span>Hỗ Trợ Trực Tuyến</span>
+            </div>
+        </div>
+    </div>
+    {{-- end thanh chat fake --}}
+
+
+
+    {{-- phần login --}}
+    <div class="login_popup">
+        <div class="modal_overlay_login active">
+            <div class="modal_content">
+                <div class="modal_header">
+                    <div class="modal_close"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    {{-- end login --}}
 </body>
 
 
@@ -3313,6 +3389,27 @@
           },
           "retina_detect": true
         });
+</script>
+
+<script>
+    $(document).ready(function () {
+        $(".animated_widget_close").on("click", function () {
+            $('.animated_widget').hide()
+        });
+    });
+</script>
+
+<script>
+    $(document).ready(function(){
+        $(".modal_close").on("click",function(){
+            $('.modal_overlay_login').hide()
+        });
+
+        $(".button_signin").on("click",function(){
+            $('.modal_overlay_login').show()
+        });
+        
+    });
 </script>
 
 </html>

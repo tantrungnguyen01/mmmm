@@ -1243,6 +1243,11 @@
     font-family: sans-serif;
     margin-right: 3px;
 }
+.text_gamebling_single_span2{
+    font-size: 12px;
+    line-height: 18px;
+    margin-right: 3px;
+}
 .text_gamebling a{
     font-size: 12px;
     line-height: 18px;
@@ -1255,6 +1260,18 @@
 }
 
 .partner_gamebling{
+    display: flex;
     margin-left: auto;
+    margin-bottom: 24px;
+    align-items: center;
+}
+
+.partner_element{
+    margin-right: 16px;
+}
+.terms_p1{
+    font-size: 11px;
+    color: #90949C;
+    line-height: 20px;
 }
 /*  */
