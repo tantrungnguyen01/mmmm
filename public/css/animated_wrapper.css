@@ -8,10 +8,12 @@
     bottom: 100px;
     right: 8px;
     display: block;
+    cursor: pointer;
 }
 .animated_widget img{
     width: 100px;
     height: 100px;
+    
 }
 .animated_widget_close{
     top: 0px;

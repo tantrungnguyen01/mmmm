@@ -510,7 +510,7 @@
                                     <p class="text-white more_infor">Chi Tiết</p>
                                 </div>
                                 <!-- /.col-md-4  -->
-                                <div class="">
+                                <div class="button_signin">
                                     <a href="/">
                                         <img src="{{ asset('image/msports_VN.png') }}" alt="Web Design Guides"
                                             class="img_fluid scale_img">
@@ -3104,7 +3104,7 @@
     </footer>
 
     {{-- cái hình nhỏ nhỏ nằm bên góc phải website --}}
-        <div class="animated_widget_wrapper">
+        <div  class="animated_widget_wrapper button_signin">
             
             <div class="animated_widget">
                 <div class="animated_widget_close"></div>
@@ -3114,7 +3114,7 @@
     {{-- end hình nhỏ nhỏ  --}}
 
     {{-- thanh chat fake --}}
-    <div class="live_engage_floating_vn">
+    <div class="live_engage_floating_vn button_signin">
         <div class="live_engage_floating_vn_fake_support">
             <div class="live_engage_floating_button">
                 
@@ -3128,7 +3128,7 @@
 
     {{-- phần login --}}
     <div class="login_popup">
-        <div class="modal_overlay_login active">
+        <div class="modal_overlay_login">
             <div class="modal_content">
                 <div class="modal_header">
                     <div class="modal_close"></div>
@@ -3402,12 +3402,16 @@
 <script>
     $(document).ready(function(){
         $(".modal_close").on("click",function(){
-            $('.modal_overlay_login').hide()
+            $('.modal_overlay_login').removeClass('active ')
+            $('#bady').removeClass('active');
         });
 
         $(".button_signin").on("click",function(){
-            $('.modal_overlay_login').show()
+            $('.modal_overlay_login').addClass('active ')
+            $('#bady').addClass('active');
         });
+
+        
         
     });
 </script>
