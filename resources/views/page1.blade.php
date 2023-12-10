@@ -3170,7 +3170,12 @@
 
 
                                 <div class="input_wrapper_check_box">
+                                    <label for="checkbox_active" class="checkbox_label">
+                                        Duy trì trạng thái đăng nhập
+                                        <input id="checkbox_active" type="checkbox">
+                                        <span  class="checkmark"></span>
                                     
+                                    </label>
                                 </div>
                             </div>
 
