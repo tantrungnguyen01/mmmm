@@ -510,7 +510,7 @@
                                     <p class="text-white more_infor">Chi Tiết</p>
                                 </div>
                                 <!-- /.col-md-4  -->
-                                <div class="button_signin">
+                                <div class="">
                                     <a href="/">
                                         <img src="{{ asset('image/msports_VN.png') }}" alt="Web Design Guides"
                                             class="img_fluid scale_img">
@@ -3133,6 +3133,50 @@
                 <div class="modal_header">
                     <div class="modal_close"></div>
                 </div>
+
+                <div class="modal_body">
+                    <div class="modal_body_title">
+                        <img src="{{asset('/image/logo-desktop.svg')}}" alt="">
+                    </div>
+
+                    <div class="modal_body_content">
+                        <form action="" method="">
+                            <div class="input_area">
+                                <label class="input_top_text" for="">Tên Đăng Nhập</label>
+                                <div class="input_wrapper">
+                                    <div class="input">
+                                        <input class="validation error" type="text" placeholder="Điền tên đăng nhập" id="PrimaryLoginCredValidation">
+                                        <div class=" icons icon_right error"></div>    
+                                    </div>
+
+                                    <div class="input_bottom_text">
+                                        <label id="PrimaryLoginCred-error" for="">Tên đăng nhập là yêu cầu bắt buộc.</label>
+                                    </div>
+                                </div>
+
+
+                                <label class="input_top_text" for="">Mật Khẩu</label>
+                                <div class="input_wrapper">
+                                    <div class="input">
+                                        <input class="validation2 error" type="password" placeholder="Nhập Mật Khẩu Hiện Tại" id="PrimaryLoginCredValidation2">
+                                        <div class=" icons icon_right2 error"></div> 
+                                        <div class=" icons icon_eye_show toggle"></div>   
+                                    </div>
+
+                                    <div class="input_bottom_text">
+                                        <label id="PrimaryLoginCred-error2" for="">Mật Khẩu là yêu cầu bắt buộc.</label>
+                                    </div>
+                                </div>
+
+
+                                <div class="input_wrapper_check_box">
+                                    
+                                </div>
+                            </div>
+
+                        </form>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -3414,6 +3458,53 @@
         
         
     });
+</script>
+
+<script>
+    $(document).ready(function(){
+        $('#PrimaryLoginCredValidation').on('input',function(){
+            if($(this).val().trim() !== ''){
+                $('.icon_right').removeClass('error').addClass('valid')
+                $('.validation').removeClass('error').addClass('valid')
+                $('#PrimaryLoginCred-error').hide();
+            }else{
+                $('.icon_right').removeClass('valid').addClass('error')
+                $('.validation').removeClass('valid').addClass('error')
+                $('#PrimaryLoginCred-error').show();
+            }
+        })
+
+        $('#PrimaryLoginCredValidation2').on('input',function(){
+            if($(this).val().trim() !== ''){
+                $('.icon_right2').removeClass('error').addClass('valid')
+                $('.validation2').removeClass('error').addClass('valid')
+                $('#PrimaryLoginCred-error2').hide();
+            }else{
+                $('.icon_right2').removeClass('valid').addClass('error')
+                $('.validation2').removeClass('valid').addClass('error')
+                $('#PrimaryLoginCred-error2').show();
+            }
+        })
+
+    })
+</script>
+
+
+<script>
+    $(document).ready(function(){
+        $('.icon_eye_show').on('click',function(){
+            // $('.icon_eye_show').toggleClass('toggle')
+
+            if($('#PrimaryLoginCredValidation2').attr('type') === 'password'){
+                $('#PrimaryLoginCredValidation2').attr('type','text');
+                $(this).removeClass('toggle')
+            }else{
+                $('#PrimaryLoginCredValidation2').attr('type','password');
+                $(this).addClass('toggle')
+            }
+        })
+    })
+
 </script>
 
 </html>
