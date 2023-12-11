@@ -279,3 +279,37 @@
 .input_wrapper_check_box .checkbox_label:hover .checkmark{
     background-color: #A7A9B0;
 }
+
+/* forget pass */
+.foget_btn{
+    padding-top: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    color: #FFFF;
+}
+
+.foget_btn .forget_btn_text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 900;
+    text-transform: uppercase;
+    border-radius: 60px;
+    cursor: pointer;
+    transition: all .5s;
+    box-sizing: border-box;
+    white-space: nowrap;
+    color: #FFFF;
+    padding: 16px 32px;
+    background-color: rgba(0,0,0,0);
+    border: 1px solid rgba(0,0,0,0);
+    font-size: 15px;
+
+}
+
+.foget_btn .forget_btn_text:hover{
+    background-color: #4E5461;
+}
+/* end forget pass */

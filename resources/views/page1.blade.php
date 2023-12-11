@@ -280,9 +280,9 @@
 
 <body id="bady">
     <header class="header_css">
-        <nav class="navbar bg-body-tertiary text-white" style="margin: 0px 299px">
+        <nav class="navbar bg-body-tertiary text-white" style="">
             <div class="container-fluid style_nav">
-                <a href="/" class="navbar-brand">
+                <a href="/" class="logo_desktop">
                     <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
                         preserveAspectRatio="xMidYMid meet" width="200" height="48" viewBox="0 0 200 48"
                         style="width:100%;height:100%">
@@ -455,13 +455,17 @@
                         <g id="time_group" />
                     </svg>
                 </a>
+
+                <a href="/" class="logo_mobile">
+                    <img src="{{asset('/image/mlogo-mobile.svg')}}" alt="">
+                </a>
                 {{-- <form class="d-flex" role="search">
                 <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                 <button class="btn btn-outline-success" type="submit">Search</button>
               </form> --}}
 
 
-                <div class="d-flex align-items-center">
+                <div class="header_content_right">
                     <div class="switch d-flex">
                         <span class="span_switch">nền tối</span>
 
@@ -472,9 +476,59 @@
                         </div>
 
                     </div>
-                    <button class=" btn button_signin">đăng nhập</button>
-                    <button class=" btn button_signup">đăng ký</button>
+                    <button class=" btn button_signin button_signin_tablet">đăng nhập</button>
+                    <button class=" btn button_signin button_signup button_signup_tablet">đăng ký</button>
+
+                    
                 </div>
+
+                {{-- mobile --}}
+                <label for="side-menu-toggle" class="layout_side_menu_overlay"></label>
+                <div class="side_menu">
+                    <div id="burger-header-container" class="side-menu-header">
+                        <label for="side-menu-toggle">
+                            <div id="burger-close-icon" class="close-icon">
+
+                            </div>
+                        </label>
+
+                        <div class="ml-2 side_right_item">
+                            <a class="d-flex items align-items-center" href="/">
+                                <img src="{{ asset('image/flag.vi-VN.svg') }}"
+                                    style="width: 18px;
+                                height: 18px; margin-right:4px" alt="">
+                                <span>Tiếng Việt (VND)
+                                    <i class=" fa-solid fa-angle-down"></i>
+                                </span>
+            
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="dynamic_content">
+                        <div class="area_sportbook">
+                            <div class="area_sportbook_content">
+                                <img src="{{asset('/image/icon-logo-m88-laliga.svg')}}" alt="">
+                                <span class="area_sportbook_content_span">150% THƯỞNG CHÀO MỪNG</span>
+                                <span class="area_sportbook_content_span1">THÀNH VIÊN MỚI</span>
+                                <a href="/" class="area_sportbook_content_a">
+                                    <span class="button_signup_tablet1">ĐĂNG KÝ NGAY</span>
+                                </a>
+                                <div class="header_login">
+                                    <span class="text_sm">Đã là thành viên hay chưa?</span>
+                                    <a href="" class="text_sm_a1">
+                                        <span>Đăng nhập tại đây</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="">
+                            
+                        </div>
+                    </div>
+                </div>
+                {{-- end mobile --}}
 
             </div>
         </nav>
@@ -3177,9 +3231,15 @@
                                     
                                     </label>
                                 </div>
+
+                                <button class="button_sign_in_president1">Đăng Nhập</button>
                             </div>
 
                         </form>
+
+                        <div class="foget_btn">
+                            <button class="forget_btn_text">Quên Thông Tin Đăng Nhập?</button>
+                        </div>
                     </div>
                 </div>
             </div>

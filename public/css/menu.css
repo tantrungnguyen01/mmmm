@@ -53,6 +53,23 @@
         transition: all .5s;
         white-space: nowrap;
 }
+.button_sign_in_president1{
+        color: #222939;
+        background-color: #CAAB72;
+        border: 1px solid rgba(0, 0, 0, 0);
+        padding: 16px 32px;
+        font-size: 14px;
+        font-weight: 800;
+        text-transform: uppercase;
+        border-radius: 60px;
+        transition: all .5s;
+        white-space: nowrap;
+        cursor: pointer;
+        margin-top: 32px;   
+}
+.button_sign_in_president1:hover{
+    background-color: #D7C095;
+}
 .content_wrapper_president{
     margin-left: 228px;
     display: flex;
