@@ -523,8 +523,113 @@
                             </div>
                         </div>
 
-                        <div class="">
-                            
+                        <div class="area_sportbook ">
+                            <div class="side-menu-title-nav-element">
+                                <div class="title-nav-element">
+                                    <a href="/" class="button_signin">
+                                        <div class="side-menu-title">
+                                            <div class="side-menu-icon"></div>
+                                            <span>TRANG CHỦ</span>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="title-nav-element">
+                                    <a href="/" class="button_signin">
+                                        <div class="side-menu-title ">
+                                            <div class="side-menu-icon1"></div>
+                                            <span>THỂ THAO</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="title-nav-element">
+                                    <a href="/" class="button_signin">
+                                        <div class="side-menu-title">
+                                            <div class="side-menu-icon2"></div>
+                                            <span>THỂ THAO ĐIỆN TỬ</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="title-nav-element">
+                                    <a href="/" class="button_signin">
+                                        <div class="side-menu-title">
+                                            <div class="side-menu-icon3 "></div>
+                                            <span>CASINO TRỰC TUYẾN</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="title-nav-element">
+                                    
+                                    <a href="/" class="button_signin">
+                                        <span class="new_content1">MỚI</span>
+                                        <div class="side-menu-title">
+                                            
+                                            <div class="side-menu-icon4"></div>
+                                            <span>SLOT/BẮN CÁ</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="title-nav-element">
+                                    <a href="/" class="button_signin">
+                                        <span class="new_content1">MỚI</span>
+                                        <div class="side-menu-title">
+                                            <div class="side-menu-icon5 "></div>
+                                            <span>ĐÁ GÀ</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="title-nav-element">
+                                    <a href="/" class="button_signin">
+                                        <span class="new_content1">MỚI</span>
+                                        <div class="side-menu-title">
+                                            <div class="side-menu-icon6 "></div>
+                                            <span>TRADING</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="title-nav-element">
+                                    <a href="/" class="button_signin">
+                                        <div class="side-menu-title">
+                                            <div class="side-menu-icon7 "></div>
+                                            <span>KENO/XỔ SỐ</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                
+                                <div class="title-nav-element">
+                                    <a href="/" class="button_signin">
+                                        <span class="new_content1">MỚI</span>
+                                        <div class="side-menu-title">
+                                            <div class="side-menu-icon8 "></div>
+                                            <span>P2P</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="title-nav-element">
+                                    <a href="/" class="button_signin">
+                                        <div class="side-menu-title">
+                                            <div class="side-menu-icon9 "></div>
+                                            <span>ĐỘC QUYỀN</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="title-nav-element">
+                                    <a href="/" class="button_signin">
+                                        <div class="side-menu-title">
+                                            <div class="side-menu-icon10 "></div>
+                                            <span>KHUYẾN MÃI</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="title-nav-element">
+                                    <a href="/" class="button_signin">
+                                        <div class="side-menu-title">
+                                            <div class="side-menu-icon11 "></div>
+                                            <span>VIP</span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -3570,6 +3675,20 @@
         })
     })
 
+</script>
+
+<script>
+    $(document).ready(function(){
+        $('.title-nav-element a').on('click',function(e){
+             e.preventDefault();
+
+            $('.title-nav-element a').removeClass('selected');
+            $('.side-menu-icon , .side-menu-icon1 , .side-menu-icon2 , .side-menu-icon3 ,.side-menu-icon4 , .side-menu-icon5 ,.side-menu-icon6,.side-menu-icon7 ,.side-menu-icon8, .side-menu-icon9, .side-menu-icon10, .side-menu-icon11').removeClass('selected')
+
+            $(this).addClass('selected').parent().addClass('selected');
+            $(this).closest('.title-nav-element').find('.side-menu-icon, .side-menu-icon1, .side-menu-icon2 , .side-menu-icon3 , .side-menu-icon4 , .side-menu-icon5 ,.side-menu-icon6,.side-menu-icon7 ,.side-menu-icon8, .side-menu-icon9, .side-menu-icon10, .side-menu-icon11').addClass('selected')
+        })
+    })
 </script>
 
 </html>

@@ -129,6 +129,17 @@
   padding: 3px 4px;
   color: #ffff;
 }
+.new_content1 {
+  background-color: #C9334E;
+  border-radius: 2px;
+  line-height: 12px;
+  font-size: 8px;
+  padding: 3px 4px;
+  color: #ffff;
+  position: absolute;
+  margin-left: 64px;
+  margin-top: 8px;
+}
 
 #realtime {
   font-size: 13.5px;
