@@ -27,9 +27,7 @@
     display: none;
 }
 
-#bady.active {
-    overflow: hidden;
-}
+
 
 
 .login_popup .modal_overlay_login.active {

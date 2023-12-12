@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="no-js">
 
 <head>
     <meta charset="UTF-8">
@@ -3874,11 +3874,19 @@
     $(document).ready(function() {
         $('#burger-close-icon').click(function() {
             $('.header_css .side_menu').addClass('sliding-out');
+            
         });
+
+        $('#side-menu-toggle').click(function(){
+            $('#bady').addClass('active');
+        });
+            
+        
 
         $('.header_css .side_menu').on('animationend', function() {
             if ($(this).hasClass('sliding-out')) {
                 $(this).removeClass('sliding-out');
+                $('#bady').removeClass('active');
             }
         });
     })

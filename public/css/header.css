@@ -1,9 +1,18 @@
+#bady.active {
+  overflow: hidden;
+}
+
+.no-js{
+  overflow: auto;
+}
+
 #bady {
   font-family: 'Roboto', sans-serif;
   height: 100vh;
   width: 100%;
   background-color: #F4F4F5;
   /* transition: all 0.5s ease; */
+  overflow: auto;
 }
 
 #bady.dark_mode {
@@ -121,6 +130,7 @@
   }
 }
 
+
 /* side menu toggle */
 #side-menu-toggle:checked~.side_menu{
   display: block;
@@ -134,12 +144,15 @@
 
 
 
-
+/* làm cho thanh cuộn mất đi trên trình duyệt */
+.header_css .side_menu::-webkit-scrollbar{
+  width: 0;
+}
+/* end làm thanh cuộn mất đi trên trình duyệt */
 
 
 
 /* end toggle */
-
 .header_css .side_menu {
   flex-direction: column;
   align-items: center;
@@ -154,7 +167,6 @@
   background-color: #222939;
   background-image: url('/image/side-menu-background.jpg');
   background-size: cover;
-
   display: none;
 }
 .header_css .side_menu.sliding-out{
@@ -162,7 +174,7 @@
   animation: side-out .3s;
 }
 
-.side_menu .side-menu-header {
+.side_menu .side-menu-header{
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -576,7 +588,7 @@
 /* checkbox */
 body {
   background: whitesmoke;
-
+  overflow: auto;
 }
 
 body h4 {
