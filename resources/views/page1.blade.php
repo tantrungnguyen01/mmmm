@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/responsive_tablet.css">
     <link rel="stylesheet" href="css/login.css">
     <link rel="stylesheet" href="css/animated_wrapper.css">
     <link rel="stylesheet" href="css/footerminibar.css">
@@ -457,7 +458,7 @@
                 </a>
 
                 <a href="/" class="logo_mobile">
-                    <img src="{{asset('/image/mlogo-mobile.svg')}}" alt="">
+                    <img src="{{ asset('/image/mlogo-mobile.svg') }}" alt="">
                 </a>
                 {{-- <form class="d-flex" role="search">
                 <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
@@ -479,13 +480,15 @@
                     <button class=" btn button_signin button_signin_tablet">đăng nhập</button>
                     <button class=" btn button_signin button_signup button_signup_tablet">đăng ký</button>
 
-                    
+
                 </div>
 
                 {{-- mobile --}}
+                <input id="side-menu-toggle" type="checkbox" style="display: none;">
                 <label for="side-menu-toggle" class="layout_side_menu_overlay"></label>
-                <div class="side_menu">
+                <div class="side_menu ">
                     <div id="burger-header-container" class="side-menu-header">
+
                         <label for="side-menu-toggle">
                             <div id="burger-close-icon" class="close-icon">
 
@@ -496,11 +499,12 @@
                             <a class="d-flex items align-items-center" href="/">
                                 <img src="{{ asset('image/flag.vi-VN.svg') }}"
                                     style="width: 18px;
-                                height: 18px; margin-right:4px" alt="">
+                                height: 18px; margin-right:4px"
+                                    alt="">
                                 <span>Tiếng Việt (VND)
                                     <i class=" fa-solid fa-angle-down"></i>
                                 </span>
-            
+
                             </a>
                         </div>
                     </div>
@@ -508,7 +512,7 @@
                     <div class="dynamic_content">
                         <div class="area_sportbook">
                             <div class="area_sportbook_content">
-                                <img src="{{asset('/image/icon-logo-m88-laliga.svg')}}" alt="">
+                                <img src="{{ asset('/image/icon-logo-m88-laliga.svg') }}" alt="">
                                 <span class="area_sportbook_content_span">150% THƯỞNG CHÀO MỪNG</span>
                                 <span class="area_sportbook_content_span1">THÀNH VIÊN MỚI</span>
                                 <a href="/" class="area_sportbook_content_a">
@@ -523,7 +527,7 @@
                             </div>
                         </div>
 
-                        <div class="area_sportbook ">
+                        <div class="area_sportbook" style="margin-bottom: 32px;">
                             <div class="side-menu-title-nav-element">
                                 <div class="title-nav-element">
                                     <a href="/" class="button_signin">
@@ -559,11 +563,11 @@
                                     </a>
                                 </div>
                                 <div class="title-nav-element">
-                                    
+
                                     <a href="/" class="button_signin">
                                         <span class="new_content1">MỚI</span>
                                         <div class="side-menu-title">
-                                            
+
                                             <div class="side-menu-icon4"></div>
                                             <span>SLOT/BẮN CÁ</span>
                                         </div>
@@ -595,7 +599,7 @@
                                         </div>
                                     </a>
                                 </div>
-                                
+
                                 <div class="title-nav-element">
                                     <a href="/" class="button_signin">
                                         <span class="new_content1">MỚI</span>
@@ -630,6 +634,88 @@
                                     </a>
                                 </div>
                             </div>
+                        </div>
+
+                        <div class="area_sportbook" style="margin-bottom: 48px;">
+                            <div class=" d-flex flex-column mx-3">
+                                <span class="span_refer">Link Khác</span>
+
+                                <div class="mb-2">
+                                    <a href="" class="d-flex align-items-center flex-row">
+                                        <div class="icon_refer_responsive"></div>
+                                        <span class="icon_refer_responsive_text">GIỚI THIỆU BẠN BÈ</span>
+                                    </a>
+                                </div>
+
+                                <div class="mb-2">
+                                    <a href="" class="d-flex align-items-center flex-row">
+                                        <div class="icon_refer_responsive1"></div>
+                                        <span class="icon_refer_responsive_text">GIỚI THIỆU VỀ M88</span>
+                                    </a>
+                                </div>
+
+                                <div class="mb-2">
+                                    <a href="" class="d-flex align-items-center flex-row">
+                                        <div class="icon_refer_responsive2"></div>
+                                        <span class="icon_refer_responsive_text">ĐẠI LÝ</span>
+                                    </a>
+                                </div>
+
+                                <div class="mb-2">
+                                    <a href="" class="d-flex align-items-center flex-row">
+                                        <div class="icon_refer_responsive3"></div>
+                                        <span class="icon_refer_responsive_text">TRUNG TÂM HỖ TRỢ</span>
+                                    </a>
+                                </div>
+
+                                <div class="mb-2">
+                                    <a href="" class="d-flex align-items-center flex-row">
+                                        <div class="icon_refer_responsive4"></div>
+                                        <span class="icon_refer_responsive_text">LIÊN HỆ VỚI CHÚNG TÔI</span>
+                                    </a>
+                                </div>
+
+                                <div class="mb-2">
+                                    <a href="" class="d-flex align-items-center flex-row">
+                                        <div class="icon_refer_responsive5"></div>
+                                        <span class="icon_refer_responsive_text">HỖ TRỢ TRỰC TUYẾN</span>
+                                    </a>
+                                </div>
+
+                                <div class="mb-2">
+                                    <a href="" class="d-flex align-items-center flex-row">
+                                        <div class="icon_refer_responsive6"></div>
+                                        <span class="icon_refer_responsive_text">ĐƠN VỊ TÀI TRỢ</span>
+                                    </a>
+                                </div>
+
+                                <div class="mb-2">
+                                    <a class="d-flex align-items-center flex-row"
+                                        onclick="toggleDarkMode_responsive()">
+                                        <div class="icon_refer_responsive7"></div>
+                                        <span class="icon_refer_responsive_text">NỀN TỐI</span>
+
+                                        <div class="toggleWrapper">
+                                            <input type="checkbox" name="api_tmdb" class="mobileToggle"
+                                                id="toggle3">
+                                            <label for="toggle3" class="form-label"></label>
+                                        </div>
+                                    </a>
+
+
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                        <div class="area_sportbook flex-row m88-app-content">
+                            <img src="{{ asset('/image/icon-download-banner.png') }}" alt="">
+                            <div class="content_text_responsive">
+                                <span class="content_text_responsive_span1">M88 APP</span>
+                                <span class="content_text_responsive_span2">TẢI ANDROID APP</span>
+                            </div>
+                            <button class="button_responsive">TẢI</button>
                         </div>
                     </div>
                 </div>
@@ -1525,11 +1611,13 @@
                                             <div class=" odd_homeicon col-md-6">
                                                 <div class="homeTeamIcon_first">
                                                     <img class="homeTeamIcon_img"
-                                                        src="{{ asset('/image/Villarreal_CF.png') }}" alt="">
+                                                        src="{{ asset('/image/Villarreal_CF.png') }}"
+                                                        alt="">
                                                 </div>
                                                 <div class="homeTeamIcon">
                                                     <img class="homeTeamIcon_img"
-                                                        src="{{ asset('/image/Panathinaikos.png') }}" alt="">
+                                                        src="{{ asset('/image/Panathinaikos.png') }}"
+                                                        alt="">
                                                 </div>
                                             </div>
                                         </div>
@@ -1570,7 +1658,8 @@
                                                 </div>
                                                 <div class="homeTeamIcon">
                                                     <img class="homeTeamIcon_img"
-                                                        src="{{ asset('/image/Aris_Limassol.png') }}" alt="">
+                                                        src="{{ asset('/image/Aris_Limassol.png') }}"
+                                                        alt="">
                                                 </div>
                                             </div>
                                         </div>
@@ -2143,8 +2232,7 @@
 
                         <div class="swiper-slide swipersilde3" style="display: block">
                             <div class="match_ched_card3 ">
-                                <img class="img_card3" src="{{ asset('/image/sw_bjc.jpg') }}"
-                                    alt="">
+                                <img class="img_card3" src="{{ asset('/image/sw_bjc.jpg') }}" alt="">
                                 <div class="hover_card">
                                     <div class="items_hover">
                                         <button class="button_desktop_president1">CHƠI NGAY</button>
@@ -2177,7 +2265,8 @@
 
                         <div class="swiper-slide swipersilde3" style="display: block">
                             <div class="match_ched_card3 ">
-                                <img class="img_card3" src="{{ asset('/image/QT_BPG-vikingsunleashedreloaded.jpg') }}"
+                                <img class="img_card3"
+                                    src="{{ asset('/image/QT_BPG-vikingsunleashedreloaded.jpg') }}"
                                     alt="">
                                 <div class="hover_card">
                                     <div class="items_hover">
@@ -2188,7 +2277,8 @@
                             <div class="d-flex mt-2">
                                 <img src="{{ asset('/image/icon-provider-BLUEPRINT.svg') }}" alt=""
                                     style="width: 24px ; height: 24px">
-                                <span class="ml-2 dark_mode_span" style="font-size: 14px; white-space:nowrap;">Vikings Unleashed Reloaded</span>
+                                <span class="ml-2 dark_mode_span"
+                                    style="font-size: 14px; white-space:nowrap;">Vikings Unleashed Reloaded</span>
                             </div>
                         </div>
 
@@ -2211,8 +2301,7 @@
 
                         <div class="swiper-slide swipersilde3" style="display: block">
                             <div class="match_ched_card3 ">
-                                <img class="img_card3" src="{{ asset('/image/ADV_10039.jpg') }}"
-                                    alt="">
+                                <img class="img_card3" src="{{ asset('/image/ADV_10039.jpg') }}" alt="">
                                 <div class="hover_card">
                                     <div class="items_hover">
                                         <button class="button_desktop_president1">CHƠI NGAY</button>
@@ -2261,81 +2350,85 @@
 
             <div class="small_provider_titles">
                 <div class="icon_small_provider_titles">
-                    <img src="{{asset('/image/pragmatic.svg')}}" alt="">
+                    <img src="{{ asset('/image/pragmatic.svg') }}" alt="">
                 </div>
 
                 <div class="icon_small_provider_titles">
-                    <img src="{{asset('/image/habanero.svg')}}" alt="">
+                    <img src="{{ asset('/image/habanero.svg') }}" alt="">
                 </div>
                 <div class="icon_small_provider_titles">
-                    <img style="padding: 3px" src="{{asset('/image/relaxgaming.svg')}}" alt="">
+                    <img style="padding: 3px" src="{{ asset('/image/relaxgaming.svg') }}" alt="">
                 </div>
                 <div class="icon_small_provider_titles">
-                    <img style="padding: 10px;" src="{{asset('/image/microgaming.svg')}}" alt="">
+                    <img style="padding: 10px;" src="{{ asset('/image/microgaming.svg') }}" alt="">
                 </div>
                 <div class="icon_small_provider_titles">
-                    <img style="padding: 10px;" src="{{asset('/image/spinix.svg')}}" alt="">
+                    <img style="padding: 10px;" src="{{ asset('/image/spinix.svg') }}" alt="">
                 </div>
                 <div class="icon_small_provider_titles">
-                    <img style="padding: 11px" src="{{asset('/image/netent.svg')}}" alt="">
+                    <img style="padding: 11px" src="{{ asset('/image/netent.svg') }}" alt="">
                 </div>
                 <div class="icon_small_provider_titles">
-                    <img style="padding: 10px" src="{{asset('/image/blueprint.svg')}}" alt="">
+                    <img style="padding: 10px" src="{{ asset('/image/blueprint.svg') }}" alt="">
                 </div>
                 <div class="icon_small_provider_titles">
-                    <img  src="{{asset('/image/pgsoft.svg')}}" alt="">
+                    <img src="{{ asset('/image/pgsoft.svg') }}" alt="">
                 </div>
                 <div class="icon_small_provider_titles">
-                    <img style="padding: 20px" src="{{asset('/image/advantplay.svg')}}" alt="">
+                    <img style="padding: 20px" src="{{ asset('/image/advantplay.svg') }}" alt="">
                 </div>
                 <div class="icon_small_provider_titles">
-                    <img style="padding: 14px;" src="{{asset('/image/facaisen.svg')}}" alt="">
+                    <img style="padding: 14px;" src="{{ asset('/image/facaisen.svg') }}" alt="">
                 </div>
                 <div class="icon_small_provider_titles">
-                    <img style="width: 136px" src="{{asset('/image/jili.svg')}}" alt="">
+                    <img style="width: 136px" src="{{ asset('/image/jili.svg') }}" alt="">
                 </div>
 
                 <div class="icon_small_provider_titles">
-                    <img style="width: 136px" src="{{asset('/image/playtech.svg')}}" alt="">
+                    <img style="width: 136px" src="{{ asset('/image/playtech.svg') }}" alt="">
                 </div>
                 <div class="icon_small_provider_titles">
-                    <img style="width: 148px" src="{{asset('/image/skywind.svg')}}" alt="">
+                    <img style="width: 148px" src="{{ asset('/image/skywind.svg') }}" alt="">
                 </div>
                 <div class="icon_small_provider_titles">
-                    <img style="width: 128px" src="{{asset('/image/play-n-go.svg')}}" alt="">
+                    <img style="width: 128px" src="{{ asset('/image/play-n-go.svg') }}" alt="">
                 </div>
                 <div class="icon_small_provider_titles">
-                    <img style="width: 156px" src="{{asset('/image/hacksaw.svg')}}" alt="">
+                    <img style="width: 156px" src="{{ asset('/image/hacksaw.svg') }}" alt="">
                 </div>
                 <div class="icon_small_provider_titles">
-                    <img style="padding:14px" src="{{asset('/image/no-limit.svg')}}" alt="">
+                    <img style="padding:14px" src="{{ asset('/image/no-limit.svg') }}" alt="">
                 </div>
                 <div class="icon_small_provider_titles">
-                    <img style="width: 118px" src="{{asset('/image/spribe.svg')}}" alt="">
+                    <img style="width: 118px" src="{{ asset('/image/spribe.svg') }}" alt="">
                 </div>
                 <div class="icon_small_provider_titles">
-                    <img style="width: 91px" src="{{asset('/image/cq9.svg')}}" alt="">
+                    <img style="width: 91px" src="{{ asset('/image/cq9.svg') }}" alt="">
                 </div>
                 <div class="icon_small_provider_titles">
-                    <img style="width: 136px ; padding: 14px" src="{{asset('/image/redtiger.svg')}}" alt="">
+                    <img style="width: 136px ; padding: 14px" src="{{ asset('/image/redtiger.svg') }}"
+                        alt="">
                 </div>
                 <div class="icon_small_provider_titles">
-                    <img style="width: 136px; padding:15px" src="{{asset('/image/pushgaming.svg')}}" alt="">
+                    <img style="width: 136px; padding:15px" src="{{ asset('/image/pushgaming.svg') }}"
+                        alt="">
                 </div>
                 <div class="icon_small_provider_titles">
-                    <img style="width: 136px; padding:8px" src="{{asset('/image/btg.svg')}}" alt="">
+                    <img style="width: 136px; padding:8px" src="{{ asset('/image/btg.svg') }}" alt="">
                 </div>
                 <div class="icon_small_provider_titles">
-                    <img style="width: 136px; padding:18px" src="{{asset('/image/livespins.svg')}}" alt="">
+                    <img style="width: 136px; padding:18px" src="{{ asset('/image/livespins.svg') }}"
+                        alt="">
                 </div>
                 <div class="icon_small_provider_titles">
-                    <img style="width: 75px" src="{{asset('/image/winfast.svg')}}" alt="">
+                    <img style="width: 75px" src="{{ asset('/image/winfast.svg') }}" alt="">
                 </div>
                 <div class="icon_small_provider_titles">
-                    <img style="width: 136px; padding:11px" src="{{asset('/image/onetouch-casino.svg')}}" alt="">
+                    <img style="width: 136px; padding:11px" src="{{ asset('/image/onetouch-casino.svg') }}"
+                        alt="">
                 </div>
             </div>
-           
+
 
         </div>
 
@@ -2343,7 +2436,7 @@
             <div class="esports_athome_area">
                 <div class="esports_athome">
                     <div class="background_primary_color2"></div>
-                    
+
                     <div class="inner">
                         <div class="esports_athome_parallax">
                             <div class="esports_athome_parallax_player layer-1"></div>
@@ -2360,7 +2453,7 @@
                                     <br>
                                     THAO ĐIỆN TỬ TỐT NHẤT
                                 </h3>
-                                
+
                                 <h4>CHỈ CÓ TẠI CÁC NHÀ CUNG
                                     <br>
                                     CẤP CỦA CHÚNG TÔI
@@ -2369,40 +2462,41 @@
                                 <div class="d-flex">
                                     <div class="esport_athome_parallax_content_partners">
                                         <div class="esport_athome_parallax_content_partners_saba">
-                                            <img src="{{asset('/image/logo-saba-esports.svg')}}" alt="">
+                                            <img src="{{ asset('/image/logo-saba-esports.svg') }}" alt="">
                                         </div>
 
                                     </div>
 
                                     <div class="esport_athome_parallax_content_partners">
                                         <div class="esport_athome_parallax_content_partners_tfgaming">
-                                            <img src="{{asset('/image/logo-tf-gaming.svg')}}" alt="">
+                                            <img src="{{ asset('/image/logo-tf-gaming.svg') }}" alt="">
                                         </div>
 
                                     </div>
 
                                     <div class="esport_athome_parallax_content_partners">
                                         <div class="esport_athome_parallax_content_partners_pinnacle">
-                                            <img src="{{asset('/image/logo-pinnacle-esports.svg')}}" alt="">
+                                            <img src="{{ asset('/image/logo-pinnacle-esports.svg') }}"
+                                                alt="">
                                         </div>
 
                                     </div>
-                                    
+
                                     <div class="esport_athome_parallax_content_partners">
                                         <div class="esport_athome_parallax_content_partners_esoccer">
-                                            <img src="{{asset('/image/logo-esoccer-vn.svg')}}" alt="">
+                                            <img src="{{ asset('/image/logo-esoccer-vn.svg') }}" alt="">
                                         </div>
 
                                     </div>
                                 </div>
-                                
-    
+
+
                             </div>
                         </div>
-                        
+
                     </div>
 
-                    
+
 
                 </div>
             </div>
@@ -2412,7 +2506,7 @@
             <div class="title_compoment my-4">
                 <div class="d-flex justify-content-between align-items-center ">
                     <span class="text_thethao" style="padding-bottom: 9px;">SẢN PHẨM KHÁC</span>
-                    
+
                 </div>
             </div>
 
@@ -2423,10 +2517,11 @@
                             <div class="match_ched_card4">
                                 <img src="{{ asset('image/UFC_VN.jpg') }}" alt="">
                                 <div class="info_box">
-                                    <div class=" text-left w-100 h-100 d-flex justify-content-center align-items-center">
+                                    <div
+                                        class=" text-left w-100 h-100 d-flex justify-content-center align-items-center">
                                         <button class="button_desktop_president1">CHƠI NGAY</button>
                                     </div>
-    
+
                                 </div>
                             </div>
                         </div>
@@ -2439,34 +2534,38 @@
 
                                 <div class="km_title_item">
                                     <div class="km_promo_item">
-                                        <img src="{{asset('/image/sicbo-km-en.jpg')}}" alt="">
-                                        <div class="d-flex align-items-center justify-content-center" style="margin-top: 9px">
+                                        <img src="{{ asset('/image/sicbo-km-en.jpg') }}" alt="">
+                                        <div class="d-flex align-items-center justify-content-center"
+                                            style="margin-top: 9px">
                                             <span>Sic Bo</span>
                                         </div>
                                     </div>
                                     <div class="km_promo_item">
-                                        <img src="{{asset('/image/taixiu-km-en.jpg')}}" alt="">
-                                        <div class="d-flex align-items-center justify-content-center" style="margin-top: 9px">
+                                        <img src="{{ asset('/image/taixiu-km-en.jpg') }}" alt="">
+                                        <div class="d-flex align-items-center justify-content-center"
+                                            style="margin-top: 9px">
                                             <span>Tài Xỉu</span>
                                         </div>
                                     </div>
                                     <div class="km_promo_item">
-                                        <img src="{{asset('/image/Xocdia-km-en.jpg')}}" alt="">
-                                        <div class="d-flex align-items-center justify-content-center" style="margin-top: 9px">
+                                        <img src="{{ asset('/image/Xocdia-km-en.jpg') }}" alt="">
+                                        <div class="d-flex align-items-center justify-content-center"
+                                            style="margin-top: 9px">
                                             <span>Xóc Dĩa 2</span>
                                         </div>
                                     </div>
                                     <div class="km_promo_item">
-                                        <img src="{{asset('/image/baccarat-km-en.jpg')}}" alt="">
-                                        <div class="d-flex align-items-center justify-content-center" style="margin-top: 9px">
+                                        <img src="{{ asset('/image/baccarat-km-en.jpg') }}" alt="">
+                                        <div class="d-flex align-items-center justify-content-center"
+                                            style="margin-top: 9px">
                                             <span>Baccarat</span>
                                         </div>
                                     </div>
                                 </div>
-                                
-                                    
-                                
-                                
+
+
+
+
                             </div>
                         </div>
 
@@ -2475,7 +2574,7 @@
                                 <img src="{{ asset('image/V8_vi-VN.jpg') }}" alt="">
                             </div>
                         </div>
- 
+
                     </div>
                 </div>
             </div>
@@ -2487,7 +2586,7 @@
             <div class="title_compoment my-4">
                 <div class="d-flex justify-content-between align-items-center ">
                     <span class="text_thethao" style="padding-bottom: 9px;">JACKPOTS</span>
-                    
+
                 </div>
             </div>
 
@@ -2496,14 +2595,15 @@
                     <div class="swiper-wrapper ">
                         <div class="swiper-slide swipersilde3">
                             <div class="match_ched_card3">
-                                <img class="img_card3" src="{{ asset('/image/vnnorth-bg.jpg') }}" alt="">
+                                <img class="img_card3" src="{{ asset('/image/vnnorth-bg.jpg') }}"
+                                    alt="">
                                 <div class="title_img_jacpots">
                                     <div>
                                         <span> XỔ SỐ MIỀN BẮC</span>
                                     </div>
 
-                                    <div>   
-                                        <img src="{{asset('image/vnnorth-logo.svg')}}" alt="">
+                                    <div>
+                                        <img src="{{ asset('image/vnnorth-logo.svg') }}" alt="">
                                     </div>
                                 </div>
                                 <button class="button_desktop_president2">CHƠI NGAY</button>
@@ -2512,14 +2612,15 @@
 
                         <div class="swiper-slide swipersilde3">
                             <div class="match_ched_card3">
-                                <img class="img_card3" src="{{ asset('/image/vnsouth-bg.jpg') }}" alt="">
+                                <img class="img_card3" src="{{ asset('/image/vnsouth-bg.jpg') }}"
+                                    alt="">
                                 <div class="title_img_jacpots">
                                     <div>
                                         <span> XỔ SỐ MIỀN NAM</span>
                                     </div>
 
-                                    <div>   
-                                        <img src="{{asset('image/vnnorth-logo.svg')}}" alt="">
+                                    <div>
+                                        <img src="{{ asset('image/vnnorth-logo.svg') }}" alt="">
                                     </div>
                                 </div>
                                 <button class="button_desktop_president2">CHƠI NGAY</button>
@@ -2528,14 +2629,15 @@
 
                         <div class="swiper-slide swipersilde3">
                             <div class="match_ched_card3">
-                                <img class="img_card3" src="{{ asset('/image/vncentral-bg.jpg') }}" alt="">
+                                <img class="img_card3" src="{{ asset('/image/vncentral-bg.jpg') }}"
+                                    alt="">
                                 <div class="title_img_jacpots">
                                     <div>
                                         <span> XỔ SỐ MIỀN TRUNG</span>
                                     </div>
 
-                                    <div>   
-                                        <img src="{{asset('image/vnnorth-logo.svg')}}" alt="">
+                                    <div>
+                                        <img src="{{ asset('image/vnnorth-logo.svg') }}" alt="">
                                     </div>
                                 </div>
                                 <button class="button_desktop_president2">CHƠI NGAY</button>
@@ -2544,14 +2646,15 @@
 
                         <div class="swiper-slide swipersilde3">
                             <div class="match_ched_card3">
-                                <img class="img_card3" src="{{ asset('/image/superspeed-bg.jpg') }}" alt="">
+                                <img class="img_card3" src="{{ asset('/image/superspeed-bg.jpg') }}"
+                                    alt="">
                                 <div class="title_img_jacpots">
                                     <div>
                                         <span> XỔ SỐ SIÊU TỐC</span>
                                     </div>
 
-                                    <div>   
-                                        <img src="{{asset('image/vnnorth-logo.svg')}}" alt="">
+                                    <div>
+                                        <img src="{{ asset('image/vnnorth-logo.svg') }}" alt="">
                                     </div>
                                 </div>
                                 <button class="button_desktop_president2">CHƠI NGAY</button>
@@ -2560,14 +2663,16 @@
 
                         <div class="swiper-slide swipersilde3">
                             <div class="match_ched_card3">
-                                <img class="img_card3" src="{{ asset('/image/internationallottery-bg.jpg') }}" alt="">
+                                <img class="img_card3" src="{{ asset('/image/internationallottery-bg.jpg') }}"
+                                    alt="">
                                 <div class="title_img_jacpots">
                                     <div>
                                         <span> XỔ SỐ NƯỚC NGOÀI</span>
                                     </div>
 
-                                    <div>   
-                                        <img src="{{asset('image/internationallottery-logo.svg')}}" alt="">
+                                    <div>
+                                        <img src="{{ asset('image/internationallottery-logo.svg') }}"
+                                            alt="">
                                     </div>
                                 </div>
                                 <button class="button_desktop_president2">CHƠI NGAY</button>
@@ -2577,14 +2682,15 @@
 
                         <div class="swiper-slide swipersilde3">
                             <div class="match_ched_card3">
-                                <img class="img_card3" src="{{ asset('/image/speedpk10-bg.jpg') }}" alt="">
+                                <img class="img_card3" src="{{ asset('/image/speedpk10-bg.jpg') }}"
+                                    alt="">
                                 <div class="title_img_jacpots">
                                     <div>
                                         <span>ĐUA XE PK10</span>
                                     </div>
 
-                                    <div>   
-                                        <img src="{{asset('image/speedpk10-logo.svg')}}" alt="">
+                                    <div>
+                                        <img src="{{ asset('image/speedpk10-logo.svg') }}" alt="">
                                     </div>
                                 </div>
                                 <button class="button_desktop_president2">CHƠI NGAY</button>
@@ -2594,14 +2700,15 @@
 
                         <div class="swiper-slide swipersilde3">
                             <div class="match_ched_card3">
-                                <img class="img_card3" src="{{ asset('/image/jackpot-home-bg.jpg') }}" alt="">
+                                <img class="img_card3" src="{{ asset('/image/jackpot-home-bg.jpg') }}"
+                                    alt="">
                                 <div class="title_img_jacpots">
                                     <div>
                                         <span>POWERBALL</span>
                                     </div>
 
-                                    <div>   
-                                        <img src="{{asset('image/us_powerball.svg')}}" alt="">
+                                    <div>
+                                        <img src="{{ asset('image/us_powerball.svg') }}" alt="">
                                     </div>
                                 </div>
                                 <button class="button_desktop_president2">CHƠI NGAY</button>
@@ -2610,14 +2717,15 @@
 
                         <div class="swiper-slide swipersilde3">
                             <div class="match_ched_card3">
-                                <img class="img_card3" src="{{ asset('/image/jackpot-home-bg.jpg') }}" alt="">
+                                <img class="img_card3" src="{{ asset('/image/jackpot-home-bg.jpg') }}"
+                                    alt="">
                                 <div class="title_img_jacpots">
                                     <div>
                                         <span>MEGAMILLIONS</span>
                                     </div>
 
-                                    <div>   
-                                        <img src="{{asset('image/us_megamillions.svg')}}" alt="">
+                                    <div>
+                                        <img src="{{ asset('image/us_megamillions.svg') }}" alt="">
                                     </div>
                                 </div>
                                 <button class="button_desktop_president2">CHƠI NGAY</button>
@@ -2625,14 +2733,15 @@
                         </div>
                         <div class="swiper-slide swipersilde3">
                             <div class="match_ched_card3">
-                                <img class="img_card3" src="{{ asset('/image/jackpot-home-bg.jpg') }}" alt="">
+                                <img class="img_card3" src="{{ asset('/image/jackpot-home-bg.jpg') }}"
+                                    alt="">
                                 <div class="title_img_jacpots">
                                     <div>
                                         <span>EUROMILLION</span>
                                     </div>
 
-                                    <div>   
-                                        <img src="{{asset('image/euromillions.svg')}}" alt="">
+                                    <div>
+                                        <img src="{{ asset('image/euromillions.svg') }}" alt="">
                                     </div>
                                 </div>
                                 <button class="button_desktop_president2">CHƠI NGAY</button>
@@ -2640,14 +2749,15 @@
                         </div>
                         <div class="swiper-slide swipersilde3">
                             <div class="match_ched_card3">
-                                <img class="img_card3" src="{{ asset('/image/jackpot-home-bg.jpg') }}" alt="">
+                                <img class="img_card3" src="{{ asset('/image/jackpot-home-bg.jpg') }}"
+                                    alt="">
                                 <div class="title_img_jacpots">
                                     <div>
                                         <span>EUROJACPOT</span>
                                     </div>
 
-                                    <div>   
-                                        <img src="{{asset('image/eurojackpot.svg')}}" alt="">
+                                    <div>
+                                        <img src="{{ asset('image/eurojackpot.svg') }}" alt="">
                                     </div>
                                 </div>
                                 <button class="button_desktop_president2">CHƠI NGAY</button>
@@ -2655,14 +2765,15 @@
                         </div>
                         <div class="swiper-slide swipersilde3">
                             <div class="match_ched_card3">
-                                <img class="img_card3" src="{{ asset('/image/jackpot-home-bg.jpg') }}" alt="">
+                                <img class="img_card3" src="{{ asset('/image/jackpot-home-bg.jpg') }}"
+                                    alt="">
                                 <div class="title_img_jacpots">
                                     <div>
                                         <span>EUROMILLIONS GO</span>
                                     </div>
 
-                                    <div>   
-                                        <img src="{{asset('image/euromillionsgo.svg')}}" alt="">
+                                    <div>
+                                        <img src="{{ asset('image/euromillionsgo.svg') }}" alt="">
                                     </div>
                                 </div>
                                 <button class="button_desktop_president2">CHƠI NGAY</button>
@@ -2670,21 +2781,22 @@
                         </div>
                         <div class="swiper-slide swipersilde3">
                             <div class="match_ched_card3">
-                                <img class="img_card3" src="{{ asset('/image/jackpot-home-bg.jpg') }}" alt="">
+                                <img class="img_card3" src="{{ asset('/image/jackpot-home-bg.jpg') }}"
+                                    alt="">
                                 <div class="title_img_jacpots">
                                     <div>
                                         <span>EUROJACKPOT GO</span>
                                     </div>
 
-                                    <div>   
-                                        <img src="{{asset('image/eurokjpckpotsgo.svg')}}" alt="">
+                                    <div>
+                                        <img src="{{ asset('image/eurokjpckpotsgo.svg') }}" alt="">
                                     </div>
                                 </div>
                                 <button class="button_desktop_president2">CHƠI NGAY</button>
                             </div>
                         </div>
 
-                        
+
 
                     </div>
                 </div>
@@ -2693,7 +2805,7 @@
 
         <div class="content_title_messi">
             <div class="content_title_messi_area">
-                <img src="{{asset('/image/mobile-download_EN.png')}}" alt="">
+                <img src="{{ asset('/image/mobile-download_EN.png') }}" alt="">
                 <div class="content_title_messi_area_multiple">
 
                     <div class="content_title_messi_area_multiple_write">
@@ -2704,15 +2816,17 @@
                         </div>
                     </div>
                     <div class="content_title_messi_area_multiple_img">
-                        <img style="position: relative ; margin-right:20px"  src="{{asset('/image/mobile-android.svg')}}" alt="">
-                        <img style="position: relative ; margin-right:50px" src="{{asset('/image/mobile-apple.svg')}}" alt="">
+                        <img style="position: relative ; margin-right:20px"
+                            src="{{ asset('/image/mobile-android.svg') }}" alt="">
+                        <img style="position: relative ; margin-right:50px"
+                            src="{{ asset('/image/mobile-apple.svg') }}" alt="">
                         <button class="button_desktop_president1" style="margin-right: 5px">TẢI NGAY</button>
                     </div>
 
 
-                    
-                    
-                    
+
+
+
                 </div>
             </div>
         </div>
@@ -2725,32 +2839,58 @@
         </div>
 
         <div class="seo_text_infor_content_text_out_a  container">
-            <a  href="/"><strong>M88 Mansion</strong></a> đã trở thành điểm đến lí tưởng tại <strong >Châu</strong>
-            Á để tham gia cá cược trực tuyến trong suốt hơn 10 năm qua! Với lượng trò chơi casino trực tuyến đa dạng nhất và khuyến mãi chào mừng phong phú nhất. Điều này không khó để giải thích vì sao M88 Mansion trở thành một trong các 
+            <a href="/"><strong>M88 Mansion</strong></a> đã trở thành điểm đến lí tưởng tại
+            <strong>Châu</strong>
+            Á để tham gia cá cược trực tuyến trong suốt hơn 10 năm qua! Với lượng trò chơi casino trực tuyến đa dạng
+            nhất và khuyến mãi chào mừng phong phú nhất. Điều này không khó để giải thích vì sao M88 Mansion trở thành
+            một trong các
             <strong>nhà cái uy tín hàng đầu và</strong> được yêu thích hiện nay.
             <br>
             <br>
             Đến với <strong>M88 Mansion</strong>
             Online Games, thành viên có thể thỏa sức đam mê từ các trò chơi của casino trực tuyến như
-            <strong>Baccarat, Rồng Hổ, Roulette, Blackjack và Sic Bo</strong>  đến các trò chơi quen thuộc như <strong>Poker, Keno</strong>  và Xổ Số luôn có các giải thưởng thêm hấp dẫn hàng tháng. Thành viên sẽ được trải nghiệm cùng hàng loạt các trò chơi trực tuyến đến từ các nhà cung cấp 
-            <strong>uy tín hàng đầu</strong> trong ngành cá cược và đặc biệt hơn, các trò chơi slot mới sẽ luôn được cập nhật thường xuyên. Hai trò chơi mới hàng đầu sẽ được ra mắt mỗi tuần, thành viên còn có thể tận hưởng có game độc quyền chỉ có tại 
-            <strong>M88 Mansion</strong> với các giải thưởng và khuyến mãi đặc biệt. Từ đây, <strong>M88 Mansion</strong>  sẽ luôn thông báo các người chiến thắng jackpot tại máy xèng trực tuyến như 
+            <strong>Baccarat, Rồng Hổ, Roulette, Blackjack và Sic Bo</strong> đến các trò chơi quen thuộc như
+            <strong>Poker, Keno</strong> và Xổ Số luôn có các giải thưởng thêm hấp dẫn hàng tháng. Thành viên sẽ được
+            trải nghiệm cùng hàng loạt các trò chơi trực tuyến đến từ các nhà cung cấp
+            <strong>uy tín hàng đầu</strong> trong ngành cá cược và đặc biệt hơn, các trò chơi slot mới sẽ luôn được cập
+            nhật thường xuyên. Hai trò chơi mới hàng đầu sẽ được ra mắt mỗi tuần, thành viên còn có thể tận hưởng có
+            game độc quyền chỉ có tại
+            <strong>M88 Mansion</strong> với các giải thưởng và khuyến mãi đặc biệt. Từ đây, <strong>M88
+                Mansion</strong> sẽ luôn thông báo các người chiến thắng jackpot tại máy xèng trực tuyến như
             <strong>Mega Moolah, Journey to the West, Fortunate 5</strong>, và nhiều trò khác.
             <br>
             <br>
-            <strong>M88 Mansion</strong> không chỉ cung cấp các trò chơi casino trực tuyến tốt nhất, mà còn đưa ra tỉ lệ cược cạnh tranh nhất tại các sự kiện thể thao lớn nhất hành tinh. Những người hâm mộ thể thao muốn hoà mình cùng các trận đấu mong đợi nhất có thể tham gia dự đoán các trận cầu được cung ứng trên thị trường đa dạng. Với 
-            <a  href="/"><strong>M88 Mansion Sport</strong></a> , thành viên có thể cổ vũ hoặc đặt cược các giải đấu lớn nhất cho đội bóng và cầu thủ yêu thích – như tại bóng đá, bóng rổ, bóng bầu dục, quần vợt, cầu lông, khúc côn cầu, bóng chuyền, gôn, cricket, Muay Thai hoặc bóng chày. Người hâm mộ bóng đá có thể đặt cược cho đội bóng yêu thích của mình tại các giải đấu Ngoại Hạng Anh, 
-            <strong>Serie A Ý, Bundesliga Đức, La Liga Tây Ban Nha hay World Cup</strong>  cũng là nhà cái đáng tin cậy nhất vì thế thành viên luôn an tâm về sự hữu ích của đồng tiền mình bỏ ra.
+            <strong>M88 Mansion</strong> không chỉ cung cấp các trò chơi casino trực tuyến tốt nhất, mà còn đưa ra tỉ lệ
+            cược cạnh tranh nhất tại các sự kiện thể thao lớn nhất hành tinh. Những người hâm mộ thể thao muốn hoà mình
+            cùng các trận đấu mong đợi nhất có thể tham gia dự đoán các trận cầu được cung ứng trên thị trường đa dạng.
+            Với
+            <a href="/"><strong>M88 Mansion Sport</strong></a> , thành viên có thể cổ vũ hoặc đặt cược các giải
+            đấu lớn nhất cho đội bóng và cầu thủ yêu thích – như tại bóng đá, bóng rổ, bóng bầu dục, quần vợt, cầu lông,
+            khúc côn cầu, bóng chuyền, gôn, cricket, Muay Thai hoặc bóng chày. Người hâm mộ bóng đá có thể đặt cược cho
+            đội bóng yêu thích của mình tại các giải đấu Ngoại Hạng Anh,
+            <strong>Serie A Ý, Bundesliga Đức, La Liga Tây Ban Nha hay World Cup</strong> cũng là nhà cái đáng tin cậy
+            nhất vì thế thành viên luôn an tâm về sự hữu ích của đồng tiền mình bỏ ra.
             <br>
             <br>
-            Để tham gia <strong>M88 Mansion</strong> rất đơn giản, với quy trình đăng ký đơn giản cũng như các phương thức gửi và rút tiền có thể giao dịch mọi lúc, mọi nơi. Việc đăng ký có thể thực hiện trên máy tính và trang dành cho di động hoặc sử dụng ứng dụng cho trên di động cho Android hoặc iOS. Thành viên mới có thể nhận thêm khuyến mãi 
-            <a  href="/"><strong>175% Thưởng Chào Mừng</strong></a> khi gửi tiền lần đầu tại <a  href="/"><strong>casino trực tuyến</strong></a> đặc biệt nhất. Thành viên cũng hoàn toàn có thể yên tâm về việc bảo mật thông tin được ưu tiên hàng đầu. Do vậy, tất cả các thông tin cá nhân đăng ký 100% an toàn, và không bao giờ bị đánh cắp. Đó cũng là lý do tại sao 
-            <strong>M88 Mansion</strong> nổi tiếng về sự <strong>Uy Tín</strong> khắp <strong>châu Á</strong>. Cùng với Hỗ trợ khách hàng 24/7 và <strong>M88 Mansion</strong> mobile, thành viên sẽ cảm nhận kinh nghiệm cá cược trực tuyến tốt nhất tại 
-            <strong>Châu Á</strong> khi tham gia slot games, casino trực tuyến, keno & xổ số, thể thao, và poker mọi lúc, mọi nơi.
+            Để tham gia <strong>M88 Mansion</strong> rất đơn giản, với quy trình đăng ký đơn giản cũng như các phương
+            thức gửi và rút tiền có thể giao dịch mọi lúc, mọi nơi. Việc đăng ký có thể thực hiện trên máy tính và trang
+            dành cho di động hoặc sử dụng ứng dụng cho trên di động cho Android hoặc iOS. Thành viên mới có thể nhận
+            thêm khuyến mãi
+            <a href="/"><strong>175% Thưởng Chào Mừng</strong></a> khi gửi tiền lần đầu tại <a
+                href="/"><strong>casino trực tuyến</strong></a> đặc biệt nhất. Thành viên cũng hoàn toàn có thể
+            yên tâm về việc bảo mật thông tin được ưu tiên hàng đầu. Do vậy, tất cả các thông tin cá nhân đăng ký 100%
+            an toàn, và không bao giờ bị đánh cắp. Đó cũng là lý do tại sao
+            <strong>M88 Mansion</strong> nổi tiếng về sự <strong>Uy Tín</strong> khắp <strong>châu Á</strong>. Cùng với
+            Hỗ trợ khách hàng 24/7 và <strong>M88 Mansion</strong> mobile, thành viên sẽ cảm nhận kinh nghiệm cá cược
+            trực tuyến tốt nhất tại
+            <strong>Châu Á</strong> khi tham gia slot games, casino trực tuyến, keno & xổ số, thể thao, và poker mọi
+            lúc, mọi nơi.
             <br>
             <br>
-            <a  href="/"><strong>ĐĂNG NHẬP</strong></a> <strong>M88 Mansion</strong> ngay hôm nay và trải nghiệm sự lôi cuốn cuồng nhiệt của các trò chơi casino ngay tại nhà hay bất kỳ đâu cùng với chiếc điện thoại trong tay! Chúc bạn một ngày lành!
-      
+            <a href="/"><strong>ĐĂNG NHẬP</strong></a> <strong>M88 Mansion</strong> ngay hôm nay và trải nghiệm
+            sự lôi cuốn cuồng nhiệt của các trò chơi casino ngay tại nhà hay bất kỳ đâu cùng với chiếc điện thoại trong
+            tay! Chúc bạn một ngày lành!
+
         </div>
     </div>
 
@@ -2766,7 +2906,7 @@
 
                     <div class="partner_shiper">
                         <div class="partner_shiper_single">
-                            <img src="{{asset('/image/partnership-laliga-dark.svg')}}" alt="">
+                            <img src="{{ asset('/image/partnership-laliga-dark.svg') }}" alt="">
                             <span class="span1">
                                 Đối Tác Khu Vực
                                 <br>
@@ -2776,7 +2916,7 @@
                         </div>
 
                         <div class="partner_shiper_single">
-                            <img  src="{{asset('/image/partnership-bwf.svg')}}" alt="">
+                            <img src="{{ asset('/image/partnership-bwf.svg') }}" alt="">
                             <span class="span1">
                                 Đối Tác Cá Cược
                                 <br>
@@ -2786,7 +2926,7 @@
                         </div>
 
                         <div class="partner_shiper_single">
-                            <img src="{{asset('/image/partnership-acmilan.svg')}}" alt="">
+                            <img src="{{ asset('/image/partnership-acmilan.svg') }}" alt="">
                             <span class="span1">
                                 Đối Tác Casino
                                 <br>
@@ -2796,9 +2936,9 @@
                         </div>
 
                         <div class="partner_shiper_single">
-                            <img src="{{asset('/image/partnership-mariaozawa.svg')}}" alt="">
+                            <img src="{{ asset('/image/partnership-mariaozawa.svg') }}" alt="">
                             <span class="span1">
-                                Đối Tác Nổi 
+                                Đối Tác Nổi
                                 <br>
                                 Tiếng M88
                             </span>
@@ -2806,7 +2946,7 @@
                         </div>
 
                         <div class="partner_shiper_single">
-                            <img src="{{asset('/image/partnership-mp.svg')}}" alt="">
+                            <img src="{{ asset('/image/partnership-mp.svg') }}" alt="">
                             <span class="span1">
                                 Đại Sứ M88
                             </span>
@@ -2814,7 +2954,7 @@
                         </div>
 
                         <div class="partner_shiper_single">
-                            <img src="{{asset('/image/partnership-mansion-ag-colored.svg')}}" alt="">
+                            <img src="{{ asset('/image/partnership-mansion-ag-colored.svg') }}" alt="">
                             <span class="span1">
                                 Tài Trợ Chính
                             </span>
@@ -2834,13 +2974,13 @@
 
                     <div class="mini_baner_container">
                         <div class="mini_baner_logo">
-                            <img src="{{asset('/image/m88-io.svg')}}" alt="">
+                            <img src="{{ asset('/image/m88-io.svg') }}" alt="">
                         </div>
 
                         <div class="mini_baner_content">
                             <div class="mini_baner_content_title">
                                 <span>NỀN TẢNG CRYPTO MỚI NHẤT CỦA M88</span>
-                                
+
                             </div>
 
                             <div class="mini_baner_content_subtitle">
@@ -2860,56 +3000,61 @@
 
             <div class="footer_top container">
                 <div class="payment_media_container">
-                        <div class="payment_container">
-                            <div class="payment_method">
-                                <div class="text_payment_tablet_sm">
-                                    <span>Phương Thức Thanh Toán</span>
-                                </div>
+                    <div class="payment_container">
+                        <div class="payment_method">
+                            <div class="text_payment_tablet_sm">
+                                <span>Phương Thức Thanh Toán</span>
+                            </div>
 
-                                <div class="method_container">
-                                    <img src="{{asset('/image/quick-transfer-vn-color.svg')}}" alt="">
-                                </div>
-                                <div class="method_container">
-                                    <img src="{{asset('/image/nine-pay-color.svg')}}" alt="">
-                                </div>
-                                <div class="method_container">
-                                    <img src="{{asset('/image/tether-color.svg')}}" alt="">
-                                </div>
-                                <div class="method_container">
-                                    <img src="{{asset('/image/momo-color.svg')}}" alt="">
-                                </div>
-                                <div class="method_container">
-                                    <img src="{{asset('/image/viettelpay-color.svg')}}" alt="">
-                                </div>
-                                <div class="method_container">
-                                    <div class="m88_io_link d-flex align-items-center">
-                                        <div class="m88_io_diriver">
+                            <div class="method_container">
+                                <img src="{{ asset('/image/quick-transfer-vn-color.svg') }}" alt="">
+                            </div>
+                            <div class="method_container">
+                                <img src="{{ asset('/image/nine-pay-color.svg') }}" alt="">
+                            </div>
+                            <div class="method_container">
+                                <img src="{{ asset('/image/tether-color.svg') }}" alt="">
+                            </div>
+                            <div class="method_container">
+                                <img src="{{ asset('/image/momo-color.svg') }}" alt="">
+                            </div>
+                            <div class="method_container">
+                                <img src="{{ asset('/image/viettelpay-color.svg') }}" alt="">
+                            </div>
+                            <div class="method_container">
+                                <div class="m88_io_link d-flex align-items-center">
+                                    <div class="m88_io_diriver">
 
-                                        </div>
-
-                                        <div class="m88_io_content d-flex align-items-center">
-                                            <div class="content_text_line">
-                                                <span>HƠN 10 LOẠI TIỀN ĐIỆN TỬ CRYPTO</span>
-                                                <br>
-                                                <span>CÓ SẴN TRÊN:</span>
-                                            </div>
-                                            <img class="m88_io_content_img" src="{{asset('/image/m88-io_contet.svg')}}" alt="">
-                                        </div>
                                     </div>
 
+                                    <div class="m88_io_content d-flex align-items-center">
+                                        <div class="content_text_line">
+                                            <span>HƠN 10 LOẠI TIỀN ĐIỆN TỬ CRYPTO</span>
+                                            <br>
+                                            <span>CÓ SẴN TRÊN:</span>
+                                        </div>
+                                        <img class="m88_io_content_img"
+                                            src="{{ asset('/image/m88-io_contet.svg') }}" alt="">
+                                    </div>
                                 </div>
-                            </div>
-                        </div>
 
-                        <div class="ml_auto_tablet">
-                            <div class="social_media">
-                                <div class="facebook"><i class="fa-brands fa-square-facebook fa-2xl" style="color: #065bef;"></i></div>
-                                <div class="instagram"><i class="fa-brands fa-instagram" style="font-size: 2em;line-height: 1em;vertical-align: -0.1875em"></i></div>
-                                <div class="elonmusk"><i class="fa-brands fa-square-x-twitter fa-2xl" style="color: black"></i></div>
-                                <div class="youtube"><i class="fa-brands fa-youtube fa-2xl" style="color: #e10000;"></i></div>
-                                <div class="tiktok"><i class="fa-brands fa-tiktok fa-2xl"></i></div>
                             </div>
                         </div>
+                    </div>
+
+                    <div class="ml_auto_tablet">
+                        <div class="social_media">
+                            <div class="facebook"><i class="fa-brands fa-square-facebook fa-2xl"
+                                    style="color: #065bef;"></i></div>
+                            <div class="instagram"><i class="fa-brands fa-instagram"
+                                    style="font-size: 2em;line-height: 1em;vertical-align: -0.1875em"></i></div>
+                            <div class="elonmusk"><i class="fa-brands fa-square-x-twitter fa-2xl"
+                                    style="color: black"></i></div>
+                            <div class="youtube"><i class="fa-brands fa-youtube fa-2xl"
+                                    style="color: #e10000;"></i></div>
+                            <div class="tiktok"><i class="fa-brands fa-tiktok fa-2xl"></i></div>
+                        </div>
+                    </div>
                 </div>
 
                 <div class="navigate_container d-block">
@@ -2979,7 +3124,7 @@
                     </div>
                 </div>
 
-                
+
             </div>
 
             <div class="footer_center container">
@@ -3168,7 +3313,7 @@
 
                     <div class="previous_sponsor_icon">
                         <div class="sponsor_item">
-                            <img src="{{asset('/image/bournemouth.svg')}}" alt="">
+                            <img src="{{ asset('/image/bournemouth.svg') }}" alt="">
                             <div class="sponsor_info">
                                 <div class="sponsor_name"><span>AFC Bournemouth</span></div>
                                 <div class="sponsor_year"><span>2015 - 2020</span></div>
@@ -3176,7 +3321,7 @@
                         </div>
 
                         <div class="sponsor_item">
-                            <img src="{{asset('/image/crystal-palace.svg')}}" alt="">
+                            <img src="{{ asset('/image/crystal-palace.svg') }}" alt="">
                             <div class="sponsor_info">
                                 <div class="sponsor_name"><span>Crystal Palace</span></div>
                                 <div class="sponsor_year"><span>2015 - 2017</span></div>
@@ -3184,7 +3329,7 @@
                         </div>
 
                         <div class="sponsor_item">
-                            <img src="{{asset('/image/manchester-city.svg')}}" alt="">
+                            <img src="{{ asset('/image/manchester-city.svg') }}" alt="">
                             <div class="sponsor_info">
                                 <div class="sponsor_name"><span>Manchester City</span></div>
                                 <div class="sponsor_year"><span>2011 - 2012</span></div>
@@ -3192,7 +3337,7 @@
                         </div>
 
                         <div class="sponsor_item">
-                            <img src="{{asset('/image/tottenham-hotspur.svg')}}" alt="">
+                            <img src="{{ asset('/image/tottenham-hotspur.svg') }}" alt="">
                             <div class="sponsor_info">
                                 <div class="sponsor_name"><span>Tottenham Hotspur</span></div>
                                 <div class="sponsor_year"><span>2006 - 2010</span></div>
@@ -3207,34 +3352,34 @@
                 <div class="response_gamebling">
                     <div class="text_gamebling">
                         <div class="text_gamebling_single">
-                            M88 cam kết hỗ trợ  
+                            M88 cam kết hỗ trợ
                         </div>
-                        
-                        <a  class="" href="/"> Chơi Game Có Trách Nhiệm </a>
+
+                        <a class="" href="/"> Chơi Game Có Trách Nhiệm </a>
                     </div>
-                    
+
                     <div class="partner_gamebling">
                         <div class="partner_element">
                             <a href="/">
-                                <img src="{{asset('/image/vanuatu.svg')}}" alt="">
+                                <img src="{{ asset('/image/vanuatu.svg') }}" alt="">
                             </a>
                         </div>
 
                         <div class="partner_element">
                             <a href="/">
-                                <img src="{{asset('/image/ga.svg')}}" alt="">
+                                <img src="{{ asset('/image/ga.svg') }}" alt="">
                             </a>
                         </div>
 
                         <div class="partner_element">
                             <a href="/">
-                                <img src="{{asset('/image/itech-labs.svg')}}" alt="">
+                                <img src="{{ asset('/image/itech-labs.svg') }}" alt="">
                             </a>
                         </div>
 
                         <div class="partner_element">
                             <a href="/">
-                                <img src="{{asset('/image/eighteen.svg')}}" alt="">
+                                <img src="{{ asset('/image/eighteen.svg') }}" alt="">
                             </a>
                         </div>
                         <div class="partner_element">
@@ -3248,12 +3393,17 @@
                         *Điều Khoản và Điều Kiện được áp dụng. Vui lòng tham khảo mục khuyến mãi để biết thêm chi tiết.
                         <br>
                         <br>
-                        Trang web này được vận hành bởi Mountain Breeze Limited, một công ty đã đăng ký tại Cộng hòa Vanuatu (Số đăng ký: 12405 với văn phòng đăng ký tại Law Partners House, Kumul Highway, Port Vila, Vanuatu, theo Giấy phép Cung Cấp Dịch Vụ Trò chơi Tương tác - IGL25 / 2013 do Bộ Tài chính và Phát triển Kinh tế cấp ngày 8 tháng 7 năm 2013, thời hạn 15 năm.
+                        Trang web này được vận hành bởi Mountain Breeze Limited, một công ty đã đăng ký tại Cộng hòa
+                        Vanuatu (Số đăng ký: 12405 với văn phòng đăng ký tại Law Partners House, Kumul Highway, Port
+                        Vila, Vanuatu, theo Giấy phép Cung Cấp Dịch Vụ Trò chơi Tương tác - IGL25 / 2013 do Bộ Tài chính
+                        và Phát triển Kinh tế cấp ngày 8 tháng 7 năm 2013, thời hạn 15 năm.
                         <br>
                         <br>
-                        Bằng việc truy cập và tiếp tục sử dụng trang web này Thành viên chấp nhận điều khoản sử dụng cookie. Để biết thông tin về việc sử dụng cookie của chúng tôi và làm thế nào để tránh vi phạm các quy định, vui lòng tham khảo
+                        Bằng việc truy cập và tiếp tục sử dụng trang web này Thành viên chấp nhận điều khoản sử dụng
+                        cookie. Để biết thông tin về việc sử dụng cookie của chúng tôi và làm thế nào để tránh vi phạm
+                        các quy định, vui lòng tham khảo
                         <br>
-                        <a class="text_gamebling_single_a"  href="/"> Điều Khoản Sử Dụng tại M88 </a>
+                        <a class="text_gamebling_single_a" href="/"> Điều Khoản Sử Dụng tại M88 </a>
                     </div>
                 </div>
             </div>
@@ -3263,20 +3413,20 @@
     </footer>
 
     {{-- cái hình nhỏ nhỏ nằm bên góc phải website --}}
-        <div  class="animated_widget_wrapper button_signin">
-            
-            <div class="animated_widget">
-                <div class="animated_widget_close"></div>
-                <img src="{{asset('/image/candy-rush-m88.gif')}}" alt="">
-            </div>
+    <div class="animated_widget_wrapper button_signin">
+
+        <div class="animated_widget">
+            <div class="animated_widget_close"></div>
+            <img src="{{ asset('/image/candy-rush-m88.gif') }}" alt="">
         </div>
+    </div>
     {{-- end hình nhỏ nhỏ  --}}
 
     {{-- thanh chat fake --}}
     <div class="live_engage_floating_vn button_signin">
         <div class="live_engage_floating_vn_fake_support">
             <div class="live_engage_floating_button">
-                
+
                 <span>Hỗ Trợ Trực Tuyến</span>
             </div>
         </div>
@@ -3295,7 +3445,7 @@
 
                 <div class="modal_body">
                     <div class="modal_body_title">
-                        <img src="{{asset('/image/logo-desktop.svg')}}" alt="">
+                        <img src="{{ asset('/image/logo-desktop.svg') }}" alt="">
                     </div>
 
                     <div class="modal_body_content">
@@ -3304,12 +3454,14 @@
                                 <label class="input_top_text" for="">Tên Đăng Nhập</label>
                                 <div class="input_wrapper">
                                     <div class="input">
-                                        <input class="validation error" type="text" placeholder="Điền tên đăng nhập" id="PrimaryLoginCredValidation">
-                                        <div class=" icons icon_right error"></div>    
+                                        <input class="validation error" type="text"
+                                            placeholder="Điền tên đăng nhập" id="PrimaryLoginCredValidation">
+                                        <div class=" icons icon_right error"></div>
                                     </div>
 
                                     <div class="input_bottom_text">
-                                        <label id="PrimaryLoginCred-error" for="">Tên đăng nhập là yêu cầu bắt buộc.</label>
+                                        <label id="PrimaryLoginCred-error" for="">Tên đăng nhập là yêu cầu
+                                            bắt buộc.</label>
                                     </div>
                                 </div>
 
@@ -3317,13 +3469,15 @@
                                 <label class="input_top_text" for="">Mật Khẩu</label>
                                 <div class="input_wrapper">
                                     <div class="input">
-                                        <input class="validation2 error" type="password" placeholder="Nhập Mật Khẩu Hiện Tại" id="PrimaryLoginCredValidation2">
-                                        <div class=" icons icon_right2 error"></div> 
-                                        <div class=" icons icon_eye_show toggle"></div>   
+                                        <input class="validation2 error" type="password"
+                                            placeholder="Nhập Mật Khẩu Hiện Tại" id="PrimaryLoginCredValidation2">
+                                        <div class=" icons icon_right2 error"></div>
+                                        <div class=" icons icon_eye_show toggle"></div>
                                     </div>
 
                                     <div class="input_bottom_text">
-                                        <label id="PrimaryLoginCred-error2" for="">Mật Khẩu là yêu cầu bắt buộc.</label>
+                                        <label id="PrimaryLoginCred-error2" for="">Mật Khẩu là yêu cầu bắt
+                                            buộc.</label>
                                     </div>
                                 </div>
 
@@ -3332,8 +3486,8 @@
                                     <label for="checkbox_active" class="checkbox_label">
                                         Duy trì trạng thái đăng nhập
                                         <input id="checkbox_active" type="checkbox">
-                                        <span  class="checkmark"></span>
-                                    
+                                        <span class="checkmark"></span>
+
                                     </label>
                                 </div>
 
@@ -3374,6 +3528,22 @@
     function toggleDarkMode() {
         var switchElement = document.getElementById('bady');
         var toggleSwitch = document.getElementById('toggle2');
+        if (toggleSwitch.checked) {
+            switchElement.classList.add('dark_mode');
+        } else {
+            switchElement.classList.remove('dark_mode');
+        }
+    }
+</script>
+
+
+
+<script>
+    function toggleDarkMode_responsive() {
+
+        var switchElement = document.getElementById('bady');
+        var toggleSwitch = document.getElementById('toggle3');
+        toggleSwitch.checked = !toggleSwitch.checked;
         if (toggleSwitch.checked) {
             switchElement.classList.add('dark_mode');
         } else {
@@ -3476,180 +3646,186 @@
         slidesPerView: 2,
         spaceBetween: 16,
         freeMode: true,
-        })
+    })
 </script>
 
 <script>
-    $(document).ready(function(){
-       
-        $(window).scroll(function(){
+    $(document).ready(function() {
+
+        $(window).scroll(function() {
             var scrolled = $(this).scrollTop();
 
-    
+
             var vitrichinhxac = $('.esports_athome_parallax_player').offset().top;
-            
-            
-            $('.esports_athome_parallax_player.layer-1').css('transform','translateY('+ -(scrolled - vitrichinhxac) * 0.05 +'px)');
-            $('.esports_athome_parallax_player.layer-2').css('transform','translateY('+ -(scrolled - vitrichinhxac) * 0.09 +'px)');
-            $('.esports_athome_parallax_player.layer-3').css('transform','translateY('+ -(scrolled - vitrichinhxac) * 0.2 +'px)');
-            $('.esports_athome_parallax_player.layer-5').css('transform','translateY('+ -(scrolled - vitrichinhxac) * 0.6 +'px)');
-        })  
+
+
+            $('.esports_athome_parallax_player.layer-1').css('transform', 'translateY(' + -(scrolled -
+                vitrichinhxac) * 0.05 + 'px)');
+            $('.esports_athome_parallax_player.layer-2').css('transform', 'translateY(' + -(scrolled -
+                vitrichinhxac) * 0.09 + 'px)');
+            $('.esports_athome_parallax_player.layer-3').css('transform', 'translateY(' + -(scrolled -
+                vitrichinhxac) * 0.2 + 'px)');
+            $('.esports_athome_parallax_player.layer-5').css('transform', 'translateY(' + -(scrolled -
+                vitrichinhxac) * 0.6 + 'px)');
+        })
     })
 </script>
 
 <script>
     particlesJS("particles-js", {
-          "particles": {
+        "particles": {
             "number": {
-              "value": 1000,
-              "density": {
-                "enable": true,
-                "value_area": 3000
-              }
+                "value": 1000,
+                "density": {
+                    "enable": true,
+                    "value_area": 3000
+                }
             },
             "color": {
-              "value": "#FC4827"
+                "value": "#FC4827"
             },
             "shape": {
-              "type": "circle",
-              "stroke": {
-                "width": 0,
-                "color": "#000000"
-              },
-              "polygon": {
-                "nb_sides": 3
-              }
+                "type": "circle",
+                "stroke": {
+                    "width": 0,
+                    "color": "#000000"
+                },
+                "polygon": {
+                    "nb_sides": 3
+                }
             },
             "opacity": {
-              "value": .8,
-              "random": true,
-              "anim": {
-                "enable": false,
-                "speed": 1,
-                "opacity_min": 1,
-                "sync": false
-              }
+                "value": .8,
+                "random": true,
+                "anim": {
+                    "enable": false,
+                    "speed": 1,
+                    "opacity_min": 1,
+                    "sync": false
+                }
             },
             "size": {
-              "value": 3,
-              "random": true,
-              "anim": {
-                "enable": true,
-                "speed": 5,
-                "size_min": 0,
-                "sync": false
-              }
+                "value": 3,
+                "random": true,
+                "anim": {
+                    "enable": true,
+                    "speed": 5,
+                    "size_min": 0,
+                    "sync": false
+                }
             },
             "line_linked": {
-              "enable": false,
-              "distance": 500,
-              "color": "#ffffff",
-              "opacity": 0.4,
-              "width": 2
+                "enable": false,
+                "distance": 500,
+                "color": "#ffffff",
+                "opacity": 0.4,
+                "width": 2
             },
             "move": {
-              "enable": true,
-              "speed": 7.8914764163227265,
-              "direction": "top",
-              "random": true,
-              "straight": false,
-              "out_mode": "out",
-              "bounce": false,
-              "attract": {
-                "enable": false,
-                "rotateX": 600,
-                "rotateY": 1200
-              }
+                "enable": true,
+                "speed": 7.8914764163227265,
+                "direction": "top",
+                "random": true,
+                "straight": false,
+                "out_mode": "out",
+                "bounce": false,
+                "attract": {
+                    "enable": false,
+                    "rotateX": 600,
+                    "rotateY": 1200
+                }
             }
-          },
-          "interactivity": {
+        },
+        "interactivity": {
             "detect_on": "canvas",
             "events": {
-              "onhover": {
-                "enable": false,
-                "mode": "bubble"
-              },
-              "onclick": {
-                "enable": false,
-                "mode": "repulse"
-              },
-              "resize": true
+                "onhover": {
+                    "enable": false,
+                    "mode": "bubble"
+                },
+                "onclick": {
+                    "enable": false,
+                    "mode": "repulse"
+                },
+                "resize": true
             },
             "modes": {
-              "grab": {
-                "distance": 400,
-                "line_linked": {
-                  "opacity": 0.5
+                "grab": {
+                    "distance": 400,
+                    "line_linked": {
+                        "opacity": 0.5
+                    }
+                },
+                "bubble": {
+                    "distance": 400,
+                    "size": 4,
+                    "duration": 0.3,
+                    "opacity": 1,
+                    "speed": 3
+                },
+                "repulse": {
+                    "distance": 200,
+                    "duration": 0.4
+                },
+                "push": {
+                    "particles_nb": 4
+                },
+                "remove": {
+                    "particles_nb": 2
                 }
-              },
-              "bubble": {
-                "distance": 400,
-                "size": 4,
-                "duration": 0.3,
-                "opacity": 1,
-                "speed": 3
-              },
-              "repulse": {
-                "distance": 200,
-                "duration": 0.4
-              },
-              "push": {
-                "particles_nb": 4
-              },
-              "remove": {
-                "particles_nb": 2
-              }
             }
-          },
-          "retina_detect": true
-        });
+        },
+        "retina_detect": true
+    });
 </script>
 
 <script>
-    $(document).ready(function () {
-        $(".animated_widget_close").on("click", function () {
+    $(document).ready(function() {
+        $(".animated_widget_close").on("click", function() {
             $('.animated_widget').hide()
         });
     });
 </script>
 
 <script>
-    $(document).ready(function(){
-        $(".modal_close").on("click",function(){
+    $(document).ready(function() {
+        $(".modal_close").on("click", function() {
             $('.modal_overlay_login').removeClass('active ')
             $('#bady').removeClass('active');
         });
 
-        $(".button_signin").on("click",function(){
+        $(".button_signin").on("click", function() {
             $('.modal_overlay_login').addClass('active ')
             $('#bady').addClass('active');
         });
 
-        
-        
+
+
     });
 </script>
 
+
+
 <script>
-    $(document).ready(function(){
-        $('#PrimaryLoginCredValidation').on('input',function(){
-            if($(this).val().trim() !== ''){
+    $(document).ready(function() {
+        $('#PrimaryLoginCredValidation').on('input', function() {
+            if ($(this).val().trim() !== '') {
                 $('.icon_right').removeClass('error').addClass('valid')
                 $('.validation').removeClass('error').addClass('valid')
                 $('#PrimaryLoginCred-error').hide();
-            }else{
+            } else {
                 $('.icon_right').removeClass('valid').addClass('error')
                 $('.validation').removeClass('valid').addClass('error')
                 $('#PrimaryLoginCred-error').show();
             }
         })
 
-        $('#PrimaryLoginCredValidation2').on('input',function(){
-            if($(this).val().trim() !== ''){
+        $('#PrimaryLoginCredValidation2').on('input', function() {
+            if ($(this).val().trim() !== '') {
                 $('.icon_right2').removeClass('error').addClass('valid')
                 $('.validation2').removeClass('error').addClass('valid')
                 $('#PrimaryLoginCred-error2').hide();
-            }else{
+            } else {
                 $('.icon_right2').removeClass('valid').addClass('error')
                 $('.validation2').removeClass('valid').addClass('error')
                 $('#PrimaryLoginCred-error2').show();
@@ -3661,34 +3837,52 @@
 
 
 <script>
-    $(document).ready(function(){
-        $('.icon_eye_show').on('click',function(){
+    $(document).ready(function() {
+        $('.icon_eye_show').on('click', function() {
             // $('.icon_eye_show').toggleClass('toggle')
 
-            if($('#PrimaryLoginCredValidation2').attr('type') === 'password'){
-                $('#PrimaryLoginCredValidation2').attr('type','text');
+            if ($('#PrimaryLoginCredValidation2').attr('type') === 'password') {
+                $('#PrimaryLoginCredValidation2').attr('type', 'text');
                 $(this).removeClass('toggle')
-            }else{
-                $('#PrimaryLoginCredValidation2').attr('type','password');
+            } else {
+                $('#PrimaryLoginCredValidation2').attr('type', 'password');
                 $(this).addClass('toggle')
             }
         })
     })
-
 </script>
 
 <script>
-    $(document).ready(function(){
-        $('.title-nav-element a').on('click',function(e){
-             e.preventDefault();
+    $(document).ready(function() {
+        $('.title-nav-element a').on('click', function(e) {
+            e.preventDefault();
 
             $('.title-nav-element a').removeClass('selected');
-            $('.side-menu-icon , .side-menu-icon1 , .side-menu-icon2 , .side-menu-icon3 ,.side-menu-icon4 , .side-menu-icon5 ,.side-menu-icon6,.side-menu-icon7 ,.side-menu-icon8, .side-menu-icon9, .side-menu-icon10, .side-menu-icon11').removeClass('selected')
+            $('.side-menu-icon , .side-menu-icon1 , .side-menu-icon2 , .side-menu-icon3 ,.side-menu-icon4 , .side-menu-icon5 ,.side-menu-icon6,.side-menu-icon7 ,.side-menu-icon8, .side-menu-icon9, .side-menu-icon10, .side-menu-icon11')
+                .removeClass('selected')
 
             $(this).addClass('selected').parent().addClass('selected');
-            $(this).closest('.title-nav-element').find('.side-menu-icon, .side-menu-icon1, .side-menu-icon2 , .side-menu-icon3 , .side-menu-icon4 , .side-menu-icon5 ,.side-menu-icon6,.side-menu-icon7 ,.side-menu-icon8, .side-menu-icon9, .side-menu-icon10, .side-menu-icon11').addClass('selected')
+            $(this).closest('.title-nav-element').find(
+                '.side-menu-icon, .side-menu-icon1, .side-menu-icon2 , .side-menu-icon3 , .side-menu-icon4 , .side-menu-icon5 ,.side-menu-icon6,.side-menu-icon7 ,.side-menu-icon8, .side-menu-icon9, .side-menu-icon10, .side-menu-icon11'
+            ).addClass('selected')
         })
     })
 </script>
+
+
+<script>
+    $(document).ready(function() {
+        $('#burger-close-icon').click(function() {
+            $('.header_css .side_menu').addClass('sliding-out');
+        });
+
+        $('.header_css .side_menu').on('animationend', function() {
+            if ($(this).hasClass('sliding-out')) {
+                $(this).removeClass('sliding-out');
+            }
+        });
+    })
+</script>
+
 
 </html>

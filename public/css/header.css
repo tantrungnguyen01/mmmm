@@ -103,6 +103,42 @@
   height: 72px;
 
 }
+@keyframes side-in{
+  0%{
+    transform: translateX(100%);
+  }
+  100%{
+    transform: translateX(0%);
+  }
+}
+
+@keyframes side-out{
+  0%{
+    transform: translateX(0%);
+  }
+  100%{
+    transform: translateX(100%);
+  }
+}
+
+/* side menu toggle */
+#side-menu-toggle:checked~.side_menu{
+  display: block;
+  animation: side-in .3s;
+}
+
+.header_css .side_menu.sliding-out{
+  display: block;
+  animation: side-out .3s;
+}
+
+
+
+
+
+
+
+/* end toggle */
 
 .header_css .side_menu {
   flex-direction: column;
@@ -118,7 +154,12 @@
   background-color: #222939;
   background-image: url('/image/side-menu-background.jpg');
   background-size: cover;
+
   display: none;
+}
+.header_css .side_menu.sliding-out{
+  display: block;
+  animation: side-out .3s;
 }
 
 .side_menu .side-menu-header {
@@ -572,11 +613,12 @@ body h2 {
 }
 
 .toggleWrapper {
-  margin: 3px auto;
+  /* margin: 3px auto; */
   width: 23px;
   border-radius: 5px;
   display: flex;
   align-items: center;
+  margin-left: auto;
 }
 
 .toggleWrapper input.mobileToggle {

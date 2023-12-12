@@ -1,0 +1,148 @@
+.area_sportbook a{
+    text-decoration: none !important;
+    color: unset;
+    cursor: pointer;
+}
+
+.area_sportbook a:hover{
+    color:unset;
+}
+
+.area_sportbook .span_refer{
+    font-size: 17px;
+    line-height: 20px;
+    margin-bottom: 16px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.area_sportbook .icon_refer_responsive{
+    width: 25px;
+    height: 25px;
+    -webkit-mask: url('/image/icon-raf.svg') no-repeat center;
+    -webkit-mask-size: contain;
+    background-color: #90949C;
+    margin: 10px 6px;
+}
+.area_sportbook .icon_refer_responsive1{
+    width: 25px;
+    height: 25px;
+    -webkit-mask: url('/image/icon-about.svg') no-repeat center;
+    -webkit-mask-size: contain;
+    background-color: #90949C;
+    margin: 10px 6px;
+}
+
+.area_sportbook .icon_refer_responsive2{
+    width: 25px;
+    height: 25px;
+    -webkit-mask: url('/image/icon-affiliates.svg') no-repeat center;
+    -webkit-mask-size: contain;
+    background-color: #90949C;
+    margin: 10px 6px;
+}
+
+.area_sportbook .icon_refer_responsive3{
+    width: 25px;
+    height: 25px;
+    -webkit-mask: url('/image/icon-help.svg') no-repeat center;
+    -webkit-mask-size: contain;
+    background-color: #90949C;
+    margin: 9px 6px;
+}
+
+.area_sportbook .icon_refer_responsive4{
+    width: 25px;
+    height: 25px;
+    -webkit-mask: url('/image/icon-contact.svg') no-repeat center;
+    -webkit-mask-size: contain;
+    background-color: #90949C;
+    margin: 10px 6px;
+}
+
+.area_sportbook .icon_refer_responsive5{
+    width: 25px;
+    height: 25px;
+    -webkit-mask: url('/image/icon-live-chat.svg') no-repeat center;
+    -webkit-mask-size: contain;
+    background-color: #90949C;
+    margin: 10px 6px;
+}
+
+.area_sportbook .icon_refer_responsive6{
+    width: 25px;
+    height: 25px;
+    -webkit-mask: url('/image/icon-sponsorship.svg') no-repeat center;
+    -webkit-mask-size: contain;
+    background-color: #90949C;
+    margin: 10px 6px;
+}
+
+.area_sportbook .icon_refer_responsive7{
+    width: 25px;
+    height: 25px;
+    -webkit-mask: url('/image/icon-night.svg') no-repeat center;
+    -webkit-mask-size: contain;
+    background-color: #90949C;
+    margin: 8px 6px;
+}
+
+.area_sportbook .icon_refer_responsive_text{
+    font-size: 13px;
+    line-height: 18px;
+    font-weight: bold;
+}
+
+
+/*  */
+.dynamic_content .m88-app-content{
+    display: flex;
+    align-items: flex-end;
+    height: 64px;
+    flex-direction: row;
+    background-color: #222939;
+}
+
+.m88-app-content img{
+    width: 96px;
+    height: 80px;
+}
+
+.m88-app-content .content_text_responsive{
+    display: flex;
+    flex-direction: column;
+    margin-right: 24px;
+    margin-bottom: 16px;
+    margin-left: 8px;
+}
+.content_text_responsive .content_text_responsive_span1{
+    font-size: 16px;
+    line-height: 24px;
+    color: #CAAB72;
+    font-weight: bold;
+}
+.content_text_responsive .content_text_responsive_span2{
+    color: #FFFF;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 14px;
+}
+
+.m88-app-content button{
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+}
+.m88-app-content button.button_responsive{
+    color: #222939;
+    background-color: #CAAB72;
+    border: 1px solid rgba(0, 0, 0, 0);
+    height: 40px;
+    padding: 10px 16px;
+    font-size: 14px;
+    font-weight: 800;
+    text-transform: uppercase;
+    border-radius: 60px;
+    transition: all .5s;
+    white-space: nowrap;
+}
+/*  */
