@@ -146,3 +146,37 @@
     white-space: nowrap;
 }
 /*  */
+
+
+
+
+.navbar.navbar-custom{
+    background-color: #1A202C;
+    padding-top: 90px;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    width: 100%;
+    position: fixed;
+    z-index: 99999;
+    /* overflow-x: auto; */
+}
+.navbar-nav.navbar-nav-custom{
+    /* max-width: 1360px; */
+    max-width: 1271px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    line-height: 18px;
+    font-size: 12px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+
+
+
+
+/* nav responsive tablet */
+
+/* end nav */

@@ -2,9 +2,7 @@
   overflow: hidden;
 }
 
-.no-js{
-  overflow: auto;
-}
+
 
 #bady {
   font-family: 'Roboto', sans-serif;
@@ -12,7 +10,8 @@
   width: 100%;
   background-color: #F4F4F5;
   /* transition: all 0.5s ease; */
-  overflow: auto;
+  overflow-x: hidden;
+  margin: 0;
 }
 
 #bady.dark_mode {
@@ -146,6 +145,9 @@
 
 /* làm cho thanh cuộn mất đi trên trình duyệt */
 .header_css .side_menu::-webkit-scrollbar{
+  width: 0;
+}
+.navbar.navbar-custom::-webkit-scrollbar{
   width: 0;
 }
 /* end làm thanh cuộn mất đi trên trình duyệt */
@@ -456,6 +458,7 @@
   .header_css .navbar {
     margin: unset;
   }
+  
 
   .header_css .button_signin_tablet {
     color: #FFFF;
@@ -500,6 +503,116 @@
     background-color: #FFFF;
     margin-left: 12px;
   }
+
+  /* gần cái loa */
+  #realtime{
+    display: none;
+  }
+
+  #bady .nav-app-header{
+    display: none !important;
+  }
+
+  .nav-news-header{
+    width: 100%;
+  }
+
+  .news_content_wrapper .news_content{
+    margin-left: -520px !important;
+  }
+/* end gần cái loa */
+
+
+/* viết css đè boostrap */
+  .navbar-expand-lg .navbar-nav .nav-link{
+    padding: unset !important;
+  }
+
+  .header_css .navbar{
+    padding: 0px !important;
+  }
+  .navbar .nav-item {
+    font-size: 1.17em !important;
+    margin-right: 16px;
+  }
+  .navbar.navbar-custom{
+    overflow-x: auto;
+    overflow-y: hidden;
+  }
+  .navbar-expand-lg .navbar-nav .nav-link{
+    padding-right: 0.1rem !important;
+  }
+/*end viết css đè bootstrap  */
+
+/* responsive tablet carousel */
+.carousel_placeholder:hover .swiper-button-next{
+  display: none !important;
+}
+.carousel_placeholder:hover .swiper-button-prev{
+  display: none !important;
+}
+
+
+.carousel_placeholder{
+  height: 32.82vw !important;
+}
+.carousel_item_content{
+  padding-bottom: 57px !important;
+  left: 55% !important;
+}
+.carousel_item_content1{
+  padding-bottom: 57px !important;
+  left: 55% !important;
+  height: unset !important;
+  top: 20% !important;
+}
+.carousel_item_content2{
+  padding-bottom: 57px !important;
+  left: 55% !important;
+  top: 8% !important;
+}
+
+.carousel_item_content .image_content{
+  height: 45px;
+}
+.carousel_item_content1 .image_content1{
+  height: 45px;
+}
+.carousel_item_content2 .image_content{
+  height: 45px;
+}
+.carousel_item_content .big{
+  font-size: 31px;
+  line-height: 56px !important;
+}
+.carousel_item_content .big1{
+  font-size: 32px;
+}
+.carousel_item_content2 .big2{
+  font-size: 32px;
+}
+.carousel_item_content2 .table_up1{
+  bottom: -85%;
+  font-family: sans-serif;
+  font-size: 20px;
+}
+.carousel_item_content1 .big{
+  font-size: 35px;
+}
+.carousel_item_content .button_sign_in{
+  padding: 16px 23px;
+  font-size: 15px;
+}
+
+.carousel_item_content1 .button_sign_in{
+  padding: 16px 23px;
+  font-size: 15px;
+}
+.carousel_item_content2 .button_sign_in1{
+  padding: 16px 23px;
+  font-size: 15px;
+}
+/* end responsive tablet carousel */
 }
 
 @media(min-width:1023.5px) {
@@ -516,7 +629,7 @@
     background-color: rgb(0, 0, 0, 0);
     border: 1px solid #FFFF;
     height: 43px;
-    padding: 11px 20px;
+    padding: 12px 20px;
     font-size: 12px;
     font-weight: 800;
     text-transform: uppercase;
@@ -533,7 +646,7 @@
     background-color: #CAAB72;
     border: 1px solid rgba(0, 0, 0, 0);
     height: 43px;
-    padding: 11px 20px;
+    padding: 12px 20px;
     font-size: 12px;
     font-weight: 800;
     text-transform: uppercase;
@@ -542,6 +655,19 @@
     white-space: nowrap;
 
   }
+
+
+/* viết đè css sửa lại trên bootstrap */
+  
+  .navbar .nav-item {
+    font-size: 1.17em !important;
+    margin-right: 8px;
+  }
+
+  .navbar-expand-lg .navbar-nav .nav-link{
+    padding-right: 0.1rem !important;
+  }
+/* end viết đè css sửa lại trên bootstrap */
 
 }
 

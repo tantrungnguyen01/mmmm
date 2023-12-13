@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="no-js">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
@@ -478,7 +478,7 @@
 
                     </div>
                     <button class=" btn button_signin button_signin_tablet">đăng nhập</button>
-                    <button class=" btn button_signin button_signup button_signup_tablet">đăng ký</button>
+                    <button class=" btn button_signup button_signup_tablet">đăng ký</button>
 
 
                 </div>
@@ -728,9 +728,9 @@
 
 
     {{--  --}}
-    <nav class="navbar navbar-expand-lg  navbar-dark" style="background-color:#1A202C; padding-top:90px">
+    <nav class="navbar navbar-expand-lg  navbar-dark navbar-custom" >
         <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
-            <ul class="navbar-nav container " style="max-width: 1275px">
+            <ul class="navbar-nav container navbar-nav-custom " >
                 <li class="nav-item dropdown">
                     <a href="/"class="nav-link " href="#" id="navbarDropdown" role="button"
                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
@@ -1220,16 +1220,24 @@
                         VIP
                     </a>
                 </li>
+
+                <li class="nav-item dropdown">
+                    <a href="/"class="nav-link " href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        APP
+                    </a>
+                </li>
             </ul>
         </div>
     </nav>
 
     {{--  --}}
     <div class=" text-white d-flex justify-content-center align-items-center"
-        style="background-color: #1A202C; padding:7px 0px; ">
+        style="background-color: #1A202C; padding:137px 0px 10px; ">
 
         <time id="realtime">{{ $current_time }}</time>
-        <div class="ml-2 news d-flex  align-items-center " style="white-space: nowrap">
+
+        <div class="ml-2 news d-flex  align-items-center nav-news-header " style="white-space: nowrap">
             <div class="news_content_wrapper">
                 <div id="info-line-news-slider" class="news_content">
                     <span class="news_item_pointer">
@@ -1240,11 +1248,11 @@
                         Biến khoảnh khắc La Liga thành chiến thắng! Cược thông minh và thắng lớn. Trải nghiệm giải đấu
                         Tây Ban Nha theo cách độc đáo nhất. Chơi ngay!
                     </span>
-
                 </div>
-
-
             </div>
+        </div>
+
+        <div class="d-flex text-nowrap nav-app-header">
             <div class="ml-2 side_right_item">
                 <a class="d-flex items align-items-center" href="/">
                     <div class="mask">
@@ -1295,7 +1303,7 @@
                             <img src="{{ asset('image/sports-welcome-bonus_VN.jpg') }}" alt="">
                         </picture>
                         <div class="carousel_item_content">
-                            <img src="{{ asset('image/ftd-sports_VN.svg') }}" alt="" />
+                            <img class="image_content" src="{{ asset('image/ftd-sports_VN.svg') }}" alt="" />
                             <span class="big">
                                 150% LÊN ĐẾN 3,388 VND
                             </span>
@@ -1312,7 +1320,7 @@
                             <img src="{{ asset('image/uefa-champions-league-double-wins_VN.jpg') }}" alt="">
                         </picture>
                         <div class="carousel_item_content1">
-                            <img src="{{ asset('image/badge_uefa-champions-league.svg') }}" alt="" />
+                            <img class="image_content1" src="{{ asset('image/badge_uefa-champions-league.svg') }}" alt="" />
                             <span class="big">
                                 CÚP C1 THƯỞNG NHÂN ĐÔI
                             </span>
@@ -1330,7 +1338,7 @@
                                 alt="">
                         </picture>
                         <div class="carousel_item_content">
-                            <img src="{{ asset('image/ag_ld.svg') }}" alt="" />
+                            <img class="image_content" src="{{ asset('image/ag_ld.svg') }}" alt="" />
                             <span class="big1">
                                 CƯỢC BACCARAT JACKPOT
                                 <br>
@@ -1347,7 +1355,7 @@
                             <img src="{{ asset('image/mariashoutout.jpg') }}" alt="">
                         </picture>
                         <div class="carousel_item_content2">
-                            <img src="{{ asset('image/marias-room.svg') }}" alt="" />
+                            <img class="image_content" src="{{ asset('image/marias-room.svg') }}" alt="" />
                             <span class="big2">
                                 KẾT NỐI CÙNG
                                 <br>
@@ -1366,7 +1374,7 @@
                             <img src="{{ asset('image/watch-el-clasico-live-in-spain_VN.jpg') }}" alt="">
                         </picture>
                         <div class="carousel_item_content">
-                            <img src="{{ asset('image/el-clasico-exclusive_VN.svg') }}" alt="" />
+                            <img class="image_content" src="{{ asset('image/el-clasico-exclusive_VN.svg') }}" alt="" />
                             <span class="big">
                                 THẮNG CHUYẾN TÂY BAN NHA
                                 <br>
