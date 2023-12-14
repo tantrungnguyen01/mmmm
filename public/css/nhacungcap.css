@@ -46,7 +46,7 @@
 .esports_athome_parallax {
     background-image: url('/image/bg-esports.jpg');
     display: none;
-    padding: 60px 0px;
+    padding: 60px 5px;
     background-repeat: no-repeat;
     background-position: center;
     overflow: hidden;
@@ -76,21 +76,21 @@
 
 }
 
-.layer-1{
+.esports_athome_parallax_player.layer-1{
     background-image: url('/image/layer-1.png') ;
     
 }
-.layer-2{
+.esports_athome_parallax_player.layer-2{
     background-image: url('/image/layer-2.png');
     bottom: -30px;
 }
-.layer-3{
+.esports_athome_parallax_player.layer-3{
     background-image: url('/image/layer-3.png');
 }
-.layer-4{
+.esports_athome_parallax_player.layer-4{
     background-image: url('/image/layer-4.png');
 }
-.layer-5{
+.esports_athome_parallax_player.layer-5{
     background-image: url('/image/layer-5.png');
     background-size: cover;
     height: 200%;
@@ -109,7 +109,7 @@
 }
 
 .inner .esports_athome_parallax_content{
-    position: absolute;
+    position: relative;
     display: block;
     
 }
@@ -148,7 +148,7 @@
     transform: scale(1.05);
 }
 
-.esport_athome_parallax_content_partners_saba{
+.saba{
     background-color: #123f84;
     width: 102px;
     height: 64px;
@@ -165,7 +165,7 @@
     justify-content: center;
     border-radius: 8px;
 }
-.esport_athome_parallax_content_partners_tfgaming{
+.tfgaming{
     background-color: #f79f5f;
     width: 102px;
     height: 64px;
@@ -182,7 +182,7 @@
     justify-content: center;
     border-radius: 8px;
 }
-.esport_athome_parallax_content_partners_pinnacle{
+.pinnacle{
     background-color: #a267ac;
     width: 102px;
     height: 64px;
@@ -199,7 +199,7 @@
     justify-content: center;
     border-radius: 8px;
 }
-.esport_athome_parallax_content_partners_esoccer{
+.esoccer{
     background-color: #c9334e;
     width: 102px;
     height: 64px;

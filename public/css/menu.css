@@ -17,6 +17,7 @@
     width: calc((100% - (2 - 1) * 16px ) / 2);
     max-width: calc((100% - (2 - 1) * 16px ) / 2);
     transition: 350ms;
+    position: relative;
 }
 .title_club:hover{
     transform: scale(1.02);
@@ -26,6 +27,7 @@
     width: calc((100% - (2 - 1) * 16px ) / 2);
     max-width: calc((100% - (2 - 1) * 16px ) / 2);
     transition: 350ms;
+    position: relative;
 }
 .title_ori:hover{
     transform: scale(1.02);

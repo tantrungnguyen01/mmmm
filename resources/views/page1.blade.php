@@ -1877,7 +1877,7 @@
                         <div class="match_ched_card2">
                             <img src="{{ asset('image/messimsports_VN.png') }}" alt="">
                             <div class="info_box">
-                                <div class=" text-left w-100 h-100">
+                                <div class="  text-left w-100 h-100">
                                     <button class="button_desktop">CƯỢC NGAY</button>
                                 </div>
 
@@ -1924,7 +1924,7 @@
 
         <div class="area_sportbook">
             <div class="background_primary_color"></div>
-            <div class="title_compoment my-4">
+            <div class="title_compoment my-2">
                 <div class="d-flex justify-content-between align-items-center " style="padding-top: 20px">
                     <span class="text_thethao" style="color: #ffff !important">LIVE CASINO</span>
                     <img src="{{ asset('image/live-casino-title-image.png') }}" class="title_image"
@@ -2019,149 +2019,151 @@
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="swiper_title">
-            <div class="swiper2 mySwiper2">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide swipersilde2">
-                        <div class="match_ched_card2">
-                            <img src="{{ asset('image/LC-Card-Europe-min_vi-VN.png') }}" alt="">
-                            <div class="info_box">
-                                <div class=" text-left w-100 h-100">
-                                    <button class="button_desktop_president">CHƠI NGAY</button>
-                                </div>
-                                <div class="content_wrapper_president1">
-                                    <div class="table_type d-flex">
-                                        <div class="icon_president">
 
-                                        </div>
-                                        <span class="president_span">10</span>
+
+            <div class="swiper_title1">
+                <div class="swiper2 mySwiper2">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide swipersilde2">
+                            <div class="match_ched_card6">
+                                <img src="{{ asset('image/LC-Card-Europe-min_vi-VN.png') }}" alt="">
+                                <div class="info_box">
+                                    <div class=" desktop_only text-left w-100 h-100">
+                                        <button class="button_desktop_president">CHƠI NGAY</button>
                                     </div>
-                                    <div class="table_type d-flex">
-                                        <div class="icon_sico">
-
+                                    <div class="content_wrapper_president1">
+                                        <div class="table_type d-flex">
+                                            <div class="icon_president">
+    
+                                            </div>
+                                            <span class="president_span">10</span>
                                         </div>
-                                        <span class="president_span">2</span>
-                                    </div>
-                                    <div class="table_type d-flex">
-                                        <div class="icon_roulete">
-
+                                        <div class="table_type d-flex">
+                                            <div class="icon_sico">
+    
+                                            </div>
+                                            <span class="president_span">2</span>
                                         </div>
-                                        <span class="president_span">4</span>
-                                    </div>
-                                    <div class="table_type d-flex">
-                                        <div class="icon_dragontiger">
-
+                                        <div class="table_type d-flex">
+                                            <div class="icon_roulete">
+    
+                                            </div>
+                                            <span class="president_span">4</span>
                                         </div>
-                                        <span class="president_span">9</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide swipersilde2">
-                        <div class="match_ched_card2">
-                            <img src="{{ asset('image/LC-Card-AG-min_vi-VN.png') }}" alt="">
-                            <div class="info_box">
-                                <div class=" text-left w-100 h-100">
-                                    <button class="button_desktop_president">CHƠI NGAY</button>
-                                </div>
-                                <div class="content_wrapper_president1">
-                                    <div class="table_type d-flex">
-                                        <div class="icon_president">
-
+                                        <div class="table_type d-flex">
+                                            <div class="icon_dragontiger">
+    
+                                            </div>
+                                            <span class="president_span">9</span>
                                         </div>
-                                        <span class="president_span">3</span>
-                                    </div>
-                                    <div class="table_type d-flex">
-                                        <div class="icon_sico">
-
-                                        </div>
-                                        <span class="president_span">1</span>
-                                    </div>
-                                    <div class="table_type d-flex">
-                                        <div class="icon_roulete">
-
-                                        </div>
-                                        <span class="president_span">6</span>
-                                    </div>
-                                    <div class="table_type d-flex">
-                                        <div class="icon_dragontiger">
-
-                                        </div>
-                                        <span class="president_span">2</span>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="swiper-slide swipersilde2">
-                        <div class="match_ched_card2">
-                            <img src="{{ asset('image/microgaminglivedealer_vi-VN.png') }}" alt="">
-                            <div class="info_box">
-                                <div class=" text-left w-100 h-100">
-                                    <button class="button_desktop_president">CHƠI NGAY</button>
-                                </div>
-                                <div class="content_wrapper_president1">
-                                    <div class="table_type d-flex">
-                                        <div class="icon_president">
-
-                                        </div>
-                                        <span class="president_span">3</span>
+                        <div class="swiper-slide swipersilde2">
+                            <div class="match_ched_card6">
+                                <img src="{{ asset('image/LC-Card-AG-min_vi-VN.png') }}" alt="">
+                                <div class="info_box">
+                                    <div class="desktop_only text-left w-100 h-100">
+                                        <button class="button_desktop_president">CHƠI NGAY</button>
                                     </div>
-                                    <div class="table_type d-flex">
-                                        <div class="icon_sico">
-
+                                    <div class="content_wrapper_president1">
+                                        <div class="table_type d-flex">
+                                            <div class="icon_president">
+    
+                                            </div>
+                                            <span class="president_span">3</span>
                                         </div>
-                                        <span class="president_span">4</span>
-                                    </div>
-                                    <div class="table_type d-flex">
-                                        <div class="icon_roulete">
-
+                                        <div class="table_type d-flex">
+                                            <div class="icon_sico">
+    
+                                            </div>
+                                            <span class="president_span">1</span>
                                         </div>
-                                        <span class="president_span">5</span>
-                                    </div>
-                                    <div class="table_type d-flex">
-                                        <div class="icon_dragontiger">
-
+                                        <div class="table_type d-flex">
+                                            <div class="icon_roulete">
+    
+                                            </div>
+                                            <span class="president_span">6</span>
                                         </div>
-                                        <span class="president_span">6</span>
+                                        <div class="table_type d-flex">
+                                            <div class="icon_dragontiger">
+    
+                                            </div>
+                                            <span class="president_span">2</span>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="swiper-slide swipersilde2">
-                        <div class="match_ched_card2">
-                            <img src="{{ asset('image/sexygaminglivedealer_vi-VN.png') }}" alt="">
-                            <div class="info_box">
-                                <div class=" text-left w-100 h-100">
-                                    <button class="button_desktop_president">CHƠI NGAY</button>
+                        <div class="swiper-slide swipersilde2">
+                            <div class="match_ched_card6">
+                                <img src="{{ asset('image/microgaminglivedealer_vi-VN.png') }}" alt="">
+                                <div class="info_box">
+                                    <div class="desktop_only text-left w-100 h-100">
+                                        <button class="button_desktop_president">CHƠI NGAY</button>
+                                    </div>
+                                    <div class="content_wrapper_president1">
+                                        <div class="table_type d-flex">
+                                            <div class="icon_president">
+    
+                                            </div>
+                                            <span class="president_span">3</span>
+                                        </div>
+                                        <div class="table_type d-flex">
+                                            <div class="icon_sico">
+    
+                                            </div>
+                                            <span class="president_span">4</span>
+                                        </div>
+                                        <div class="table_type d-flex">
+                                            <div class="icon_roulete">
+    
+                                            </div>
+                                            <span class="president_span">5</span>
+                                        </div>
+                                        <div class="table_type d-flex">
+                                            <div class="icon_dragontiger">
+    
+                                            </div>
+                                            <span class="president_span">6</span>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="content_wrapper_president1">
-                                    <div class="table_type d-flex">
-                                        <div class="icon_president">
-
-                                        </div>
-                                        <span class="president_span">7</span>
+                            </div>
+                        </div>
+                        <div class="swiper-slide swipersilde2">
+                            <div class="match_ched_card6">
+                                <img src="{{ asset('image/sexygaminglivedealer_vi-VN.png') }}" alt="">
+                                <div class="info_box">
+                                    <div class="desktop_only text-left w-100 h-100">
+                                        <button class="button_desktop_president">CHƠI NGAY</button>
                                     </div>
-                                    <div class="table_type d-flex">
-                                        <div class="icon_sico">
-
+                                    <div class="content_wrapper_president1">
+                                        <div class="table_type d-flex">
+                                            <div class="icon_president">
+    
+                                            </div>
+                                            <span class="president_span">7</span>
                                         </div>
-                                        <span class="president_span">2</span>
-                                    </div>
-                                    <div class="table_type d-flex">
-                                        <div class="icon_roulete">
-
+                                        <div class="table_type d-flex">
+                                            <div class="icon_sico">
+    
+                                            </div>
+                                            <span class="president_span">2</span>
                                         </div>
-                                        <span class="president_span">4</span>
-                                    </div>
-                                    <div class="table_type d-flex">
-                                        <div class="icon_dragontiger">
-
+                                        <div class="table_type d-flex">
+                                            <div class="icon_roulete">
+    
+                                            </div>
+                                            <span class="president_span">4</span>
                                         </div>
-                                        <span class="president_span">0</span>
+                                        <div class="table_type d-flex">
+                                            <div class="icon_dragontiger">
+    
+                                            </div>
+                                            <span class="president_span">0</span>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -2170,6 +2172,7 @@
                 </div>
             </div>
         </div>
+       
 
 
         <div class="area_sportbook" style="overflow: hidden ; padding-bottom:65px">
@@ -2453,10 +2456,10 @@
                             <div class="esports_athome_parallax_player layer-4"></div>
                             <div class="esports_athome_parallax_player layer-5"></div>
 
-                            <div id="particles-js" style="width: 100%; height:139%">
+                            <div id="particles-js" style="width: 100%; height:100% ; position:absolute">
                             </div>
 
-                            <div class=" esports_athome_parallax_content ">
+                            <div class="esports_athome_parallax_content">
                                 <h3>ĐẶT CƯỢC TẠI CÁC GIẢI ĐẤU THỂ
                                     <br>
                                     THAO ĐIỆN TỬ TỐT NHẤT
@@ -2467,23 +2470,23 @@
                                     CẤP CỦA CHÚNG TÔI
                                 </h4>
 
-                                <div class="d-flex">
+                                <div class="esport_athome_parallax_main d-flex">
                                     <div class="esport_athome_parallax_content_partners">
-                                        <div class="esport_athome_parallax_content_partners_saba">
+                                        <div class="esport_athome_parallax_content_partners saba">
                                             <img src="{{ asset('/image/logo-saba-esports.svg') }}" alt="">
                                         </div>
 
                                     </div>
 
                                     <div class="esport_athome_parallax_content_partners">
-                                        <div class="esport_athome_parallax_content_partners_tfgaming">
+                                        <div class="esport_athome_parallax_content_partners tfgaming">
                                             <img src="{{ asset('/image/logo-tf-gaming.svg') }}" alt="">
                                         </div>
 
                                     </div>
 
                                     <div class="esport_athome_parallax_content_partners">
-                                        <div class="esport_athome_parallax_content_partners_pinnacle">
+                                        <div class="esport_athome_parallax_content_partners pinnacle">
                                             <img src="{{ asset('/image/logo-pinnacle-esports.svg') }}"
                                                 alt="">
                                         </div>
@@ -2491,7 +2494,7 @@
                                     </div>
 
                                     <div class="esport_athome_parallax_content_partners">
-                                        <div class="esport_athome_parallax_content_partners_esoccer">
+                                        <div class="esport_athome_parallax_content_partners esoccer">
                                             <img src="{{ asset('/image/logo-esoccer-vn.svg') }}" alt="">
                                         </div>
 
@@ -2526,7 +2529,7 @@
                                 <img src="{{ asset('image/UFC_VN.jpg') }}" alt="">
                                 <div class="info_box">
                                     <div
-                                        class=" text-left w-100 h-100 d-flex justify-content-center align-items-center">
+                                        class="desktop_only text-left w-100 h-100 d-flex justify-content-center align-items-center">
                                         <button class="button_desktop_president1">CHƠI NGAY</button>
                                     </div>
 
@@ -2606,15 +2609,19 @@
                                 <img class="img_card3" src="{{ asset('/image/vnnorth-bg.jpg') }}"
                                     alt="">
                                 <div class="title_img_jacpots">
-                                    <div>
-                                        <span> XỔ SỐ MIỀN BẮC</span>
+                                    <div class="d-flex">
+                                        <div>
+                                            <span> XỔ SỐ MIỀN BẮC</span>
+                                        </div>
+    
+                                        <div class="product_thumb">
+                                            <img src="{{ asset('image/vnnorth-logo.svg') }}" alt="">
+                                        </div>
                                     </div>
 
-                                    <div>
-                                        <img src="{{ asset('image/vnnorth-logo.svg') }}" alt="">
-                                    </div>
+                                    <button class="button_desktop_president2">CHƠI NGAY</button>
                                 </div>
-                                <button class="button_desktop_president2">CHƠI NGAY</button>
+                                
                             </div>
                         </div>
 
@@ -2623,15 +2630,19 @@
                                 <img class="img_card3" src="{{ asset('/image/vnsouth-bg.jpg') }}"
                                     alt="">
                                 <div class="title_img_jacpots">
-                                    <div>
-                                        <span> XỔ SỐ MIỀN NAM</span>
+                                    <div class="d-flex">
+                                        <div>
+                                            <span> XỔ SỐ MIỀN NAM</span>
+                                        </div>
+    
+                                        <div class="product_thumb">
+                                            <img src="{{ asset('image/vnnorth-logo.svg') }}" alt="">
+                                        </div>
                                     </div>
 
-                                    <div>
-                                        <img src="{{ asset('image/vnnorth-logo.svg') }}" alt="">
-                                    </div>
+                                    <button class="button_desktop_president2">CHƠI NGAY</button>
                                 </div>
-                                <button class="button_desktop_president2">CHƠI NGAY</button>
+                                
                             </div>
                         </div>
 
@@ -2640,15 +2651,19 @@
                                 <img class="img_card3" src="{{ asset('/image/vncentral-bg.jpg') }}"
                                     alt="">
                                 <div class="title_img_jacpots">
-                                    <div>
-                                        <span> XỔ SỐ MIỀN TRUNG</span>
+                                    <div class="d-flex">
+                                        <div>
+                                            <span> XỔ SỐ MIỀN TRUNG</span>
+                                        </div>
+    
+                                        <div class="product_thumb">
+                                            <img src="{{ asset('image/vnnorth-logo.svg') }}" alt="">
+                                        </div>
                                     </div>
 
-                                    <div>
-                                        <img src="{{ asset('image/vnnorth-logo.svg') }}" alt="">
-                                    </div>
+                                    <button class="button_desktop_president2">CHƠI NGAY</button>
                                 </div>
-                                <button class="button_desktop_president2">CHƠI NGAY</button>
+                               
                             </div>
                         </div>
 
@@ -2657,15 +2672,18 @@
                                 <img class="img_card3" src="{{ asset('/image/superspeed-bg.jpg') }}"
                                     alt="">
                                 <div class="title_img_jacpots">
-                                    <div>
-                                        <span> XỔ SỐ SIÊU TỐC</span>
+                                    <div class="d-flex">
+                                        <div>
+                                            <span> XỔ SỐ SIÊU TỐC</span>
+                                        </div>
+    
+                                        <div class="product_thumb">
+                                            <img src="{{ asset('image/vnnorth-logo.svg') }}" alt="">
+                                        </div>
                                     </div>
-
-                                    <div>
-                                        <img src="{{ asset('image/vnnorth-logo.svg') }}" alt="">
-                                    </div>
+                                    <button class="button_desktop_president2">CHƠI NGAY</button>
                                 </div>
-                                <button class="button_desktop_president2">CHƠI NGAY</button>
+                               
                             </div>
                         </div>
 
@@ -2674,16 +2692,20 @@
                                 <img class="img_card3" src="{{ asset('/image/internationallottery-bg.jpg') }}"
                                     alt="">
                                 <div class="title_img_jacpots">
-                                    <div>
-                                        <span> XỔ SỐ NƯỚC NGOÀI</span>
+                                    <div class="d-flex">
+                                        <div>
+                                            <span> XỔ SỐ NƯỚC NGOÀI</span>
+                                        </div>
+    
+                                        <div class="product_thumb">
+                                            <img src="{{ asset('image/internationallottery-logo.svg') }}"
+                                                alt="">
+                                        </div>
                                     </div>
 
-                                    <div>
-                                        <img src="{{ asset('image/internationallottery-logo.svg') }}"
-                                            alt="">
-                                    </div>
+                                    <button class="button_desktop_president2">CHƠI NGAY</button>
                                 </div>
-                                <button class="button_desktop_president2">CHƠI NGAY</button>
+                                
                             </div>
                         </div>
 
@@ -2693,15 +2715,19 @@
                                 <img class="img_card3" src="{{ asset('/image/speedpk10-bg.jpg') }}"
                                     alt="">
                                 <div class="title_img_jacpots">
-                                    <div>
-                                        <span>ĐUA XE PK10</span>
+                                    <div class="d-flex">
+                                        <div>
+                                            <span>ĐUA XE PK10</span>
+                                        </div>
+    
+                                        <div class="product_thumb">
+                                            <img src="{{ asset('image/speedpk10-logo.svg') }}" alt="">
+                                        </div>
                                     </div>
 
-                                    <div>
-                                        <img src="{{ asset('image/speedpk10-logo.svg') }}" alt="">
-                                    </div>
+                                    <button class="button_desktop_president2">CHƠI NGAY</button>
                                 </div>
-                                <button class="button_desktop_president2">CHƠI NGAY</button>
+                                
                             </div>
                         </div>
 
@@ -2711,15 +2737,19 @@
                                 <img class="img_card3" src="{{ asset('/image/jackpot-home-bg.jpg') }}"
                                     alt="">
                                 <div class="title_img_jacpots">
-                                    <div>
-                                        <span>POWERBALL</span>
+                                    <div class="d-flex">
+                                        <div>
+                                            <span>POWERBALL</span>
+                                        </div>
+    
+                                        <div class="product_thumb">
+                                            <img src="{{ asset('image/us_powerball.svg') }}" alt="">
+                                        </div>
                                     </div>
 
-                                    <div>
-                                        <img src="{{ asset('image/us_powerball.svg') }}" alt="">
-                                    </div>
+                                    <button class="button_desktop_president2">CHƠI NGAY</button>
                                 </div>
-                                <button class="button_desktop_president2">CHƠI NGAY</button>
+                                
                             </div>
                         </div>
 
@@ -2728,15 +2758,19 @@
                                 <img class="img_card3" src="{{ asset('/image/jackpot-home-bg.jpg') }}"
                                     alt="">
                                 <div class="title_img_jacpots">
-                                    <div>
-                                        <span>MEGAMILLIONS</span>
+                                    <div class="d-flex">
+                                        <div>
+                                            <span>MEGAMILLIONS</span>
+                                        </div>
+    
+                                        <div class="product_thumb">
+                                            <img src="{{ asset('image/us_megamillions.svg') }}" alt="">
+                                        </div>
                                     </div>
 
-                                    <div>
-                                        <img src="{{ asset('image/us_megamillions.svg') }}" alt="">
-                                    </div>
+                                    <button class="button_desktop_president2">CHƠI NGAY</button>
                                 </div>
-                                <button class="button_desktop_president2">CHƠI NGAY</button>
+                                
                             </div>
                         </div>
                         <div class="swiper-slide swipersilde3">
@@ -2744,15 +2778,20 @@
                                 <img class="img_card3" src="{{ asset('/image/jackpot-home-bg.jpg') }}"
                                     alt="">
                                 <div class="title_img_jacpots">
-                                    <div>
-                                        <span>EUROMILLION</span>
+                                    <div class="d-flex">
+                                        <div>
+                                            <span>EUROMILLION</span>
+                                        </div>
+    
+                                        <div class="product_thumb">
+                                            <img src="{{ asset('image/euromillions.svg') }}" alt="">
+                                        </div>
                                     </div>
+                                    
 
-                                    <div>
-                                        <img src="{{ asset('image/euromillions.svg') }}" alt="">
-                                    </div>
+                                    <button class="button_desktop_president2">CHƠI NGAY</button>
                                 </div>
-                                <button class="button_desktop_president2">CHƠI NGAY</button>
+                                
                             </div>
                         </div>
                         <div class="swiper-slide swipersilde3">
@@ -2760,15 +2799,20 @@
                                 <img class="img_card3" src="{{ asset('/image/jackpot-home-bg.jpg') }}"
                                     alt="">
                                 <div class="title_img_jacpots">
-                                    <div>
-                                        <span>EUROJACPOT</span>
+                                    <div class="d-flex">
+                                        <div>
+                                            <span>EUROJACPOT</span>
+                                        </div>
+    
+                                        <div class="product_thumb">
+                                            <img src="{{ asset('image/eurojackpot.svg') }}" alt="">
+                                        </div>
                                     </div>
+                                    
 
-                                    <div>
-                                        <img src="{{ asset('image/eurojackpot.svg') }}" alt="">
-                                    </div>
+                                    <button class="button_desktop_president2">CHƠI NGAY</button>
                                 </div>
-                                <button class="button_desktop_president2">CHƠI NGAY</button>
+                                
                             </div>
                         </div>
                         <div class="swiper-slide swipersilde3">
@@ -2776,31 +2820,43 @@
                                 <img class="img_card3" src="{{ asset('/image/jackpot-home-bg.jpg') }}"
                                     alt="">
                                 <div class="title_img_jacpots">
-                                    <div>
-                                        <span>EUROMILLIONS GO</span>
+                                    <div class="d-flex">
+                                        <div>
+                                            <span>EUROMILLIONS GO</span>
+                                        </div>
+    
+                                        <div class="product_thumb">
+                                            <img src="{{ asset('image/euromillionsgo.svg') }}" alt="">
+                                        </div>
                                     </div>
+                                    
 
-                                    <div>
-                                        <img src="{{ asset('image/euromillionsgo.svg') }}" alt="">
-                                    </div>
+                                    <button class="button_desktop_president2">CHƠI NGAY</button>
                                 </div>
-                                <button class="button_desktop_president2">CHƠI NGAY</button>
+                                
                             </div>
                         </div>
                         <div class="swiper-slide swipersilde3">
                             <div class="match_ched_card3">
-                                <img class="img_card3" src="{{ asset('/image/jackpot-home-bg.jpg') }}"
-                                    alt="">
-                                <div class="title_img_jacpots">
-                                    <div>
-                                        <span>EUROJACKPOT GO</span>
-                                    </div>
+                                <img class="img_card3" src="{{ asset('/image/jackpot-home-bg.jpg') }}" alt="">
 
-                                    <div>
-                                        <img src="{{ asset('image/eurokjpckpotsgo.svg') }}" alt="">
+                                <div class="title_img_jacpots">
+                                    <div class="d-flex">
+                                        <div>
+                                            <span>EUROJACKPOT GO</span>
+                                        </div>
+
+                                        <div class="product_thumb">
+                                            <img src="{{ asset('image/eurokjpckpotsgo.svg') }}" alt="">
+                                        </div>
                                     </div>
+                                    
+
+                                    
+
+                                    <button class="button_desktop_president2">CHƠI NGAY</button>
                                 </div>
-                                <button class="button_desktop_president2">CHƠI NGAY</button>
+                                
                             </div>
                         </div>
 
@@ -3602,34 +3658,64 @@
 </script>
 
 <script>
-    var swiper = new Swiper(".mySwiper1", {
-        slidesPerView: 4,
-        spaceBetween: 16,
-        freeMode: true,
-        pagination: {
-            el: ".swiper-pagination1",
-            clickable: true,
-        },
-        navigation: {
-            nextEl: ".swiper-button-next1",
-            prevEl: ".swiper-button-prev1",
-        },
+    var timeout = false;
+    function initSwiper(){
+        var windowWidth = $(window).width();
+        var slidesPerViews;
+        
+        
+        if(windowWidth < 1023.5){
+            slidesPerViews = 3;
+        }else{
+            slidesPerViews = 4;
+        }
+
+        
+
+
+        swiper = new Swiper(".mySwiper1", {
+            slidesPerView: slidesPerViews,
+            spaceBetween: 16,
+            freeMode: true,
+            pagination: {
+                el: ".swiper-pagination1",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next1",
+                prevEl: ".swiper-button-prev1",
+            },
+        });
+
+        swiper.on('slideChange', function() {
+            if (swiper.isBeginning) {
+                document.querySelector('.swiper-button-prev1').style.display = 'none';
+            } else {
+                document.querySelector('.swiper-button-prev1').style.display = 'block';
+            }
+
+            if (swiper.isEnd) {
+                document.querySelector('.swiper-button-next1').style.display = 'none';
+
+            } else {
+                document.querySelector('.swiper-button-next1').style.display = 'block';
+            }
+        })
+
+        
+    }
+    
+    $(document).ready(function(){
+        initSwiper();
     });
 
-    swiper.on('slideChange', function() {
-        if (swiper.isBeginning) {
-            document.querySelector('.swiper-button-prev1').style.display = 'none';
-        } else {
-            document.querySelector('.swiper-button-prev1').style.display = 'block';
-        }
+    $(window).resize(function(){
+        clearTimeout(timeout);
+        timeout = setTimeout(initSwiper, 2);
+    });
 
-        if (swiper.isEnd) {
-            document.querySelector('.swiper-button-next1').style.display = 'none';
-
-        } else {
-            document.querySelector('.swiper-button-next1').style.display = 'block';
-        }
-    })
+   
+    
 </script>
 
 <script>
