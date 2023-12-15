@@ -117,13 +117,15 @@
     font-weight: bold;
     margin-right: 16px;
 }
-
+.method_container{
+    margin-top: 7px;
+}
 .method_container img {
 
     align-items: center;
     margin-right: 24px;
     display: flex;
-    height: 27px;
+    height: 22px;
     filter: grayscale(100%);
     transition: filter 0.5s ease;
     max-width: 146px;
@@ -285,7 +287,11 @@
     left: -100vw;
 }
 
+
+
 .game_provider{
+    overflow-x: auto;
+    overflow-y: hidden;
     padding-bottom: 30px;
 }
 .provider_wrapper{

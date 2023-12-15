@@ -150,6 +150,9 @@
 .navbar.navbar-custom::-webkit-scrollbar{
   width: 0;
 }
+.game_provider::-webkit-scrollbar{
+  width: 0;
+}
 /* end làm thanh cuộn mất đi trên trình duyệt */
 
 
@@ -851,6 +854,82 @@
   font-size: 12px;
 }
 /* end footer sponsor */
+
+/* phần footer center */
+.footer_center::before{
+  width: unset;
+}
+
+.provider_wrapper{
+  grid-template-columns: repeat(10, minmax(120px, auto));
+  column-gap: 20px;
+  
+}
+
+.provider_image30{
+  height: 34px;
+}
+
+.provider_image_hover11,
+.provider_image_hover10,
+.provider_image_hover9{
+  top: -5px;
+}
+
+.provider_image_hover12{
+  top: -1px;
+}
+.provider_image_hover4{
+  top: -3px;
+}
+.provider_image_hover19{
+  top: 6px;
+}
+
+.provider_image_hover23,
+.provider_image_hover22{
+  top: 10px;
+}
+
+.provider_image_hover36,
+.provider_image_hover35,
+.provider_image_hover34,
+.provider_image_hover33,
+.provider_image_hover32,
+.provider_image_hover31,
+.provider_image_hover30,
+.provider_image_hover29,
+.provider_image_hover28,
+.provider_image_hover27,
+.provider_image_hover26,
+.provider_image_hover25,
+.provider_image_hover24,
+
+
+.provider_image_hover21,
+.provider_image_hover20,
+.provider_image_hover18,
+.provider_image_hover17,
+.provider_image_hover16,
+.provider_image_hover15,
+.provider_image_hover14,
+.provider_image_hover13,
+.provider_image_hover8,
+.provider_image_hover7,
+.provider_image_hover6,
+.provider_image_hover5,
+
+.provider_image_hover3,
+.provider_image_hover2,
+.provider_image_hover1,
+.provider_image_hover{
+  top: 0px;
+}
+.provider_wrapper_container{
+  transform: scale(0.7);
+  padding-right: 0px;
+}
+/* end phần footer center */
 }
 
 @media(min-width:1023.5px) {
