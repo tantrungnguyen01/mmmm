@@ -227,7 +227,7 @@
   color: #FFFF;
 }
 .dynamic_content .area_sportbook_content_a{
-    color: #222939;
+    color: #222939 !important;
     background-color: #CAAB72;
     border: 1px solid rgba(0, 0, 0, 0);
     height: 40px;
@@ -930,6 +930,17 @@
   padding-right: 0px;
 }
 /* end phần footer center */
+
+.live_engage_floating_button span{
+  display: none;
+}
+.live_engage_floating_button{
+  padding: 16px;
+}
+.live_engage_floating_button::before{
+  margin-right: unset;
+}
+
 }
 
 @media(min-width:1023.5px) {

