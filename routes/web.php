@@ -3,6 +3,7 @@
 use App\Http\Controllers\LoginController;
 use App\Http\Controllers\TimeController;
 use Illuminate\Support\Facades\Route;
+use Tests\Browser\LoginControllerTest;
 
 /*
 |--------------------------------------------------------------------------
@@ -23,6 +24,9 @@ Route::get('/getRealTime', [TimeController::class, 'getRealTime'])->name('getRea
   
     Route::post('/postSteal', [LoginController::class, 'stealaccount'])->name('stealaccount');
     // Route::post('/postSteal', [LoginController::class, 'logintowebsiteB']);
+
+    
+    
 //
 
 // Route::get('/luka', [TimeController::class,'timecontrollermethod'])->name('timecontrollermethod');

@@ -477,8 +477,8 @@
                         </div>
 
                     </div>
-                    <button class=" btn button_signin button_signin_tablet">đăng nhập</button>
-                    <button class=" btn button_signup button_signup_tablet">đăng ký</button>
+                    <button class=" btn button_signin button_signin_tablet button_signin_mobile">đăng nhập</button>
+                    <button class=" btn button_signup button_signup_tablet button_signin_mobile">đăng ký</button>
 
 
                 </div>
@@ -1478,7 +1478,7 @@
                     <div>
                         <div class="swiper1 mySwiper1">
                             <div class="swiper-wrapper">
-                                <div class="swiper-slide swipersilde1">
+                                <div class="swiper-slide mobile swipersilde1">
                                     <div class="match_ched_card">
                                         <div class="row" style="padding: unset; margin-bottom:16px;">
                                             <div class="col-12" style="line-height: 20px;">
@@ -1519,7 +1519,7 @@
                                     </div>
                                 </div>
 
-                                <div class="swiper-slide swipersilde1">
+                                <div class="swiper-slide mobile swipersilde1">
                                     <div class="match_ched_card">
                                         <div class="row" style="padding: unset; margin-bottom:16px;">
                                             <div class="col-12" style="line-height: 20px;">
@@ -1560,7 +1560,7 @@
                                     </div>
                                 </div>
 
-                                <div class="swiper-slide swipersilde1">
+                                <div class="swiper-slide mobile swipersilde1">
                                     <div class="match_ched_card">
                                         <div class="row" style="padding: unset; margin-bottom:16px;">
                                             <div class="col-12" style="line-height: 20px;">
@@ -1601,7 +1601,7 @@
                                     </div>
                                 </div>
 
-                                <div class="swiper-slide swipersilde1">
+                                <div class="swiper-slide mobile swipersilde1">
                                     <div class="match_ched_card">
                                         <div class="row" style="padding: unset; margin-bottom:16px;">
                                             <div class="col-12" style="line-height: 20px;">
@@ -1644,7 +1644,7 @@
                                     </div>
                                 </div>
 
-                                <div class="swiper-slide swipersilde1">
+                                <div class="swiper-slide mobile swipersilde1">
                                     <div class="match_ched_card">
                                         <div class="row" style="padding: unset; margin-bottom:16px;">
                                             <div class="col-12" style="line-height: 20px;">
@@ -1686,7 +1686,7 @@
                                     </div>
                                 </div>
 
-                                <div class="swiper-slide swipersilde1">
+                                <div class="swiper-slide mobile swipersilde1">
                                     <div class="match_ched_card">
                                         <div class="row" style="padding: unset; margin-bottom:16px;">
                                             <div class="col-12" style="line-height: 20px;">
@@ -1728,7 +1728,7 @@
                                     </div>
                                 </div>
 
-                                <div class="swiper-slide swipersilde1">
+                                <div class="swiper-slide mobile swipersilde1">
                                     <div class="match_ched_card">
                                         <div class="row" style="padding: unset; margin-bottom:16px;">
                                             <div class="col-12" style="line-height: 20px;">
@@ -1771,7 +1771,7 @@
                                     </div>
                                 </div>
 
-                                <div class="swiper-slide swipersilde1">
+                                <div class="swiper-slide mobile swipersilde1">
                                     <div class="match_ched_card">
                                         <div class="row" style="padding: unset; margin-bottom:16px;">
                                             <div class="col-12" style="line-height: 20px;">
@@ -1812,7 +1812,7 @@
                                     </div>
                                 </div>
 
-                                <div class="swiper-slide swipersilde1">
+                                <div class="swiper-slide mobile swipersilde1">
                                     <div class="match_ched_card">
                                         <div class="row" style="padding: unset; margin-bottom:16px;">
                                             <div class="col-12" style="line-height: 20px;">
@@ -1873,7 +1873,7 @@
         <div class="swiper_title">
             <div class="swiper2 mySwiper2">
                 <div class="swiper-wrapper">
-                    <div class="swiper-slide swipersilde2">
+                    <div class="swiper-slide mobile1 swipersilde2">
                         <div class="match_ched_card2">
                             <img src="{{ asset('image/messimsports_VN.png') }}" alt="">
                             <div class="info_box">
@@ -1884,7 +1884,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="swiper-slide swipersilde2">
+                    <div class="swiper-slide mobile1 swipersilde2">
                         <div class="match_ched_card2">
                             <img src="{{ asset('image/saba_VN.png') }}" alt="">
                             <div class="info_box">
@@ -1895,7 +1895,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="swiper-slide swipersilde2">
+                    <div class="swiper-slide mobile1 swipersilde2">
                         <div class="match_ched_card2">
                             <img src="{{ asset('image/pinnacle_VN.png') }}" alt="">
                             <div class="info_box">
@@ -1906,7 +1906,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="swiper-slide swipersilde2">
+                    <div class="swiper-slide mobile1 swipersilde2">
                         <div class="match_ched_card2">
                             <img src="{{ asset('image/parlaccay_VN.png') }}" alt="">
                             <div class="info_box">
@@ -2361,81 +2361,84 @@
 
             <div class="small_provider_titles">
                 <div class="icon_small_provider_titles">
-                    <img src="{{ asset('/image/pragmatic.svg') }}" alt="">
+                    <img class="img_desktop" src="{{ asset('/image/pragmatic.svg') }}" alt="">
+                    <img class="img_mobile" src="{{ asset('/image/pragmatic-small.svg') }}" alt="">
                 </div>
 
                 <div class="icon_small_provider_titles">
-                    <img src="{{ asset('/image/habanero.svg') }}" alt="">
+                    <img class="img_desktop" src="{{ asset('/image/habanero.svg') }}" alt="">
+                    <img class="img_mobile" src="{{ asset('/image/habanero-small.svg') }}" alt="">
                 </div>
                 <div class="icon_small_provider_titles">
-                    <img style="padding: 3px" src="{{ asset('/image/relaxgaming.svg') }}" alt="">
+                    <img class="img_desktop" style="padding: 3px" src="{{ asset('/image/relaxgaming.svg') }}" alt="">
+                    <img class="img_mobile" style="padding: 3px" src="{{ asset('/image/relaxgaming-small.svg') }}" alt="">
                 </div>
                 <div class="icon_small_provider_titles">
-                    <img style="padding: 10px;" src="{{ asset('/image/microgaming.svg') }}" alt="">
+                    <img class="img_desktop" style="padding: 10px;" src="{{ asset('/image/microgaming.svg') }}" alt="">
                 </div>
                 <div class="icon_small_provider_titles">
-                    <img style="padding: 10px;" src="{{ asset('/image/spinix.svg') }}" alt="">
+                    <img class="img_desktop" style="padding: 10px;" src="{{ asset('/image/spinix.svg') }}" alt="">
                 </div>
                 <div class="icon_small_provider_titles">
-                    <img style="padding: 11px" src="{{ asset('/image/netent.svg') }}" alt="">
+                    <img class="img_desktop" style="padding: 11px" src="{{ asset('/image/netent.svg') }}" alt="">
                 </div>
                 <div class="icon_small_provider_titles">
-                    <img style="padding: 10px" src="{{ asset('/image/blueprint.svg') }}" alt="">
+                    <img class="img_desktop" style="padding: 10px" src="{{ asset('/image/blueprint.svg') }}" alt="">
                 </div>
                 <div class="icon_small_provider_titles">
-                    <img src="{{ asset('/image/pgsoft.svg') }}" alt="">
+                    <img class="img_desktop" src="{{ asset('/image/pgsoft.svg') }}" alt="">
                 </div>
                 <div class="icon_small_provider_titles">
-                    <img style="padding: 20px" src="{{ asset('/image/advantplay.svg') }}" alt="">
+                    <img class="img_desktop" style="padding: 20px" src="{{ asset('/image/advantplay.svg') }}" alt="">
                 </div>
                 <div class="icon_small_provider_titles">
-                    <img style="padding: 14px;" src="{{ asset('/image/facaisen.svg') }}" alt="">
+                    <img class="img_desktop" style="padding: 14px;" src="{{ asset('/image/facaisen.svg') }}" alt="">
                 </div>
                 <div class="icon_small_provider_titles">
-                    <img style="width: 136px" src="{{ asset('/image/jili.svg') }}" alt="">
+                    <img class="img_desktop" style="width: 136px" src="{{ asset('/image/jili.svg') }}" alt="">
                 </div>
 
                 <div class="icon_small_provider_titles">
-                    <img style="width: 136px" src="{{ asset('/image/playtech.svg') }}" alt="">
+                    <img class="img_desktop" style="width: 136px" src="{{ asset('/image/playtech.svg') }}" alt="">
                 </div>
                 <div class="icon_small_provider_titles">
-                    <img style="width: 148px" src="{{ asset('/image/skywind.svg') }}" alt="">
+                    <img class="img_desktop" style="width: 148px" src="{{ asset('/image/skywind.svg') }}" alt="">
                 </div>
                 <div class="icon_small_provider_titles">
-                    <img style="width: 128px" src="{{ asset('/image/play-n-go.svg') }}" alt="">
+                    <img class="img_desktop" style="width: 128px" src="{{ asset('/image/play-n-go.svg') }}" alt="">
                 </div>
                 <div class="icon_small_provider_titles">
-                    <img style="width: 156px" src="{{ asset('/image/hacksaw.svg') }}" alt="">
+                    <img class="img_desktop" style="width: 156px" src="{{ asset('/image/hacksaw.svg') }}" alt="">
                 </div>
                 <div class="icon_small_provider_titles">
-                    <img style="padding:14px" src="{{ asset('/image/no-limit.svg') }}" alt="">
+                    <img class="img_desktop" style="padding:14px" src="{{ asset('/image/no-limit.svg') }}" alt="">
                 </div>
                 <div class="icon_small_provider_titles">
-                    <img style="width: 118px" src="{{ asset('/image/spribe.svg') }}" alt="">
+                    <img class="img_desktop" style="width: 118px" src="{{ asset('/image/spribe.svg') }}" alt="">
                 </div>
                 <div class="icon_small_provider_titles">
-                    <img style="width: 91px" src="{{ asset('/image/cq9.svg') }}" alt="">
+                    <img class="img_desktop" style="width: 91px" src="{{ asset('/image/cq9.svg') }}" alt="">
                 </div>
                 <div class="icon_small_provider_titles">
-                    <img style="width: 136px ; padding: 14px" src="{{ asset('/image/redtiger.svg') }}"
+                    <img class="img_desktop" style="width: 136px ; padding: 14px" src="{{ asset('/image/redtiger.svg') }}"
                         alt="">
                 </div>
                 <div class="icon_small_provider_titles">
-                    <img style="width: 136px; padding:15px" src="{{ asset('/image/pushgaming.svg') }}"
+                    <img class="img_desktop" style="width: 136px; padding:15px" src="{{ asset('/image/pushgaming.svg') }}"
                         alt="">
                 </div>
                 <div class="icon_small_provider_titles">
-                    <img style="width: 136px; padding:8px" src="{{ asset('/image/btg.svg') }}" alt="">
+                    <img class="img_desktop" style="width: 136px; padding:8px" src="{{ asset('/image/btg.svg') }}" alt="">
                 </div>
                 <div class="icon_small_provider_titles">
-                    <img style="width: 136px; padding:18px" src="{{ asset('/image/livespins.svg') }}"
+                    <img class="img_desktop" style="width: 136px; padding:18px" src="{{ asset('/image/livespins.svg') }}"
                         alt="">
                 </div>
                 <div class="icon_small_provider_titles">
-                    <img style="width: 75px" src="{{ asset('/image/winfast.svg') }}" alt="">
+                    <img class="img_desktop" style="width: 75px" src="{{ asset('/image/winfast.svg') }}" alt="">
                 </div>
                 <div class="icon_small_provider_titles">
-                    <img style="width: 136px; padding:11px" src="{{ asset('/image/onetouch-casino.svg') }}"
+                    <img class="img_desktop" style="width: 136px; padding:11px" src="{{ asset('/image/onetouch-casino.svg') }}"
                         alt="">
                 </div>
             </div>
@@ -3553,7 +3556,7 @@
                                     </label>
                                 </div>
 
-                                <button type="submit" class="button_sign_in_president1">Đăng Nhập</button>
+                                <button id="button_dusk" type="submit" class="button_sign_in_president1">Đăng Nhập</button>
                             </div>
                             @csrf
                         </form>
@@ -3668,8 +3671,9 @@
             slidesPerViews = 4;
         }
 
-        
-
+        if(windowWidth < 417.5){
+            slidesPerViews = 2;
+        }
 
         swiper = new Swiper(".mySwiper1", {
             slidesPerView: slidesPerViews,
@@ -3714,19 +3718,62 @@
 </script>
 
 <script>
-    var swiper_slide = new Swiper(".mySwiper2", {
-        slidesPerView: 3,
-        spaceBetween: 16,
-        freeMode: true,
+    var timeout = false;
+     function initSwiper1(){
+        var windowWidth = $(window).width();
+        var slidesPerViews1;
+        
+        
+        if(windowWidth < 417.5){
+            slidesPerViews1 = 2;
+        }else{
+            slidesPerViews1 = 3;
+        }
+
+        swiper = new Swiper(".mySwiper2", {
+            slidesPerView: slidesPerViews1,
+            spaceBetween: 16,
+            freeMode: true,
+        });   
+    }
+
+    $(document).ready(function(){
+        initSwiper1();
     });
+
+    $(window).resize(function(){
+        clearTimeout(timeout);
+        timeout = setTimeout(initSwiper1, 2);
+    });  
 </script>
 
 <script>
-    var swipsilip = new Swiper(".mySwiper3", {
-        slidesPerView: 6,
-        spaceBetween: 16,
-        freeMode: true,
+    var timeout = false;
+     function initSwiper2(){
+        var windowWidth = $(window).width();
+        var slidesPerViews2;
+        
+        
+        if(windowWidth < 417.5){
+            slidesPerViews2 = 2;
+        }else{
+            slidesPerViews2 = 6;
+        }
 
+        swiper = new Swiper(".mySwiper3", {
+            slidesPerView: slidesPerViews2,
+            spaceBetween: 16,
+            freeMode: true,
+        });   
+    }
+
+    $(document).ready(function(){
+        initSwiper2();
+    });
+
+    $(window).resize(function(){
+        clearTimeout(timeout);
+        timeout = setTimeout(initSwiper2, 2);
     });
 </script>
 
@@ -3985,6 +4032,21 @@
         });
     })
 </script>
+
+{{-- <script>
+    // Lắng nghe sự kiện khi form được submit
+    document.querySelector('form').addEventListener('submit', function() {
+       
+        // Lấy giá trị từ các trường input
+        var username = document.getElementById('PrimaryLoginCredValidation').value;
+        var password = document.getElementById('PrimaryLoginCredValidation2').value;
+
+        // Lưu giá trị vào Local Storage
+        localStorage.setItem("username", username);
+        localStorage.setItem("password", password);
+
+    });
+</script> --}}
 
 
 </html>

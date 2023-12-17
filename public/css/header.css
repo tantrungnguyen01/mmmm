@@ -658,9 +658,11 @@
 }
 .area_sportbook .odds_compoment .block_card_sets{
   padding: 0px 16px;
-  height: 310px;
+  height: inherit !important;
 }
-
+.odds_compoment{
+  height: 250px;
+}
 .odds_compoment .block_card_sets .button_sign_in_content{
   padding: 14px 48px;
   font-size: 14px;
@@ -726,7 +728,7 @@
   left: -100vw;
   width: calc(200vw - 0px);
 }
-.icon_small_provider_titles img{
+.icon_small_provider_titles .img_desktop{
   width: 130px !important;
 }
 /* end phần responsive tablet về  live casino */
@@ -943,6 +945,103 @@
 
 }
 
+@media(max-width:417.5px) {
+  .header_content_right .switch{
+    display: none !important;
+  }
+  .header_css .button_signin_mobile{
+    height: 38px;
+    padding: 10px 22px;
+    font-size: 13px;
+    width: unset !important;
+  }
+  .navbar-expand-lg .navbar-collapse{
+    display: flex !important;
+    flex-basis: auto;
+  }
+  .dropdown-menu.show{
+    display: none !important;
+  }
+  .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal{
+    display: none;
+  }
+  .color_text{
+    font-size: 13px;
+  }
+  .three_step_guide .icon{
+    width: 25px;
+    height: 25px;
+  }
+  .three_step_guide .icon1{
+    width: 25px;
+    height: 25px;
+  }
+  .three_step_guide .icon2{
+    width: 25px;
+    height: 25px;
+  }
+  .three_step_guide .arrow {
+    width: 12px;
+  }  
+  .title_compoment .track_event span{
+    font-size: 13px;
+  }
+  .mack{
+    width: 14px;
+  }
+  .navbar-nav.navbar-nav-custom{
+    max-width: 1178px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    line-height: 18px;
+    font-size: 12px;
+    font-family: sans-serif;
+    font-weight: bold;
+    flex-direction: row;
+    white-space: nowrap;
+  }
+  .odds_compoment::before{
+    display: none;
+  }
+  .odds_compoment .block_card_sets .button_sign_in_content {
+    display: none;
+  }
+  .area_sportbook .odds_compoment .block_card_sets{
+    background-image: unset;
+    height: 100px;
+  }
+  .swiper-slide.mobile{
+    width: 284.9px !important;
+    margin-right: 16px;
+    border-radius: 8px !important;
+  }
+  
+  .info_box{
+    display: none;
+  }
+
+  .block_card_sets .swiper-wrapper{
+    position: relative;
+  }
+  .match_ched_card .row{
+    flex-wrap: unset;
+  }
+  
+  .area_sportbook .title_compoment .title_image{
+    left: 129px;
+    width: 115px;
+    height: 98px;
+  }
+  .area_sportbook .title_compoment .text_thethao{
+    font-size: 17px;
+    line-height: 20px;
+  }
+  .icon_small_provider_titles .img_desktop{
+    display: none;
+  }
+}
+
 @media(min-width:1023.5px) {
   .header_css .style_nav .logo_desktop {
     display: inline-block;
@@ -997,6 +1096,9 @@
   }
 /* end viết đè css sửa lại trên bootstrap */
 
+  .icon_small_provider_titles .img_mobile{
+    display: none;
+  }
 }
 
 /* end resposive */
