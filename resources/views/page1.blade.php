@@ -2375,71 +2375,88 @@
                 </div>
                 <div class="icon_small_provider_titles">
                     <img class="img_desktop" style="padding: 10px;" src="{{ asset('/image/microgaming.svg') }}" alt="">
+                    <img class="img_mobile" style="padding: 3px" src="{{ asset('/image/microgaming-small.svg') }}" alt="">
                 </div>
                 <div class="icon_small_provider_titles">
                     <img class="img_desktop" style="padding: 10px;" src="{{ asset('/image/spinix.svg') }}" alt="">
+                    <img class="img_mobile" style="padding: 3px" src="{{ asset('/image/spinix-small.svg') }}" alt="">
                 </div>
                 <div class="icon_small_provider_titles">
                     <img class="img_desktop" style="padding: 11px" src="{{ asset('/image/netent.svg') }}" alt="">
+                    <img class="img_mobile" style="padding: 3px" src="{{ asset('/image/netent-small.svg') }}" alt="">
                 </div>
                 <div class="icon_small_provider_titles">
                     <img class="img_desktop" style="padding: 10px" src="{{ asset('/image/blueprint.svg') }}" alt="">
+                    <img class="img_mobile" style="padding: 3px" src="{{ asset('/image/blueprint-small.svg') }}" alt="">
                 </div>
                 <div class="icon_small_provider_titles">
                     <img class="img_desktop" src="{{ asset('/image/pgsoft.svg') }}" alt="">
+                    <img class="img_mobile" style="padding: 3px" src="{{ asset('/image/pgsoft-small.svg') }}" alt="">
                 </div>
                 <div class="icon_small_provider_titles">
                     <img class="img_desktop" style="padding: 20px" src="{{ asset('/image/advantplay.svg') }}" alt="">
+                    <img class="img_mobile" style="padding: 3px" src="{{ asset('/image/advantplay-small.svg') }}" alt="">
                 </div>
                 <div class="icon_small_provider_titles">
                     <img class="img_desktop" style="padding: 14px;" src="{{ asset('/image/facaisen.svg') }}" alt="">
+                    <img class="img_mobile" style="padding: 3px" src="{{ asset('/image/facaisen-small.svg') }}" alt="">
                 </div>
                 <div class="icon_small_provider_titles">
                     <img class="img_desktop" style="width: 136px" src="{{ asset('/image/jili.svg') }}" alt="">
+                    <img class="img_mobile" style="padding: 3px" src="{{ asset('/image/jili-small.svg') }}" alt="">
                 </div>
 
                 <div class="icon_small_provider_titles">
                     <img class="img_desktop" style="width: 136px" src="{{ asset('/image/playtech.svg') }}" alt="">
+                    <img class="img_mobile" style="padding: 3px" src="{{ asset('/image/playtech-small.svg') }}" alt="">
                 </div>
                 <div class="icon_small_provider_titles">
                     <img class="img_desktop" style="width: 148px" src="{{ asset('/image/skywind.svg') }}" alt="">
+                    <img class="img_mobile" style="padding: 3px" src="{{ asset('/image/skywind-small.svg') }}" alt="">
                 </div>
                 <div class="icon_small_provider_titles">
                     <img class="img_desktop" style="width: 128px" src="{{ asset('/image/play-n-go.svg') }}" alt="">
+                    <img class="img_mobile" style="padding: 3px" src="{{ asset('/image/play-n-go-small.svg') }}" alt="">
                 </div>
                 <div class="icon_small_provider_titles">
                     <img class="img_desktop" style="width: 156px" src="{{ asset('/image/hacksaw.svg') }}" alt="">
+                    <img class="img_mobile" style="padding: 3px" src="{{ asset('/image/hacksaw-small.svg') }}" alt="">
                 </div>
                 <div class="icon_small_provider_titles">
                     <img class="img_desktop" style="padding:14px" src="{{ asset('/image/no-limit.svg') }}" alt="">
+                    <img class="img_mobile" style="padding: 3px" src="{{ asset('/image/no-limit-small.svg') }}" alt="">
                 </div>
                 <div class="icon_small_provider_titles">
                     <img class="img_desktop" style="width: 118px" src="{{ asset('/image/spribe.svg') }}" alt="">
+                    <img class="img_mobile" style="padding: 3px" src="{{ asset('/image/spribe-small.svg') }}" alt="">
                 </div>
                 <div class="icon_small_provider_titles">
                     <img class="img_desktop" style="width: 91px" src="{{ asset('/image/cq9.svg') }}" alt="">
+                    <img class="img_mobile" style="padding: 3px" src="{{ asset('/image/cq9-small.svg') }}" alt="">
                 </div>
                 <div class="icon_small_provider_titles">
-                    <img class="img_desktop" style="width: 136px ; padding: 14px" src="{{ asset('/image/redtiger.svg') }}"
-                        alt="">
+                    <img class="img_desktop" style="width: 136px ; padding: 14px" src="{{ asset('/image/redtiger.svg') }}" alt="">
+                    <img class="img_mobile" style="padding: 3px" src="{{ asset('/image/redtiger-small.svg') }}" alt="">
                 </div>
                 <div class="icon_small_provider_titles">
-                    <img class="img_desktop" style="width: 136px; padding:15px" src="{{ asset('/image/pushgaming.svg') }}"
-                        alt="">
+                    <img class="img_desktop" style="width: 136px; padding:15px" src="{{ asset('/image/pushgaming.svg') }}" alt="">
+                    <img class="img_mobile" style="padding: 3px" src="{{ asset('/image/pushgaming-small.svg') }}" alt="">
                 </div>
                 <div class="icon_small_provider_titles">
                     <img class="img_desktop" style="width: 136px; padding:8px" src="{{ asset('/image/btg.svg') }}" alt="">
+                    <img class="img_mobile" style="padding: 3px" src="{{ asset('/image/btg-small.svg') }}" alt="">
                 </div>
                 <div class="icon_small_provider_titles">
-                    <img class="img_desktop" style="width: 136px; padding:18px" src="{{ asset('/image/livespins.svg') }}"
-                        alt="">
+                    <img class="img_desktop" style="width: 136px; padding:18px" src="{{ asset('/image/livespins.svg') }}" alt="">
+                    <img class="img_mobile" style="padding: 3px" src="{{ asset('/image/livespins-small.svg') }}" alt="">
                 </div>
                 <div class="icon_small_provider_titles">
                     <img class="img_desktop" style="width: 75px" src="{{ asset('/image/winfast.svg') }}" alt="">
+                    <img class="img_mobile" style="padding: 3px" src="{{ asset('/image/winfast-small.svg') }}" alt="">
                 </div>
                 <div class="icon_small_provider_titles">
-                    <img class="img_desktop" style="width: 136px; padding:11px" src="{{ asset('/image/onetouch-casino.svg') }}"
-                        alt="">
+                    <img class="img_desktop" style="width: 136px; padding:11px" src="{{ asset('/image/onetouch-casino.svg') }}" alt="">
+                    <img class="img_mobile" style="padding: 3px" src="{{ asset('/image/onetouch-small.svg') }}" alt="">
                 </div>
             </div>
 
@@ -3057,7 +3074,8 @@
 
                         <div class="mini_baner_cta">
                             <div class="mini_baner_cta_link">
-                                <span>THỬ NGAY HÔM NAY</span>
+                                <span class="mini_banner_span1">THỬ NGAY HÔM NAY</span>
+                                <span class="mini_banner_span2">THỬ NGAY</span>
                             </div>
                         </div>
                     </div>

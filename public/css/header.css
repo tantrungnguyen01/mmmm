@@ -848,13 +848,14 @@
   font-size: 14px;
   line-height: 20px;
 }
-.mini_baner_container .mini_baner_cta{
+.mini_baner_container .mini_baner_cta.mini_banner_span1{
   display: flex;
   height: 32px;
   width: auto;
   padding: 0px 12px;
   font-size: 12px;
 }
+
 /* end footer sponsor */
 
 /* phần footer center */
@@ -941,6 +942,9 @@
 }
 .live_engage_floating_button::before{
   margin-right: unset;
+}
+.mini_baner_container .mini_baner_cta .mini_banner_span1{
+  display: none;
 }
 
 }
@@ -1040,6 +1044,94 @@
   .icon_small_provider_titles .img_desktop{
     display: none;
   }
+  .esports_athome_background .inner .esports_athome_parallax{
+    padding: 40px 16px;
+    background-position: 36% center;
+  }
+  .esports_athome_parallax_content .esport_athome_parallax_main .esport_athome_parallax_content_partners{
+    width: 105px;
+    height: 50px;
+  }
+  .esports_athome_background .inner .esports_athome_parallax{
+    height: 300px;
+  }
+  .esports_athome_background .inner .esports_athome_parallax .esports_athome_parallax_player{
+    background-size: auto 300px;
+    background-position: 67%;
+  }
+  .esports_athome_parallax_player.layer-2{
+    bottom: -20px;
+  }
+  .footer_sponsor .partner_shiper{
+    flex-wrap: wrap;
+  }
+  .footer_minibar .minibar_background_color::before{
+    width: 196.5vw;
+  }
+  .footer_minibar .minibar_background_color{
+    padding: 10px 0px;
+  }
+  .minibar_background_color .mini_baner_logo img{
+    width: 69.112px;
+    height: 20px;
+  }
+  .mini_baner_content .mini_baner_content_title{
+    font-size: 12px;
+    line-height: 18px;
+  }
+  .mini_baner_content .mini_baner_content_subtitle{
+    font-size: 10px;
+    line-height: 14px;
+  }
+  .mini_baner_container .mini_baner_cta{
+    height: 25px;
+    padding: 0px 7px;
+  }
+  .minibar_background_color .mini_baner_background{
+    right: -80px;
+    width: 100%;
+  }
+  .payment_media_container{
+    flex-direction: column;
+  }
+  .ml_auto_tablet{
+    margin: unset;
+  }
+  .payment_method{
+    justify-content: space-evenly;
+  }
+  .payment_container{
+    margin-bottom: 16px;
+  }
+  .method_container{
+    margin-bottom: 7px;
+  }
+  .navigate_container_menu{
+    justify-content: center;
+    color:#90949C;
+  }
+  .navigate_container_localized{
+    color: #90949C;
+  }
+  .game_provider{
+    padding-bottom: unset;
+  }
+  .previous_sponsor{
+    font-size: 14px;
+  }
+  .sponsor_name{
+    display: none;
+  }
+  .sponsor_item{
+    display: flex;
+    margin-right: unset;
+    align-items: center;
+    flex-direction: column;
+    margin: 0px 10px;
+  }
+  .sponsor_item img {
+    margin-right: unset;
+  }
 }
 
 @media(min-width:1023.5px) {
@@ -1099,6 +1191,10 @@
   .icon_small_provider_titles .img_mobile{
     display: none;
   }
+  .mini_baner_container .mini_baner_cta .mini_banner_span2{
+    display: none ;
+  }
+  
 }
 
 /* end resposive */
