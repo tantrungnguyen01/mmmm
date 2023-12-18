@@ -1015,11 +1015,7 @@
     background-image: unset;
     height: 100px;
   }
-  .swiper-slide.mobile{
-    width: 284.9px !important;
-    margin-right: 16px;
-    border-radius: 8px !important;
-  }
+  
   
   .info_box{
     display: none;
@@ -1049,8 +1045,8 @@
     background-position: 36% center;
   }
   .esports_athome_parallax_content .esport_athome_parallax_main .esport_athome_parallax_content_partners{
-    width: 105px;
-    height: 50px;
+    width: 80px;
+    height: 38px;
   }
   .esports_athome_background .inner .esports_athome_parallax{
     height: 300px;
@@ -1088,7 +1084,6 @@
     padding: 0px 7px;
   }
   .minibar_background_color .mini_baner_background{
-    right: -80px;
     width: 100%;
   }
   .payment_media_container{
@@ -1131,6 +1126,95 @@
   }
   .sponsor_item img {
     margin-right: unset;
+  }
+  .response_gamebling{
+    flex-direction: column;
+  }
+  .partner_gamebling{
+    margin-left: unset;
+  }
+  .nav-news-header{
+    width: 98%;
+  }
+  .crest{
+    width: 90% !important;
+    margin: auto !important;
+  }
+  .match_ched_card{
+    border-radius: 8px;
+  }
+  .inner .esports_athome_parallax .esports_athome_parallax_content h3{
+    font-size: 15px;
+    line-height: 1.1;
+  }
+  .inner .esports_athome_parallax .esports_athome_parallax_content h4 {
+    font-size: 11px;
+    line-height: 1.1;
+    margin-bottom: 12px;
+  }
+  .esport_athome_parallax_content_partners img{
+    width: 100% !important
+  }
+  .modal_content{
+    overflow-y: auto;
+    border-radius: unset;
+  }
+  .content{
+    width: 100%;
+    height: 53vw;
+  }
+  .carousel_placeholder{
+    height: 53vw !important;
+  }
+  .carousel_item_content .image_content{
+    height: 30px;
+  }
+  .carousel_item_content .big{
+    font-size: 12px;
+    line-height: 20px !important;
+  }
+  .carousel_item_content .button_sign_in {
+      font-size: 10px;
+      padding: 10px 16px; 
+      bottom: -50%;   
+  }
+  .table_up{
+    font-size: 11px !important;
+    bottom: 10% !important;
+  }
+  .carousel_item_content2 .table_up1{
+    font-size: 9px !important;
+    bottom: -38%;
+  }
+  .carousel_item_content2 .big2{
+    font-size: 20px;
+    bottom: -20px;
+  }
+  .carousel_item_content2 .image_content{
+    height: 30px;
+  }
+  .button_sign_in1{
+    font-size: 11px !important;
+    padding: 9px 16px !important;
+    bottom: -89% !important;
+  }
+  .carousel_item_content1 .big {
+    font-size: 14px;
+    top: 25px;
+  }
+  .carousel_item_content .big1 {
+    font-size: 13px;
+    top: 40px;
+  }
+  .carousel_item_content1 .button_sign_in{
+    padding: 9px 14px;
+    font-size: 10px;
+    bottom: -32%;
+  }
+  .picture_style{
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
   }
 }
 

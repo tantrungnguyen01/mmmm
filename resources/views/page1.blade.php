@@ -1299,7 +1299,7 @@
             <div class="swiper mySwiper">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
-                        <picture>
+                        <picture class="picture_style">
                             <img src="{{ asset('image/sports-welcome-bonus_VN.jpg') }}" alt="">
                         </picture>
                         <div class="carousel_item_content">
@@ -1316,7 +1316,7 @@
                         </div>
                     </div>
                     <div class="swiper-slide">
-                        <picture>
+                        <picture class="picture_style">
                             <img src="{{ asset('image/uefa-champions-league-double-wins_VN.jpg') }}" alt="">
                         </picture>
                         <div class="carousel_item_content1">
@@ -1333,7 +1333,7 @@
                         </div>
                     </div>
                     <div class="swiper-slide">
-                        <picture>
+                        <picture class="picture_style">
                             <img src="{{ asset('image/ag_live_dealer_baccarat_jackpot_feature_VN.jpg') }}"
                                 alt="">
                         </picture>
@@ -1351,7 +1351,7 @@
                         </div>
                     </div>
                     <div class="swiper-slide">
-                        <picture>
+                        <picture class="picture_style">
                             <img src="{{ asset('image/mariashoutout.jpg') }}" alt="">
                         </picture>
                         <div class="carousel_item_content2">
@@ -1370,7 +1370,7 @@
                         </div>
                     </div>
                     <div class="swiper-slide">
-                        <picture>
+                        <picture class="picture_style">
                             <img src="{{ asset('image/watch-el-clasico-live-in-spain_VN.jpg') }}" alt="">
                         </picture>
                         <div class="carousel_item_content">
@@ -1505,7 +1505,7 @@
                                             </div>
                                         </div>
 
-                                        <div class="row d-flex justify-content-center" style="padding: unset">
+                                        <div class="row d-flex justify-content-center crest" style="padding: unset">
                                             <div class="crest_odd col-md-5">
                                                 <span class="hdp1">HDP 0</span>
                                                 <span class="ho3">1</span>
@@ -1546,7 +1546,7 @@
                                             </div>
                                         </div>
 
-                                        <div class="row d-flex justify-content-center" style="padding: unset">
+                                        <div class="row d-flex justify-content-center crest" style="padding: unset">
                                             <div class="crest_odd col-md-5">
                                                 <span class="hdp1">HDP -1.5</span>
                                                 <span class="ho3">0.96</span>
@@ -1587,7 +1587,7 @@
                                             </div>
                                         </div>
 
-                                        <div class="row d-flex justify-content-center" style="padding: unset">
+                                        <div class="row d-flex justify-content-center crest" style="padding: unset">
                                             <div class="crest_odd col-md-5">
                                                 <span class="hdp1">HDP 0.7</span>
                                                 <span class="ho3">-0.9</span>
@@ -1630,7 +1630,7 @@
                                             </div>
                                         </div>
 
-                                        <div class="row d-flex justify-content-center" style="padding: unset">
+                                        <div class="row d-flex justify-content-center crest" style="padding: unset">
                                             <div class="crest_odd col-md-5">
                                                 <span class="hdp1">HDP 0.5</span>
                                                 <span class="ho3">0.8</span>
@@ -1672,7 +1672,7 @@
                                             </div>
                                         </div>
 
-                                        <div class="row d-flex justify-content-center" style="padding: unset">
+                                        <div class="row d-flex justify-content-center crest" style="padding: unset">
                                             <div class="crest_odd col-md-5">
                                                 <span class="hdp1">HDP -1.5</span>
                                                 <span class="ho3">0.7</span>
@@ -1714,7 +1714,7 @@
                                             </div>
                                         </div>
 
-                                        <div class="row d-flex justify-content-center" style="padding: unset">
+                                        <div class="row d-flex justify-content-center crest" style="padding: unset">
                                             <div class="crest_odd col-md-5">
                                                 <span class="hdp1">HDP 0.5</span>
                                                 <span class="ho3">0.8</span>
@@ -1757,7 +1757,7 @@
                                             </div>
                                         </div>
 
-                                        <div class="row d-flex justify-content-center" style="padding: unset">
+                                        <div class="row d-flex justify-content-center crest" style="padding: unset">
                                             <div class="crest_odd col-md-5">
                                                 <span class="hdp1">HDP 0.7</span>
                                                 <span class="ho3">-0.9</span>
@@ -1798,7 +1798,7 @@
                                             </div>
                                         </div>
 
-                                        <div class="row d-flex justify-content-center" style="padding: unset">
+                                        <div class="row d-flex justify-content-center crest" style="padding: unset">
                                             <div class="crest_odd col-md-5">
                                                 <span class="hdp1">HDP 0.5</span>
                                                 <span class="ho3">0.89</span>
@@ -1839,7 +1839,7 @@
                                             </div>
                                         </div>
 
-                                        <div class="row d-flex justify-content-center" style="padding: unset">
+                                        <div class="row d-flex justify-content-center crest" style="padding: unset ">
                                             <div class="crest_odd col-md-5">
                                                 <span class="hdp1">HDP -0.5</span>
                                                 <span class="ho3">0.9</span>
@@ -3690,8 +3690,9 @@
         }
 
         if(windowWidth < 417.5){
-            slidesPerViews = 2;
+            slidesPerViews = 1.2;
         }
+
 
         swiper = new Swiper(".mySwiper1", {
             slidesPerView: slidesPerViews,
@@ -3796,11 +3797,33 @@
 </script>
 
 <script>
-    var swipsilip1 = new Swiper(".mySwiper4", {
-        slidesPerView: 2,
-        spaceBetween: 16,
-        freeMode: true,
-    })
+    var timeout = false;
+     function initSwiper3(){
+        var windowWidth = $(window).width();
+        var slidesPerViews3;
+        
+        
+        if(windowWidth < 417.5){
+            slidesPerViews3 = 1.2;
+        }else{
+            slidesPerViews3 = 2;
+        }
+
+        swiper = new Swiper(".mySwiper4", {
+            slidesPerView: slidesPerViews3,
+            spaceBetween: 16,
+            freeMode: true,
+        });   
+    }
+
+    $(document).ready(function(){
+        initSwiper3();
+    });
+
+    $(window).resize(function(){
+        clearTimeout(timeout);
+        timeout = setTimeout(initSwiper3, 2);
+    });
 </script>
 
 <script>
